@@ -1,2 +1,0 @@
-Detail: GetOperationStatus fault: Server, message: NCBI C++ Exception:
-Detail:     Error: CORELIB(CStringException::eConvert) "/panfs/pan1.be-md.ncbi.nlm.nih.gov/structure_build/build_2017-05-11/c++/src/corelib/ncbistr.cpp", line 851: ncbi::NStr::StringToUInt8() --- Cannot convert string 'PUGREST.NotFound' to Uint8 (m_Pos = 0)
