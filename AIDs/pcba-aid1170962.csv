@@ -1,0 +1,15 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,TRUE,,,,,
+1,312368890,118146855,Active,,,,0.5,Solubility,=,500,nM,
+2,312368899,87057579,Active,,,,0.2,Solubility,=,200,nM,
+3,312368900,118146748,Active,,,,0.2,Solubility,=,200,nM,
+4,312368902,118146884,Active,,,,0.9,Solubility,=,900,nM,
+5,312368908,118144367,Active,,,,1.4,Solubility,=,1400,nM,
+6,312368909,118146805,Unspecified,,,,72,Solubility,=,72000,nM,
+7,312368912,118146882,Unspecified,,,,53,Solubility,=,53000,nM,
+8,312368913,101891709,Inconclusive,,,Potential missing data,,solubility,,,,Not Determined
+9,312368914,118720657,Active,,,,45,Solubility,=,45000,nM,
+10,312368916,86763302,Unspecified,,,,79,Solubility,=,79000,nM,

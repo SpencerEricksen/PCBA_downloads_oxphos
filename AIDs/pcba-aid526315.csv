@@ -1,0 +1,23 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,123083329,49831172,Unspecified,,,,MIC,=,0.63,ug.mL-1
+2,123083381,5582720,Unspecified,,,,MIC,>,100,ug.mL-1
+3,123083885,136032539,Unspecified,,,,MIC,=,100,ug.mL-1
+4,123086156,136032571,Unspecified,,,,MIC,>,100,ug.mL-1
+5,123086157,136032572,Unspecified,,,,MIC,=,1.56,ug.mL-1
+6,123087934,5917788,Unspecified,,,,MIC,=,0.64,ug.mL-1
+7,123090277,5937000,Unspecified,,,,MIC,=,5,ug.mL-1
+8,123090278,49831174,Unspecified,,,,MIC,=,0.63,ug.mL-1
+9,123090636,52944403,Unspecified,,,,MIC,>,100,ug.mL-1
+10,123092348,136203730,Unspecified,,,,MIC,=,3.13,ug.mL-1
+11,123092575,12909236,Unspecified,,,,MIC,=,25,ug.mL-1
+12,123092577,49831173,Unspecified,,,,MIC,=,0.63,ug.mL-1
+13,123092578,13166118,Unspecified,,,,MIC,>,100,ug.mL-1
+14,123094836,7266447,Unspecified,,,,MIC,>,100,ug.mL-1
+15,123094841,12909232,Unspecified,,,,MIC,=,100,ug.mL-1
+16,123095387,136203759,Unspecified,,,,MIC,=,12.5,ug.mL-1
+17,123097148,52947899,Unspecified,,,,MIC,=,50,ug.mL-1
+18,123099210,5539063,Unspecified,,,,MIC,>,100,ug.mL-1
+19,123099836,136203814,Unspecified,,,,MIC,=,3.13,ug.mL-1
+20,123101449,136002539,Unspecified,,,,MIC,=,3.13,ug.mL-1

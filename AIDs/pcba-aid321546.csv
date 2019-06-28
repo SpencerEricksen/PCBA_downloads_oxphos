@@ -1,0 +1,39 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,TRUE,,,,,
+1,103204244,5770,Active,,,,0.001,Ki,=,1,nM,
+2,103422860,161406,Unspecified,,,,52.5,Ki,=,52500,nM,
+3,103578125,65747,Active,,,,10,Ki,=,10000,nM,
+4,103578158,24799958,Active,,,,4.5,Ki,=,4500,nM,
+5,103578193,24799622,Active,,,,0.5,Ki,=,500,nM,
+6,103578194,24799794,Active,,,,1.4,Ki,=,1400,nM,
+7,103578195,24799795,Active,,,,2.8,Ki,=,2800,nM,
+8,103578196,24799456,Active,,,,0.4,Ki,=,400,nM,
+9,103578242,24799452,Unspecified,,,,53,Ki,=,53000,nM,
+10,103578243,24799792,Active,,,,16.4,Ki,=,16400,nM,
+11,103578244,24799454,Active,,,,13.4,Ki,=,13400,nM,
+12,103578246,150458,Unspecified,,,,53,Ki,=,53000,nM,
+13,103578247,24799789,Active,,,,38.4,Ki,=,38400,nM,
+14,103578418,24799785,Active,,,,36.6,Ki,=,36600,nM,
+15,103578422,14751846,Unspecified,,,,51.8,Ki,=,51800,nM,
+16,103578423,24799449,Unspecified,,,,338,Ki,=,338000,nM,Outside typical range
+17,103578461,24799446,Active,,,,46.3,Ki,=,46300,nM,
+18,103578462,24799783,Active,,,,33.8,Ki,=,33800,nM,
+19,103578463,24799447,Active,,,,24.6,Ki,=,24600,nM,
+20,103578499,44457431,Unspecified,,,,51.3,Ki,=,51300,nM,
+21,103578500,24799631,Active,,,,7.6,Ki,=,7600,nM,
+22,103578502,44457432,Unspecified,,,,106,Ki,=,106000,nM,Outside typical range
+23,103578504,44457433,Unspecified,,,,65,Ki,=,65000,nM,
+24,103578544,24799629,Active,,,,2.4,Ki,=,2400,nM,
+25,103578545,44457444,Unspecified,,,,82,Ki,=,82000,nM,
+26,103578546,14751845,Unspecified,,,,95,Ki,=,95000,nM,
+27,103578586,10924457,Unspecified,,,,92,Ki,=,92000,nM,
+28,103676224,6464086,Unspecified,,,,134,Ki,=,134000,nM,Outside typical range
+29,103676232,45263773,Unspecified,,,,193,Ki,=,193000,nM,Outside typical range
+30,103676383,14751843,Active,,,,38.4,Ki,=,38400,nM,
+31,103676411,24799788,Active,,,,27.7,Ki,=,27700,nM,
+32,103679579,24799451,Active,,,,49.7,Ki,=,49700,nM,
+33,103679580,24799787,Active,,,,25.8,Ki,=,25800,nM,
+34,104234203,6018,Active,,,,0.004,Ki,=,4,nM,

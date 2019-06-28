@@ -1,0 +1,17 @@
+
+# write cgi for smiles request (xml format)
+./0A_write_cgi_v1.1.py CID_lists/pcba-aid1055298.cid
+
+# submit request
+./0_submitquery_PUG_v4.2.sh pc_fetch_aid1055298_0.cgi
+
+# fetch smiles
+query_file="pc_fetch_aid1055298_0.cgi" 
+aid=`echo ${query_file} | cut -f3 -d"_" | cut -c4-`
+aid_chunk=`echo ${query_file} | cut -f4 -d"_" | cut -f1 -d"."`
+remotefilepath=`grep fetch submitquery_1055298_0_log.html | cut -d">" -f2 | cut -d"<" -f1`
+wget $remotefilepath > download_queryresults_${aid}_${aid_chunk}.log > download_queryresults_${aid}_${aid_chunk}.log 2>&1 &
+# gunzip 3996345273866283977.txt.gz
+mv 3996345273866283977.txt.gz pcba-aid1055298_0.smi.gz
+
+

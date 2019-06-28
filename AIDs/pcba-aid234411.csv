@@ -1,0 +1,18 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103220940,441612,Unspecified,,,,Relative potency,=,42.3,-
+2,103259716,44307147,Unspecified,,,,Relative potency,=,61,-
+3,103385871,9960732,Unspecified,,,,Relative potency,=,41.7,-
+4,103385872,10579719,Unspecified,,,,Relative potency,=,73.5,-
+5,103385995,10724271,Unspecified,,,,Relative potency,=,6.7,-
+6,103385996,10580086,Unspecified,,,,Relative potency,=,73.5,-
+7,103386012,10794141,Unspecified,,,,Relative potency,=,33.8,-
+8,103386013,10555859,Unspecified,,,,Relative potency,=,38.5,-
+9,103386236,10556060,Unspecified,,,,Relative potency,=,73.5,-
+10,103386237,10603957,Unspecified,,,,Relative potency,=,26.3,-
+11,103386256,11802006,Unspecified,,,,Relative potency,=,59.5,-
+12,103386292,10009264,Unspecified,,,,Relative potency,=,100,-
+13,103386676,127149,Unspecified,,,,Relative potency,=,78.1,-
+14,103386720,9873339,Unspecified,,,,Relative potency,=,75.8,-
+15,103759743,46905041,Unspecified,,,,Relative potency,=,49,-

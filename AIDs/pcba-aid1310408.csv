@@ -1,0 +1,28 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+RESULT_UNIT,,,,,,,MICROMOLAR,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,TRUE,,,,
+1,103175813,5329102,Active,,,,16.4,IC50,=,16400,nM
+2,336901128,127048221,Active,,,,6.5,IC50,=,6500,nM
+3,336901182,127048264,Active,,,,1.94,IC50,=,1940,nM
+4,336901183,127048265,Unspecified,,,,20,IC50,>,20000,nM
+5,336901184,127048266,Unspecified,,,,20,IC50,>,20000,nM
+6,336901185,127048267,Active,,,,3.1,IC50,=,3100,nM
+7,336901623,127048604,Unspecified,,,,20,IC50,>,20000,nM
+8,336902029,127048922,Active,,,,3.4,IC50,=,3400,nM
+9,336902063,127048949,Unspecified,,,,20,IC50,>,20000,nM
+10,336902896,127049564,Unspecified,,,,20,IC50,>,20000,nM
+11,336903367,127049908,Unspecified,,,,20,IC50,>,20000,nM
+12,336903368,127049909,Unspecified,,,,20,IC50,>,20000,nM
+13,336903369,127049910,Unspecified,,,,20,IC50,>,20000,nM
+14,336903791,127050203,Unspecified,,,,20,IC50,>,20000,nM
+15,336904662,127050826,Unspecified,,,,20,IC50,>,20000,nM
+16,336906767,127052354,Active,,,,6.63,IC50,=,6630,nM
+17,336907098,127052569,Active,,,,2.69,IC50,=,2690,nM
+18,336907099,127052570,Unspecified,,,,20,IC50,>,20000,nM
+19,336907100,127052571,Unspecified,,,,20,IC50,>,20000,nM
+20,336907101,127052572,Unspecified,,,,20,IC50,>,20000,nM
+21,336907102,127052573,Unspecified,,,,20,IC50,>,20000,nM
+22,336907103,127052574,Unspecified,,,,20,IC50,>,20000,nM
+23,336907476,127052840,Active,,,,5.75,IC50,=,5750,nM

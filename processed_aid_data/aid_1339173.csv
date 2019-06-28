@@ -1,0 +1,14 @@
+PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,smiles,AID,match,murcko,gen_murcko
+2749,Active,,Cc1cc(C2CCCCC2)n(O)c(=O)c1,1339173,False,O=c1cccc(C2CCCCC2)[nH]1,CC1CCCC(C2CCCCC2)C1
+13590965,Active,,Cc1cc(-c2ccccc2)n(O)c(=O)c1,1339173,False,O=c1cccc(-c2ccccc2)[nH]1,CC1CCCC(C2CCCCC2)C1
+132961588,Active,,Cc1cc(-c2ccc(-c3ccccc3)cc2)n(O)c(=O)c1,1339173,False,O=c1cccc(-c2ccc(-c3ccccc3)cc2)[nH]1,CC1CCCC(C2CCC(C3CCCCC3)CC2)C1
+134140352,Active,,Cc1cc(-c2ccc(-c3cccc4ccccc34)cc2)n(O)c(=O)c1,1339173,False,O=c1cccc(-c2ccc(-c3cccc4ccccc34)cc2)[nH]1,CC1CCCC(C2CCC(C3CCCC4CCCCC43)CC2)C1
+134141479,Active,,Cc1cc(-c2ccc(F)cc2)n(O)c(=O)c1,1339173,False,O=c1cccc(-c2ccccc2)[nH]1,CC1CCCC(C2CCCCC2)C1
+132961589,Active,,Cc1cc(-c2ccc(-c3ccccc3C)cc2)n(O)c(=O)c1,1339173,False,O=c1cccc(-c2ccc(-c3ccccc3)cc2)[nH]1,CC1CCCC(C2CCC(C3CCCCC3)CC2)C1
+134143542,Active,,Cc1cc(-c2ccc(-c3ccc(Cl)cc3)cc2)n(O)c(=O)c1,1339173,False,O=c1cccc(-c2ccc(-c3ccccc3)cc2)[nH]1,CC1CCCC(C2CCC(C3CCCCC3)CC2)C1
+20158081,Active,,Cc1cc(-c2ccc3ccccc3c2)n(O)c(=O)c1,1339173,False,O=c1cccc(-c2ccc3ccccc3c2)[nH]1,CC1CCCC(C2CCC3CCCCC3C2)C1
+134148462,Active,,Cc1cc(-c2cccc([N+](=O)[O-])c2)n(O)c(=O)c1,1339173,False,O=c1cccc(-c2ccccc2)[nH]1,CC1CCCC(C2CCCCC2)C1
+134150090,Active,,Cc1cc(-c2cccc(-c3ccccc3)c2)n(O)c(=O)c1,1339173,False,O=c1cccc(-c2cccc(-c3ccccc3)c2)[nH]1,CC1CCCC(C2CCCC(C3CCCCC3)C2)C1
+132961590,Active,,Cc1cc(-c2ccc(-c3ccc(C(C)(C)C)cc3)cc2)n(O)c(=O)c1,1339173,False,O=c1cccc(-c2ccc(-c3ccccc3)cc2)[nH]1,CC1CCCC(C2CCC(C3CCCCC3)CC2)C1
+21520178,Active,,COc1ccc(-c2cc(C)cc(=O)n2O)cc1,1339173,False,O=c1cccc(-c2ccccc2)[nH]1,CC1CCCC(C2CCCCC2)C1
+132961587,Active,,COc1ccccc1-c1ccc(-c2cc(C)cc(=O)n2O)cc1,1339173,False,O=c1cccc(-c2ccc(-c3ccccc3)cc2)[nH]1,CC1CCCC(C2CCC(C3CCCCC3)CC2)C1

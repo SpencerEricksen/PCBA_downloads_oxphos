@@ -1,0 +1,28 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103167682,4463,Unspecified,,,,Ratio CC50/EC50,>,80,-
+2,103188975,35370,Unspecified,,,,Ratio CC50/EC50,>,11587,-
+3,103223943,24066,Unspecified,,,,Ratio CC50/EC50,>,127,-
+4,103529091,135398739,Unspecified,,,,Ratio CC50/EC50,>,24,-
+5,374267727,26837210,Unspecified,,,,Ratio CC50/EC50,<,1,-
+6,374270705,134132723,Unspecified,,,,Ratio CC50/EC50,<=,1,-
+7,374271786,134133021,Unspecified,,,,Ratio CC50/EC50,<=,1,-
+8,374272569,134133222,Unspecified,,,,Ratio CC50/EC50,=,1,-
+9,374281537,134135685,Unspecified,,,,Ratio CC50/EC50,<,1,-
+10,374281914,134135776,Unspecified,,,,Ratio CC50/EC50,<,1,-
+11,374282177,134135855,Unspecified,,,,Ratio CC50/EC50,<=,1,-
+12,374283041,7977866,Unspecified,,,,Ratio CC50/EC50,<=,1,-
+13,374324013,134147384,Unspecified,,,,Ratio CC50/EC50,<,1,-
+14,374328589,134148659,Unspecified,,,,Ratio CC50/EC50,<,1,-
+15,374330150,134149081,Unspecified,,,,Ratio CC50/EC50,<,1,-
+16,374330189,134149101,Unspecified,,,,Ratio CC50/EC50,<,1,-
+17,374331605,134149514,Unspecified,,,,Ratio CC50/EC50,<,1,-
+18,374335081,134150464,Unspecified,,,,Ratio CC50/EC50,<,1,-
+19,374336988,134151018,Unspecified,,,,Ratio CC50/EC50,<,1,-
+20,374342094,134152499,Unspecified,,,,Ratio CC50/EC50,<,1,-
+21,374343094,134152791,Unspecified,,,,Ratio CC50/EC50,<,1,-
+22,374344441,134153192,Unspecified,,,,Ratio CC50/EC50,<=,1,-
+23,374345134,134153406,Unspecified,,,,Ratio CC50/EC50,<,1,-
+24,374347125,134153937,Unspecified,,,,Ratio CC50/EC50,<,1,-
+25,374360672,134157726,Unspecified,,,,Ratio CC50/EC50,<=,1,-

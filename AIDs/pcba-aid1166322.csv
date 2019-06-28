@@ -1,0 +1,18 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+RESULT_UNIT,,,,,,,MICROMOLAR,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,TRUE,,,,
+1,103176321,5746,Active,,,,0.04,IC50,=,40,nM
+2,103507642,3385,Active,,,,0.01,IC50,=,10,nM
+3,104234257,443939,Active,,,,0.1,IC50,=,100,nM
+4,312361898,118716551,Active,,,,0.9,IC50,=,900,nM
+5,312361996,118716602,Active,,,,4.1,IC50,=,4100,nM
+6,312361997,118716603,Active,,,,6.5,IC50,=,6500,nM
+7,312361998,118716604,Active,,,,2,IC50,=,2000,nM
+8,312361999,118716605,Active,,,,4.3,IC50,=,4300,nM
+9,312362000,118716606,Active,,,,7,IC50,=,7000,nM
+10,312362001,118716607,Active,,,,12,IC50,=,12000,nM
+11,312362002,118716608,Active,,,,0.02,IC50,=,20,nM
+12,312362003,118716609,Active,,,,0.003,IC50,=,3,nM
+13,312362004,118716610,Active,,,,0.001,IC50,=,1,nM

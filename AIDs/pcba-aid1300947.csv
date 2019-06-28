@@ -1,0 +1,32 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,TRUE,,,,,
+1,103507642,3385,Active,,,,7.61,IC50,=,7610,nM,
+2,336901505,127048516,Unspecified,,,,128,IC50,>,128000,nM,Outside typical range
+3,336901506,127048517,Unspecified,,,,128,IC50,>,128000,nM,Outside typical range
+4,336901507,127048518,Unspecified,,,,128,IC50,>,128000,nM,Outside typical range
+5,336901508,127048519,Unspecified,,,,128,IC50,>,128000,nM,Outside typical range
+6,336901934,127048845,Unspecified,,,,128,IC50,>,128000,nM,Outside typical range
+7,336901935,127048846,Active,,,,45.12,IC50,=,45120,nM,
+8,336901936,127048847,Unspecified,,,,93.18,IC50,=,93180,nM,
+9,336902363,127049176,Active,,,,38.6,IC50,=,38600,nM,
+10,336903264,127049832,Unspecified,,,,128,IC50,>,128000,nM,Outside typical range
+11,336903265,127049833,Unspecified,,,,128,IC50,>,128000,nM,Outside typical range
+12,336903687,127050126,Unspecified,,,,128,IC50,>,128000,nM,Outside typical range
+13,336903703,127050140,Unspecified,,,,128,IC50,>,128000,nM,Outside typical range
+14,336903704,127050141,Unspecified,,,,128,IC50,>,128000,nM,Outside typical range
+15,336905439,127051367,Unspecified,,,,128,IC50,>,128000,nM,Outside typical range
+16,336905790,127051641,Unspecified,,,,73.34,IC50,=,73340,nM,
+17,336905791,127051642,Unspecified,,,,92.58,IC50,=,92580,nM,
+18,336905792,127051643,Unspecified,,,,128,IC50,>,128000,nM,Outside typical range
+19,336905866,127051702,Unspecified,,,,91.47,IC50,=,91470,nM,
+20,336905867,127051703,Unspecified,,,,111.88,IC50,=,111880,nM,Outside typical range
+21,336905868,127051704,Unspecified,,,,128,IC50,>,128000,nM,Outside typical range
+22,336906245,127051977,Active,,,,21.27,IC50,=,21270,nM,
+23,336906246,127051978,Active,,,,27.6,IC50,=,27600,nM,
+24,336906247,127051979,Active,,,,45.2,IC50,=,45200,nM,
+25,336906248,127051980,Unspecified,,,,128,IC50,>,128000,nM,Outside typical range
+26,336907590,127052923,Active,,,,32.25,IC50,=,32250,nM,
+27,336907591,127052924,Active,,,,13.29,IC50,=,13290,nM,

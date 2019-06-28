@@ -1,0 +1,34 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103422860,161406,Unspecified,,,,Selectivity ratio,=,0.5,-
+2,103578158,24799958,Unspecified,,,,Selectivity ratio,=,11.3,-
+3,103578193,24799622,Unspecified,,,,Selectivity ratio,=,41.5,-
+4,103578194,24799794,Unspecified,,,,Selectivity ratio,=,24.1,-
+5,103578195,24799795,Unspecified,,,,Selectivity ratio,=,8.7,-
+6,103578196,24799456,Unspecified,,,,Selectivity ratio,=,55,-
+7,103578242,24799452,Unspecified,,,,Selectivity ratio,=,0.7,-
+8,103578243,24799792,Unspecified,,,,Selectivity ratio,=,1.8,-
+9,103578244,24799454,Unspecified,,,,Selectivity ratio,=,2.7,-
+10,103578246,150458,Unspecified,,,,Selectivity ratio,=,0.7,-
+11,103578247,24799789,Unspecified,,,,Selectivity ratio,=,0.9,-
+12,103578418,24799785,Unspecified,,,,Selectivity ratio,=,1.2,-
+13,103578422,14751846,Unspecified,,,,Selectivity ratio,=,1,-
+14,103578423,24799449,Unspecified,,,,Selectivity ratio,=,0.1,-
+15,103578461,24799446,Unspecified,,,,Selectivity ratio,=,1.1,-
+16,103578462,24799783,Unspecified,,,,Selectivity ratio,=,1.3,-
+17,103578463,24799447,Unspecified,,,,Selectivity ratio,=,1.8,-
+18,103578499,44457431,Unspecified,,,,Selectivity ratio,=,1,-
+19,103578500,24799631,Unspecified,,,,Selectivity ratio,=,5.8,-
+20,103578502,44457432,Unspecified,,,,Selectivity ratio,=,0.2,-
+21,103578504,44457433,Unspecified,,,,Selectivity ratio,=,0.8,-
+22,103578544,24799629,Unspecified,,,,Selectivity ratio,=,9.7,-
+23,103578545,44457444,Unspecified,,,,Selectivity ratio,=,0.7,-
+24,103578546,14751845,Unspecified,,,,Selectivity ratio,=,0.3,-
+25,103578586,10924457,Unspecified,,,,Selectivity ratio,=,0.3,-
+26,103676224,6464086,Unspecified,,,,Selectivity ratio,=,0.3,-
+27,103676232,45263773,Unspecified,,,,Selectivity ratio,=,0.1,-
+28,103676383,14751843,Unspecified,,,,Selectivity ratio,=,0.7,-
+29,103676411,24799788,Unspecified,,,,Selectivity ratio,=,1.6,-
+30,103679579,24799451,Unspecified,,,,Selectivity ratio,=,0.9,-
+31,103679580,24799787,Unspecified,,,,Selectivity ratio,=,1.7,-

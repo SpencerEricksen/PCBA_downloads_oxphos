@@ -1,0 +1,34 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,312368880,118143962,Unspecified,,,,Ratio IC50,=,4.4,-
+2,312368883,118146849,Unspecified,,,,Ratio IC50,=,5.1,-
+3,312368884,118146984,Unspecified,,,,Ratio IC50,=,3.3,-
+4,312368885,118146814,Unspecified,,,,Ratio IC50,=,2.5,-
+5,312368890,118146855,Unspecified,,,,Ratio IC50,=,29.6,-
+6,312368892,118146793,Unspecified,,,,Ratio IC50,=,2.5,-
+7,312368893,118144051,Unspecified,,,,Ratio IC50,=,16.1,-
+8,312368894,70702010,Unspecified,,,,Ratio IC50,=,18.5,-
+9,312368895,118146727,Unspecified,,,,Ratio IC50,=,19,-
+10,312368896,118146932,Unspecified,,,,Ratio IC50,=,7,-
+11,312368899,87057579,Unspecified,,,,Ratio IC50,=,28,-
+12,312368900,118146748,Unspecified,,,,Ratio IC50,=,35,-
+13,312368901,118144359,Unspecified,,,,Ratio IC50,=,9,-
+14,312368902,118146884,Unspecified,,,,Ratio IC50,=,25,-
+15,312368903,118144281,Unspecified,,,,Ratio IC50,=,16,-
+16,312368904,118146828,Unspecified,,,,Ratio IC50,=,28,-
+17,312368905,118146826,Unspecified,,,,Ratio IC50,=,20,-
+18,312368906,118146874,Unspecified,,,,Ratio IC50,=,11,-
+19,312368907,118146873,Unspecified,,,,Ratio IC50,=,9,-
+20,312368908,118144367,Unspecified,,,,Ratio IC50,=,44,-
+21,312368909,118146805,Unspecified,,,,Ratio IC50,=,22,-
+22,312368910,118146979,Unspecified,,,,Ratio IC50,=,60,-
+23,312368911,118146804,Unspecified,,,,Ratio IC50,=,54,-
+24,312368912,118146882,Unspecified,,,,Ratio IC50,=,30,-
+25,312368913,101891709,Unspecified,,,,Ratio IC50,>,500,-
+26,312368914,118720657,Unspecified,,,,Ratio IC50,=,33,-
+27,312368915,118146813,Unspecified,,,,Ratio IC50,=,47,-
+28,312368916,86763302,Unspecified,,,,Ratio IC50,>,50,-
+29,312368917,118144380,Unspecified,,,,Ratio IC50,>,60,-
+30,312368918,118720658,Unspecified,,,,Ratio IC50,=,55,-
+31,312368919,118720659,Unspecified,,,,Ratio IC50,=,94,-

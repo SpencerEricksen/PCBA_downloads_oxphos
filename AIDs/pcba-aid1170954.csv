@@ -1,0 +1,12 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Activity Comment
+RESULT_TYPE,,,,,,,STRING,STRING
+RESULT_DESCR,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),Additional comments
+1,312368890,118146855,Inactive,,,Potential missing data,Inhibition,Not Active
+2,312368899,87057579,Inactive,,,Potential missing data,Inhibition,Not Active
+3,312368900,118146748,Inactive,,,Potential missing data,Inhibition,Not Active
+4,312368902,118146884,Inactive,,,Potential missing data,Inhibition,Not Active
+5,312368909,118146805,Inactive,,,Potential missing data,Inhibition,Not Active
+6,312368912,118146882,Inactive,,,Potential missing data,Inhibition,Not Active
+7,312368913,101891709,Inactive,,,Potential missing data,Inhibition,Not Active
+8,312368914,118720657,Inactive,,,Potential missing data,Inhibition,Not Active
+9,312368916,86763302,Inactive,,,Potential missing data,Inhibition,Not Active

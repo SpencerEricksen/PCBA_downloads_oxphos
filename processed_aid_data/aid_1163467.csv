@@ -1,0 +1,2 @@
+PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,smiles,AID,match,murcko,gen_murcko
+118714321,Unspecified,,O=Cc1c(-c2ccc(Br)cc2)nc2sc(Cc3ccccc3)nn12,1163467,False,c1ccc(Cc2nn3cc(-c4ccccc4)nc3s2)cc1,C1CCC(CC2CC3CC(C4CCCCC4)CC3C2)CC1

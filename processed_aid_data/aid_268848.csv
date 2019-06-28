@@ -1,0 +1,17 @@
+PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,smiles,AID,match,murcko,gen_murcko
+135413511,Active,,Nc1n[n+]([O-])c2ccccc2[n+]1[O-],268848,False,c1ccc2[nH+]nc[nH+]c2c1,C1CCC2CCCCC2C1
+135483605,Active,,[O-][n+]1nc(Nc2ccccc2)[n+]([O-])c2ccccc21,268848,False,c1ccc(Nc2n[nH+]c3ccccc3[nH+]2)cc1,C1CCC(CC2CCC3CCCCC3C2)CC1
+136043839,Active,,Nc1ccccc1Nc1n[n+]([O-])c2ccccc2[n+]1[O-],268848,False,c1ccc(Nc2n[nH+]c3ccccc3[nH+]2)cc1,C1CCC(CC2CCC3CCCCC3C2)CC1
+136043840,Active,,CCCCCCCCNc1n[n+]([O-])c2ccccc2[n+]1[O-],268848,False,c1ccc2[nH+]nc[nH+]c2c1,C1CCC2CCCCC2C1
+136043841,Active,,C=CCNc1n[n+]([O-])c2ccccc2[n+]1[O-],268848,False,c1ccc2[nH+]nc[nH+]c2c1,C1CCC2CCCCC2C1
+135556245,Active,,[O-][n+]1nc(NCc2ccccc2)[n+]([O-])c2ccccc21,268848,False,c1ccc(CNc2n[nH+]c3ccccc3[nH+]2)cc1,C1CCC(CCC2CCC3CCCCC3C2)CC1
+136043842,Active,,[O-][n+]1nc(NCc2ccccc2Cl)[n+]([O-])c2ccccc21,268848,False,c1ccc(CNc2n[nH+]c3ccccc3[nH+]2)cc1,C1CCC(CCC2CCC3CCCCC3C2)CC1
+136043843,Active,,O=[N+]([O-])c1ccc(CNc2n[n+]([O-])c3ccccc3[n+]2[O-])cc1,268848,False,c1ccc(CNc2n[nH+]c3ccccc3[nH+]2)cc1,C1CCC(CCC2CCC3CCCCC3C2)CC1
+135460927,Active,,[O-][n+]1nc(NCCO)[n+]([O-])c2ccccc21,268848,False,c1ccc2[nH+]nc[nH+]c2c1,C1CCC2CCCCC2C1
+136043844,Active,,[O-][n+]1nc(NC2CC2)[n+]([O-])c2ccccc21,268848,False,c1ccc2[nH+]c(NC3CC3)n[nH+]c2c1,C1CCC2CC(CC3CC3)CCC2C1
+44414727,Unspecified,,CCN(CC)c1nn([O-])c2ccccc2[n+]1=O,268848,False,O=[n+]1cn[nH]c2ccccc21,CC1CCCC2CCCCC12
+135556244,Active,,[O-][n+]1nc(NC2CCCCC2)[n+]([O-])c2ccccc21,268848,False,c1ccc2[nH+]c(NC3CCCCC3)n[nH+]c2c1,C1CCC(CC2CCC3CCCCC3C2)CC1
+135455643,Active,,CCNc1n[n+]([O-])c2ccccc2[n+]1[O-],268848,False,c1ccc2[nH+]nc[nH+]c2c1,C1CCC2CCCCC2C1
+136043845,Active,,Cc1ccc(Nc2n[n+]([O-])c3ccccc3[n+]2[O-])cc1,268848,False,c1ccc(Nc2n[nH+]c3ccccc3[nH+]2)cc1,C1CCC(CC2CCC3CCCCC3C2)CC1
+135433836,Active,,COc1ccc(Nc2n[n+]([O-])c3ccccc3[n+]2[O-])cc1,268848,False,c1ccc(Nc2n[nH+]c3ccccc3[nH+]2)cc1,C1CCC(CC2CCC3CCCCC3C2)CC1
+44414854,Unspecified,,O=[n+]1c(N2CCOCC2)nn([O-])c2ccccc21,268848,False,O=[n+]1c(N2CCOCC2)n[nH]c2ccccc21,CC1C2CCCCC2CCC1C1CCCCC1

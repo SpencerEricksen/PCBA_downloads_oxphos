@@ -1,0 +1,22 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,TRUE,,,,,
+1,103230651,5284373,Active,,,,0.0082,Ki,=,8.2,nM,
+2,318405849,53259809,Active,,,,5.9,Ki,=,5900,nM,
+3,336897874,127045887,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+4,336898161,127046106,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+5,336898162,72771088,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+6,336898163,127046107,Active,,,,0.099,Ki,=,99,nM,
+7,336898367,121231453,Active,,,,22,Ki,=,22000,nM,
+8,336898936,72771087,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+9,336898937,67255983,Active,,,,0.95,Ki,=,950,nM,
+10,336898938,121231455,Active,,,,9.1,Ki,=,9100,nM,
+11,336900320,127047623,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+12,336900386,311007,Unspecified,,,,63,Ki,=,63000,nM,
+13,336900387,121231452,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+14,336900388,53261396,Active,,,,4.9,Ki,=,4900,nM,
+15,336900389,121231456,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+16,336900498,81689780,Active,,,,2.6,Ki,=,2600,nM,
+17,336900999,127048114,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined

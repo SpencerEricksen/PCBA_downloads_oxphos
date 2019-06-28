@@ -1,0 +1,13 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+1,312368890,118146855,Unspecified,,,,Inhibition,=,93,%,
+2,312368899,87057579,Unspecified,,,,Inhibition,=,25,%,
+3,312368900,118146748,Unspecified,,,,Inhibition,=,-25,%,Outside typical range
+4,312368902,118146884,Unspecified,,,,Inhibition,=,83,%,
+5,312368908,118144367,Unspecified,,,,Inhibition,=,54,%,
+6,312368909,118146805,Unspecified,,,,Inhibition,=,23,%,
+7,312368912,118146882,Unspecified,,,,Inhibition,=,35,%,
+8,312368913,101891709,Unspecified,,,,Inhibition,=,43,%,
+9,312368914,118720657,Unspecified,,,,Inhibition,=,17,%,
+10,312368916,86763302,Unspecified,,,,Inhibition,=,8,%,

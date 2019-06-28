@@ -1,0 +1,4 @@
+PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,smiles,AID,match,murcko,gen_murcko
+135413511,Active,,Nc1n[n+]([O-])c2ccccc2[n+]1[O-],268859,False,c1ccc2[nH+]nc[nH+]c2c1,C1CCC2CCCCC2C1
+135556245,Active,,[O-][n+]1nc(NCc2ccccc2)[n+]([O-])c2ccccc21,268859,False,c1ccc(CNc2n[nH+]c3ccccc3[nH+]2)cc1,C1CCC(CCC2CCC3CCCCC3C2)CC1
+135433836,Active,,COc1ccc(Nc2n[n+]([O-])c3ccccc3[n+]2[O-])cc1,268859,False,c1ccc(Nc2n[nH+]c3ccccc3[nH+]2)cc1,C1CCC(CC2CCC3CCCCC3C2)CC1

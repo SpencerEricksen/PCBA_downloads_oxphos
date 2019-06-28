@@ -1,0 +1,23 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,103178476,31593,Inconclusive,,,Potential missing data,Ratio CC50/IC50,,,,Not Determined
+2,103186893,3599,Unspecified,,,,Ratio CC50/IC50,=,7,-,
+3,374266953,134131693,Unspecified,,,,Ratio CC50/IC50,=,6,-,
+4,374271519,134132947,Unspecified,,,,Ratio CC50/IC50,=,25,-,
+5,374275568,134134004,Inconclusive,,,Potential missing data,Ratio CC50/IC50,,,,Not Determined
+6,374281497,134135672,Unspecified,,,,Ratio CC50/IC50,=,8,-,
+7,374286060,11374676,Unspecified,,,,Ratio CC50/IC50,=,3,-,
+8,374289661,134137834,Inconclusive,,,Potential missing data,Ratio CC50/IC50,,,,Not Determined
+9,374292430,134138614,Inconclusive,,,Potential missing data,Ratio CC50/IC50,,,,Not Determined
+10,374292837,134138732,Unspecified,,,,Ratio CC50/IC50,=,4,-,
+11,374298052,134140136,Unspecified,,,,Ratio CC50/IC50,>,19,-,
+12,374303515,134141662,Inconclusive,,,Potential missing data,Ratio CC50/IC50,,,,Not Determined
+13,374305063,134142085,Unspecified,,,,Ratio CC50/IC50,>,3,-,
+14,374308756,134143123,Unspecified,,,,Ratio CC50/IC50,=,3,-,
+15,374311080,134143783,Inconclusive,,,Potential missing data,Ratio CC50/IC50,,,,Not Determined
+16,374311813,134144012,Inconclusive,,,Potential missing data,Ratio CC50/IC50,,,,Not Determined
+17,374317820,134145662,Inconclusive,,,Potential missing data,Ratio CC50/IC50,,,,Not Determined
+18,374318221,10596830,Inconclusive,,,Potential missing data,Ratio CC50/IC50,,,,Not Determined
+19,374339703,134151797,Inconclusive,,,Potential missing data,Ratio CC50/IC50,,,,Not Determined
+20,374345183,15386544,Unspecified,,,,Ratio CC50/IC50,=,20,-,

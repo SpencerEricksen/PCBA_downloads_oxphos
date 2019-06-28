@@ -1,0 +1,27 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+RESULT_UNIT,,,,,,,MICROMOLAR,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,TRUE,,,,
+1,103507642,3385,Unspecified,,,,56,IC50,=,56000,nM
+2,103570603,119034,Unspecified,,,,100,IC50,>,100000,nM
+3,312356170,118712604,Unspecified,,,,100,IC50,>,100000,nM
+4,312356171,118712605,Unspecified,,,,100,IC50,>,100000,nM
+5,312356172,118712606,Unspecified,,,,100,IC50,>,100000,nM
+6,312356173,118712607,Unspecified,,,,100,IC50,>,100000,nM
+7,312356174,118712608,Unspecified,,,,100,IC50,>,100000,nM
+8,312356175,118712609,Unspecified,,,,100,IC50,>,100000,nM
+9,312356176,118712610,Unspecified,,,,100,IC50,>,100000,nM
+10,312356177,118712611,Unspecified,,,,100,IC50,>,100000,nM
+11,312356178,118712612,Unspecified,,,,100,IC50,>,100000,nM
+12,312356179,118712613,Unspecified,,,,100,IC50,>,100000,nM
+13,312356180,118712614,Unspecified,,,,100,IC50,>,100000,nM
+14,312356181,118712615,Unspecified,,,,100,IC50,>,100000,nM
+15,312356182,118712616,Unspecified,,,,100,IC50,>,100000,nM
+16,312356183,118712617,Unspecified,,,,100,IC50,>,100000,nM
+17,312356184,118712618,Unspecified,,,,100,IC50,>,100000,nM
+18,312356185,118712619,Unspecified,,,,100,IC50,>,100000,nM
+19,312356186,118712620,Unspecified,,,,100,IC50,>,100000,nM
+20,312356187,118712621,Unspecified,,,,100,IC50,>,100000,nM
+21,312356188,118712622,Unspecified,,,,100,IC50,>,100000,nM
+22,312356189,118712623,Unspecified,,,,100,IC50,>,100000,nM

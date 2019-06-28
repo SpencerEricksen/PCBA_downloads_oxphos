@@ -1,0 +1,17 @@
+# run PUG REST for smiles downloads for each of the assays
+for f in pc_fetch_aid1[1234]*.cgi; do ./wrapper_fetch_v1.2.sh $f; done
+
+
+
+########### old ################
+aid=$1
+aid_chunk=$2
+
+./0A_write_cgi_v1.2.py CID_lists/pcba-aid${aid}.cid
+./0_submitquery_PUG_v4.2.sh pc_fetch_aid${aid}_${aid_chunk}.cgi
+./1_pollquery_PUG_v1.2.sh pc_fetch_aid${aid}_${aid_chunk}.cgi
+./2_downloadresults_PUG_v1.2.sh pc_fetch_aidd${aid}_${aid_chunk}.cgi
+
+reqid=`echo poll_*_${aid}_${aid_chunk}.cgi | cut -d'_' -f2`
+mv ${reqid}.txt.gz pcba-aid${aid}_${aid_chunk}.smi.gz
+ 

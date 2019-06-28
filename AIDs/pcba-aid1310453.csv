@@ -1,0 +1,23 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,TRUE,,,,,
+1,103324264,10494,Unspecified,,,,106.4,IC50,=,106400,nM,Outside typical range
+2,103479638,21599838,Active,,,,36.2,IC50,=,36200,nM,
+3,103479653,73659,Active,,,,36.2,IC50,=,36200,nM,
+4,103582220,14010966,Active,,,,44.1,IC50,=,44100,nM,
+5,103582430,151202,Unspecified,,,,64.7,IC50,=,64700,nM,
+6,103589777,11753144,Unspecified,,,,52.2,IC50,=,52200,nM,
+7,336901417,127048447,Active,,,,3.78,IC50,=,3780,nM,
+8,336901418,127048448,Unspecified,,,,174.87,IC50,=,174870,nM,Outside typical range
+9,336901419,127048449,Unspecified,,,,201.07,IC50,=,201070,nM,Outside typical range
+10,336902064,127048950,Active,,,,17.24,IC50,=,17240,nM,
+11,336902280,127049116,Active,,,,21.08,IC50,=,21080,nM,
+12,336902281,127049117,Unspecified,,,,104.07,IC50,=,104070,nM,Outside typical range
+13,336902447,127049241,Unspecified,,,,119.03,IC50,=,119030,nM,Outside typical range
+14,336902902,127049570,Unspecified,,,,123.12,IC50,=,123120,nM,Outside typical range
+15,336903784,127050197,Unspecified,,,,107.16,IC50,=,107160,nM,Outside typical range
+16,336906771,127052358,Unspecified,,,,118.1,IC50,=,118100,nM,Outside typical range
+17,336906795,127052377,Active,,,,48.44,IC50,=,48440,nM,
+18,336906796,127052378,Active,,,,11.41,IC50,=,11410,nM,

@@ -1,0 +1,36 @@
+
+
+for f in `ls CID_lists/pcba-aid*.csv`; do echo $f | cut -f2 -d"-" | cut -f1 -d"_" | cut -c4-; done > zlist_cid_lists &
+
+for f in aid_*.csv; do echo $f | cut -f2 -d"_" | cut -f1 -d"."; done > zlist_aid_merged_lists 
+
+for f in `ls fetch_CGIs/pcba-aid*.smi`; do echo $f | cut -f2 -d"-" | cut -f1 -d"_" | cut -c4-; done > zlist_smi_lists &
+
+
+sort zlist_cid_lists > zlist_cid_lists2
+sort zlist_aid_merged_lists > zlist_aid_merged_lists2
+sort zlist_smi_lists > zlist_smi_lists2
+
+mv zlist_smi_lists2 zlist_smi_lists
+mv zlist_aid_merged_lists2 zlist_aid_merged_lists
+mv zlist_cid_lists2 zlist_cid_lists
+
+
+was missing smiles for 1465---run the pc_fetch wrapper from command line in steps and waited for request to finish. used a sleep of 40 seconds before starting download and perhaps that isn't long enough--probably better to grep some flag out of the poll query to test condition for wget to rpoceed with download.
+
+
+also missing smiles for AIDs:
+
+504801 --> RNAi (494 SIDs)
+651810 --> siRNA (18,119 SIDs)
+651811 --> siRNA (64,752 SIDs)
+
+but these are not small molecules so we'll skip these
+
+
+for f in aid_*.csv; do echo $f | cut -f2 -d"_" | cut -f1 -d"."; done > zlist_aid_merged_lists 
+sort zlist_aid_merged_lists > zlist_aid_merged_lists2
+mv zlist_aid_merged_lists2 zlist_aid_merged_lists
+diff zlist_aid_merged_lists zlist_smi_lists | grep "^>" | awk '{print $2}' > tmp.list
+for a in `cat tmp.list`; do echo $a; ./rdkit_substructure_matcher_v1.5.py ${a}; done
+

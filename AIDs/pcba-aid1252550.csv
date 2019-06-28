@@ -1,0 +1,40 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,TRUE,,,,,
+1,123097261,31703,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+2,318393785,122193081,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+3,318393786,122193082,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+4,318393787,122193083,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+5,318393788,122193084,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+6,318393789,122193085,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+7,318393790,122193086,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+8,318393791,122193087,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+9,318393792,122193088,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+10,318393793,122193089,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+11,318395566,122194578,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+12,318395567,122194579,Unspecified,,,,64.56,IC50,=,64560,nM,
+13,318395568,122194580,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+14,318395569,122194581,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+15,318395570,122194582,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+16,318395571,122194583,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+17,318395572,122194584,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+18,318395573,122194585,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+19,318395574,122194586,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+20,318395575,122194587,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+21,318395576,122194588,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+22,318395577,122194589,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+23,318395578,122194590,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+24,318395579,122194591,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+25,318395580,122194592,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+26,318395581,122194593,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+27,318395582,122194594,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+28,318395583,122194595,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+29,318395584,122194596,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+30,318395585,122194597,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+31,318395586,122194598,Unspecified,,,,79.43,IC50,=,79430,nM,
+32,318395587,122194599,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+33,318395588,122194600,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+34,318395589,122194601,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+35,318395590,122194602,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined

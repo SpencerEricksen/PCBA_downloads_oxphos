@@ -1,0 +1,105 @@
+import pandas as pd
+import numpy as np
+df = pd.read_csv('all_oxphos_aids.csv')
+
+g1 = df.groupby(['PUBCHEM_CID','AID'])
+g1.count()
+
+df['AID'].value_counts()
+df['PUBCHEM_CID'].value_counts()
+
+df.loc[ df['PUBCHEM_ACTIVITY_OUTCOME'] == 'Active' ]
+df.loc[ (df['PUBCHEM_ACTIVITY_OUTCOME'] == 'Active') & (df['match'] == True) ]
+df.loc[ (df['PUBCHEM_ACTIVITY_OUTCOME'] != 'Active') & (df['match'] == True) ]
+df.loc[ (df['PUBCHEM_ACTIVITY_OUTCOME'] == 'Active') & (df['match'] == False) ]
+df.loc[ (df['PUBCHEM_ACTIVITY_OUTCOME'] != 'Active') & (df['match'] == False) ]
+
+df.loc[ (df['PUBCHEM_ACTIVITY_OUTCOME'] == 'Active') & (df['match'] == True), 'PUBCHEM_CID' ]
+df.loc[ (df['PUBCHEM_ACTIVITY_OUTCOME'] == 'Active') & (df['match'] == True), 'PUBCHEM_CID' ].value_counts()
+
+
+
+# UCC +
+len( df.loc[ (df['PUBCHEM_ACTIVITY_OUTCOME'] == 'Active') & (df['match'] == True), 'PUBCHEM_CID' ].value_counts() )
+ 636
+
+# UCC -
+len( df.loc[ (df['PUBCHEM_ACTIVITY_OUTCOME'] != 'Active') & (df['match'] == True), 'PUBCHEM_CID' ].value_counts() )
+ 24109
+
+# non-UCC -
+len( df.loc[ (df['PUBCHEM_ACTIVITY_OUTCOME'] != 'Active') & (df['match'] == False), 'PUBCHEM_CID' ].value_counts() )
+ 283065
+
+# non-UCC +
+len( df.loc[ (df['PUBCHEM_ACTIVITY_OUTCOME'] == 'Active') & (df['match'] == False), 'PUBCHEM_CID' ].value_counts() )
+ 3182
+
+# Ratio of actives to inactives
+UCC+ / UCC- = 0.026
+nonUCC+ / nonUCC- = 0.011
+
+
+
+
+
+from rdkit.Chem import PandasTools
+
+df = pd.read_csv('all_oxphos_aids_cids.csv', low_memory=False)
+df2 = df.loc[ (df['PUBCHEM_ACTIVITY_OUTCOME'] == 'Active') & (df['match'] == True) ]
+df2['gen_murcko'].value_counts()
+df2['murcko'].value_counts()
+df2['gen_murcko'].value_counts()
+df2['murcko'].value_counts()
+PandasTools.AddMoleculeColumnToFrame( df2, smilesCol='gen_murcko', molCol='rdkit_mol' )
+PandasTools.AddMoleculeColumnToFrame( df2, smilesCol='murcko', molCol='rdkit_mol' )
+PandasTools.AddMoleculeColumnToFrame( df2, smilesCol='smiles', molCol='rdkit_mol' )
+PandasTools.AddMoleculeColumnToFrame( df2, smilesCol='gen_murcko', molCol='rdkit_mol_gen_murcko' )
+
+
+g2 = df2.groupby( 'murcko')
+g2['murcko'].count_values()
+g2['PUBCHEM_CID'].value_counts()
+
+g2.get_group('PUBCHEM_CID')
+g2.get_group('murcko')
+g2.get_group('gen_murcko')
+g2.get_group('murcko')
+groups = dict(list(g2))
+g2.get_group('c1coc(N2CCCCC2)c1')
+g2[['PUBCHEM_CID','AID']].get_group("c1coc(N2CCCCC2)c1")
+g2[['PUBCHEM_CID','AID']].get_group("c1ccccc1")
+g2[['PUBCHEM_CID','AID','murcko']].get_group("c1ccccc1")
+
+g2 = df2.groupby( 'murcko')
+g2_groups = g2.groups
+for key, values in g2_groups.iteritems():
+    if key in g2_groups.keys():
+        print df.ix[values], "\n"
+
+
+# to draw murcko scaffolds
+
+def get_mol_from_murcko(murcko):
+    try:
+        return Chem.MolFromSmiles( murcko )
+    except:
+        return None
+
+df2['rdkit_mol'] = df2['murcko'].apply( lambda x: get_mol_from_murcko(x) if x is not None else None )
+
+
+
+
+
+x = df2.groupby(['murcko','PUBCHEM_CID','AID']).size()
+y = x.reset_index()
+df2.groupby('murcko')['PUBCHEM_CID'].nunique()
+df2.groupby('murcko')['AID'].nunique()
+
+
+df2.groupby('murcko')['PUBCHEM_CID'].nunique()
+df2.groupby('murcko')['AID'].nunique()
+q = df2.groupby(['murcko','PUBCHEM_CID']).size().reset_index()
+p = df2.groupby(['murcko','AID']).size().reset_index()
+

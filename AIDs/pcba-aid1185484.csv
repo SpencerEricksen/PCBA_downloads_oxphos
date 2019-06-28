@@ -1,0 +1,27 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,TRUE,,,,,
+1,103235857,10228,Active,,,,30.2,IC50,=,30200,nM,
+2,136920478,11977753,Active,,,,0.044,IC50,=,44,nM,
+3,312351123,118709361,Active,,,,26,IC50,=,26000,nM,
+4,312351124,118709362,Active,,,,8.7,IC50,=,8700,nM,
+5,312351125,118709363,Active,,,,23,IC50,=,23000,nM,
+6,312351126,118709364,Active,,,,16.4,IC50,=,16400,nM,
+7,312351127,118709365,Active,,,,21,IC50,=,21000,nM,
+8,312351128,118709366,Active,,,,4.9,IC50,=,4900,nM,
+9,312351129,118709367,Active,,,,32,IC50,=,32000,nM,
+10,312351130,118709368,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+11,312351131,118709369,Active,,,,45.3,IC50,=,45300,nM,
+12,312351132,118709370,Active,,,,20.4,IC50,=,20400,nM,
+13,312351133,118709371,Active,,,,31.7,IC50,=,31700,nM,
+14,312351134,118709372,Active,,,,23.1,IC50,=,23100,nM,
+15,312351135,118709373,Active,,,,16.4,IC50,=,16400,nM,
+16,312351148,118709376,Active,,,,21.6,IC50,=,21600,nM,
+17,312351149,118709377,Active,,,,32.2,IC50,=,32200,nM,
+18,312351150,118709378,Active,,,,35.5,IC50,=,35500,nM,
+19,312351151,118709379,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+20,312351152,118709380,Active,,,,38.3,IC50,=,38300,nM,
+21,312351153,118709381,Active,,,,35.3,IC50,=,35300,nM,
+22,312351154,118709382,Active,,,,27.3,IC50,=,27300,nM,

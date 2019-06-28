@@ -1,0 +1,28 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103176321,5746,Unspecified,,,,GI,=,7,%
+2,136921389,57390548,Unspecified,,,,GI,=,11,%
+3,136921390,54765287,Unspecified,,,,GI,=,0,%
+4,136921391,57390549,Unspecified,,,,GI,=,69,%
+5,136921392,57390550,Unspecified,,,,GI,=,14,%
+6,136921393,57390551,Unspecified,,,,GI,=,0,%
+7,136924681,57392321,Unspecified,,,,GI,=,32,%
+8,136924682,57392322,Unspecified,,,,GI,=,0,%
+9,136924683,57392323,Unspecified,,,,GI,=,0,%
+10,136924684,57392324,Unspecified,,,,GI,=,0,%
+11,136924685,57392325,Unspecified,,,,GI,=,0,%
+12,136927926,57394067,Unspecified,,,,GI,=,5,%
+13,136927927,57394068,Unspecified,,,,GI,=,52,%
+14,136931185,57395840,Unspecified,,,,GI,=,57,%
+15,136934625,54612979,Unspecified,,,,GI,=,13,%
+16,136934626,57397618,Unspecified,,,,GI,=,61,%
+17,136934627,57397619,Unspecified,,,,GI,=,25,%
+18,136937727,54613245,Unspecified,,,,GI,=,0,%
+19,136937728,54613554,Unspecified,,,,GI,=,17,%
+20,136940947,57401063,Unspecified,,,,GI,=,26,%
+21,136940948,57401064,Unspecified,,,,GI,=,10,%
+22,136940949,57401065,Unspecified,,,,GI,=,52,%
+23,136944190,57402821,Unspecified,,,,GI,=,7,%
+24,136944191,57402822,Unspecified,,,,GI,=,33,%
+25,136944192,57402823,Unspecified,,,,GI,=,13,%

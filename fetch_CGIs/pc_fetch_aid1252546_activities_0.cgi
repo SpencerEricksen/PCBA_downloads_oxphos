@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE PCT-Data PUBLIC "-//NCBI//NCBI PCTools/EN" "http://pubchem.ncbi.nlm.nih.gov/pug/pug.dtd">
+<PCT-Data>
+  <PCT-Data_input>
+    <PCT-InputData>
+      <PCT-InputData_download>
+        <PCT-Download>
+          <PCT-Download_uids>
+            <PCT-QueryUids>
+              <PCT-QueryUids_ids>
+                <PCT-ID-List>
+                  <PCT-ID-List_db>pccompound</PCT-ID-List_db>
+                  <PCT-ID-List_uids>
+                    <PCT-ID-List_uids_E>31703</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122193081</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122193082</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122193083</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122193084</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122193085</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122193086</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122193087</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122193088</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122193089</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194578</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194579</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194580</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194581</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194582</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194583</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194584</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194585</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194586</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194587</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194588</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194589</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194590</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194591</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194592</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194593</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194594</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194595</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194596</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194597</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194598</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194599</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194600</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194601</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>122194602</PCT-ID-List_uids_E>
+                  </PCT-ID-List_uids>
+                </PCT-ID-List>
+              </PCT-QueryUids_ids>
+            </PCT-QueryUids>
+          </PCT-Download_uids>
+          <PCT-Download_format value="smiles"/>
+          <PCT-Download_compression value="gzip"/>
+          <PCT-Download_use-3d value="false"/>
+        </PCT-Download>
+      </PCT-InputData_download>
+    </PCT-InputData>
+  </PCT-Data_input>
+</PCT-Data>

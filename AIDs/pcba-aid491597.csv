@@ -1,0 +1,35 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,TRUE,,,,,
+1,103170100,2733526,Active,,,,8.9,IC50,=,8900,nM,
+2,103768580,49799020,Active,,,,10,IC50,=,10000,nM,
+3,103768645,49799056,Active,,,,10,IC50,=,10000,nM,
+4,103768646,49799057,Active,,,,20,IC50,=,20000,nM,
+5,103768929,49799196,Inactive,,,Potential missing data,,IC50,,,,Not Active
+6,103768930,49799197,Inactive,,,Potential missing data,,IC50,,,,Not Active
+7,103768931,49799198,Active,,,,30,IC50,=,30000,nM,
+8,103768932,49799199,Active,,,,28,IC50,=,28000,nM,
+9,103768933,49799200,Inactive,,,Potential missing data,,IC50,,,,Not Active
+10,103768934,49799201,Active,,,,26,IC50,=,26000,nM,
+11,103768935,49799202,Active,,,,30,IC50,=,30000,nM,
+12,103768936,49799203,Active,,,,30,IC50,=,30000,nM,
+13,103768937,46898060,Active,,,,15,IC50,=,15000,nM,
+14,103768938,49799204,Active,,,,28,IC50,=,28000,nM,
+15,103769129,49799320,Active,,,,10,IC50,=,10000,nM,
+16,103769130,46898059,Active,,,,20,IC50,=,20000,nM,
+17,103769131,49799321,Inactive,,,Potential missing data,,IC50,,,,Not Active
+18,103769132,49799322,Active,,,,10,IC50,=,10000,nM,
+19,103769182,49799353,Inactive,,,Potential missing data,,IC50,,,,Not Active
+20,103769183,49799354,Inactive,,,Potential missing data,,IC50,,,,Not Active
+21,103769184,49799355,Active,,,,30,IC50,=,30000,nM,
+22,103769185,49799356,Active,,,,31.5,IC50,=,31500,nM,
+23,103769306,49799423,Active,,,,30,IC50,=,30000,nM,
+24,103769307,49799424,Active,,,,30,IC50,=,30000,nM,
+25,103769308,49799425,Inactive,,,Potential missing data,,IC50,,,,Not Active
+26,103769508,49799529,Active,,,,10,IC50,=,10000,nM,
+27,103769509,49799530,Active,,,,15,IC50,=,15000,nM,
+28,103769576,49799575,Active,,,,20,IC50,=,20000,nM,
+29,103769577,49799576,Active,,,,20,IC50,=,20000,nM,
+30,103769578,49799577,Active,,,,20,IC50,=,20000,nM,
