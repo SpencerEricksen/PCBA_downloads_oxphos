@@ -49,7 +49,18 @@ sed -i '2,${/PUBCHEM_CID/d;}' all_oxphos_aids_cids.csv
 ./rdkit_add_fingerprints.py
 
 
+#########
+NOTES:
 
+was missing smiles for AID 1465 (by far the largest data set with >200k cpds). I ran the pc_fetch wrapper from command line in steps and waited for request to finish. used a sleep of 40 seconds before starting download and perhaps that isn't long enough. Probably better to grep some flag out of the poll query to test condition for wget to rpoceed with download. I poll this query and waited until it was finished before downloading.
+
+Also missing smiles for AIDs:
+
+504801 --> RNAi (494 SIDs)
+651810 --> siRNA (18,119 SIDs)
+651811 --> siRNA (64,752 SIDs)
+
+but these are not small molecules so we'll skip these
 
 
 ##########################################
