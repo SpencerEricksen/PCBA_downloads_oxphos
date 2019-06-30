@@ -1,11 +1,3 @@
-# trying to make new 0cmds file after accidnetly deleting it
- ./0A_write_cgi_v1.1.py CID_lists/pcba-aid1055298.cid
- ./0_submitquery_PUG_v4.2.sh pc_fetch_aid1055298_0.cgi
-
-for c in CID_lists/pcba-aid*.cid; do ./0A_write_cgi_v1.2.py $c; echo $c; done
-mkdir fetch_CGIs
-mv pc_fetch_*.cgi fetch_CGIs/.
-cd fetch_CGIs/
 
 # get list of ASSAY AIDs to download
 
@@ -15,31 +7,10 @@ cat x y > z
 cat z | cut -f2 -d"-" | cut -f1 -d"." | cut -c4- > zz
  
 
-# had some issues with assays having greater than 10000 cpd records, this was fixed in v1.2
-
-head -7 number_compounds_tested.txt | awk '{print $2}' > assay_list_+10000.list
-nohup ./get_bioassay_data_v1.2.py assay_list_+10000.list > get_bioassay_oxphos_all_assays_+10000.log 2>&1 &
-
-# need to fix dump_cid_list.py to handle non-integer values in PUBCHEM_CID column
-
-for f in `cat assay_list_+10000.list`; do ff="pcba-aid"${f}".csv"; echo $f $ff; ./dump_cid_list.py $ff; done
-for f in *.smi.gz; do gunzip $f; done
-for i in {1..1000}; do lh; sleep 40; done
-
-# make new AID list for AIDs that have not been downloaded
-
-for f in *.csv; do nn=`echo $f | cut -c9- | cut -f1 -d"."`; echo $nn; done > assays_download_complete.list
-sort assays_download_complete.list > assays_download_complete_sorted.list
-sort assay_list.list > assay_list_total_sorted.list
-comm -3 assay_list_total_sorted.list2 assays_download_complete_sorted.list2 > assay_list_contd4.list
-
 #############################
 
-# download missing AIDs
-nohup ./get_bioassay_data_v1.3.py assay_list_contd.list > get_bioassay_oxphos_all_assays_contd4.log 2>&1 &
-
-# remove any garbage lines from previous get_bioassay_data versions
-for f in pcba-aid*.csv; do sed -i -e '/^Code:/d' -e '/^Message:/d' -e '/^Status:/d' $f; echo $f; done
+# download AID data tables for each AID (output files go to 'AIDs' folder
+nohup ./get_bioassay_data_v1.3.py assay_list.list > get_bioassay_oxphos_all_assays.log 2>&1 &
 
 # prepare CID CSVs (including columns PUBCHEM_ACTIVITY_OUTCOMES and PUBCHEM_ACTIVITY_SCORE)
 for aid in AIDs/pcba-aid*.csv; do ./dump_assay_cid_activity_csv.py ${aid}; done
@@ -50,11 +21,21 @@ for c in CID_lists/pcba-aid*_activities.csv; do ./0A_write_cgi_v1.3.py $c; echo 
 # fetch the smiles for each AID
 for f in pc_fetch_aid1[1234]*; do ./wrapper_fetch_v1.2.sh $f; done
 
-
-##############################
-
+# merge smiles and assay outcomes into individal files for each AID
+# add substructure 'match' result, ...
 for a in `cat assay_list.list`; do echo ${a}; ./rdkit_substructure_matcher_v1.6.py ${a}; done
 
+# merge all of these assay data tables:
+cat aid_*.csv > all_oxphos_aids_cids.csv
+sed -i '2,${/PUBCHEM_CID/d;}' all_oxphos_aids_cids.csv
+
+# process all_oxphos_aids.csv to add fingerprints (RDKit Morgan fingerprints of radius=3 and 2048 bits)
+./rdkit_add_fingerprints.py
+
+
+
+
+##  extras  ##############################
 
 # had to finish merging dataframes when terminal connection was disrupted, need list of unfinshed assays
 with open('z', 'r') as fh:
@@ -64,11 +45,10 @@ with open('zz', 'w') as dump:
     for i in newdata:
         print >> dump, i
 
+# remove any garbage lines from previous get_bioassay_data versions
+for f in pcba-aid*.csv; do sed -i -e '/^Code:/d' -e '/^Message:/d' -e '/^Status:/d' $f; echo $f; done
 
 
-# merge all of these merged data:
-cat aid_*.csv > all_oxphos_aids.csv
-sed -i '2,${/PUBCHEM_CID/d;}' all_oxphos_aids.csv 
 
 
 

@@ -1,0 +1,8 @@
+https://www.ncbi.nlm.nih.gov/pcassay/advanced
+
+
+# the following query returns 4645 assays--performed on May 22, 2019 at 13:51
+
+
+("electron transport chain"[Assay Description] OR "mitochondrial complex"[Assay Description] OR "mitochondrial respiratory chain"[Assay Description] OR "mitochondrial membrane potential"[Assay Description])
+
