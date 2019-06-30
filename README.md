@@ -21,6 +21,9 @@ https://www.ncbi.nlm.nih.gov/pcassay/advanced
 Scripts and Procedure for downloading cpd data for various assay IDs (AIDs) from PubChem
 #############################
 
+# make simple assay list:
+grep AID: pcassay_result.txt | awk '{print $2}' > assay_list.list
+
 # download AID data tables for each AID (output files go to 'AIDs' folder
 nohup ./get_bioassay_data_v1.3.py assay_list.list > get_bioassay_oxphos_all_assays.log 2>&1 &
 
