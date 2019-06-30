@@ -13,23 +13,27 @@ cat z | cut -f2 -d"-" | cut -f1 -d"." | cut -c4- > zz
 nohup ./get_bioassay_data_v1.3.py assay_list.list > get_bioassay_oxphos_all_assays.log 2>&1 &
 
 # prepare CID CSVs (including columns PUBCHEM_ACTIVITY_OUTCOMES and PUBCHEM_ACTIVITY_SCORE)
-for aid in AIDs/pcba-aid*.csv; do ./dump_assay_cid_activity_csv.py ${aid}; done
+#for aid in AIDs/pcba-aid*.csv; do ./dump_assay_cid_activity_csv.py ${aid}; done
 
-# prepare .xml files from CID lists for each AID, these will be used to fetch smiles for CIDs using PUG REST
+# prepare simple CID lists for each assay in AIDs folder, move thiese to CID_lists folder
+for a in AIDs/pcba-aid*.csv; do ./dump_cid_list_v1.1.py  ${a}; done
+
+# prepare .xml query files for PUG REST. These are built from CID lists for each AID.
+# These will be used to fetch smiles for all CIDs tested in each assay.
 for c in CID_lists/pcba-aid*_activities.csv; do ./0A_write_cgi_v1.3.py $c; echo $c; done
 
-# fetch the smiles for each AID
+# Use .xml query files to fetch via PUG REST the smiles for all tested cpds from each AID
 for f in pc_fetch_aid1[1234]*; do ./wrapper_fetch_v1.2.sh $f; done
 
-# merge smiles and assay outcomes into individal files for each AID
-# add substructure 'match' result, ...
+# merge downloaded smiles and downloaded assay outcomes into individal files for each AID
+# add substructure 'match' result and smiles for Bemis-Murcko scaffolds and generic Murcko scaffolds (all carbon)
 for a in `cat assay_list.list`; do echo ${a}; ./rdkit_substructure_matcher_v1.6.py ${a}; done
 
-# merge all of these assay data tables:
+# merge all of these merged assay outcomes/smiles tables:
 cat aid_*.csv > all_oxphos_aids_cids.csv
 sed -i '2,${/PUBCHEM_CID/d;}' all_oxphos_aids_cids.csv
 
-# process all_oxphos_aids.csv to add fingerprints (RDKit Morgan fingerprints of radius=3 and 2048 bits)
+# process all_oxphos_aids_cids.csv to add fingerprints (RDKit Morgan fingerprints of radius=3 and 2048 bits)
 ./rdkit_add_fingerprints.py
 
 
