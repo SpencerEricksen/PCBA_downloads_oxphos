@@ -1,0 +1,181 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 1190161,
+          "version": 2
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "1461960"
+            }
+          }
+        },
+        "name": "Transactivation of human PXR expressed in in human HepG2 cells co-expressing pGL3-CYP3A4-luciferase gene assessed as increase in CYP3A4 promoter activity at 10 uM after 24 hrs by luciferase reporter gene assay",
+        "description": [
+          "Title: IND-2, a pyrimido[1 inverted question mark,2 inverted question mark:1,5]pyrazolo[3,4-b]quinoline derivative, circumvents multi-drug resistance and causes apoptosis in colon cancer cells.",
+          "",
+          "Abstract: Naturally occurring condensed quinolines have anticancer properties. In efforts to find active analogues, we designed and synthesized eight polycyclic heterocycles with a pyrimido[1 inverted question mark,2 inverted question mark:1,5]pyrazolo[3,4-b]quinoline framework (IND series). The compounds were evaluated for activity against colon (HCT-116 and S1-MI-80), prostate (PC3 and DU-145), breast (MCF-7 and MDAMB-231), ovarian (ov2008 and A2780), and hepatocellular (HepG2) cancer cells and against non-cancerous Madin Darby canine kidney (MDCK), mouse embryonic fibroblast (NIH/3T3), and human embryonic kidney cells (HEK293). IND-2, a 4-chloro-2-methyl pyrimido[1 inverted question mark,2 inverted question mark:1,5]pyrazolo[3,4-b]quinoline, exhibited more than ten-fold selectivity and potent cytotoxic activity against colon cancer cells relative to the other cancer and non-cancer cells. With five additional colon cancer cell lines (HT-29, HCT-15, LS-180, LS-174, and LoVo), IND-2 had similar cytotoxicity and selectivity, and sub-micromolar concentrations caused changes in the morphology of HCT-116 and HCT-15 cells. IND-2 did not activate the transactivating function of the pregnane X receptor (PXR), indicating that it does not induce PXR-regulated ABCB1 or ABCG2 transporters. Indeed, IND-2 was not a substrate of ABCB1 or ABCG2, and it induced cytotoxicity in HEK293 cells overexpressing ABCB1 or ABCG2 to the same extent as in normal HEK293 cells. IND-2 was cytotoxic to resistant colon carcinoma S1-MI-80 cells, approximately three- and five-fold more than SN-38 and topotecan, respectively. In HCT-116 colon cancer cells, IND-2 produced concentration-dependent changes in mitochondrial membrane potential, leading to apoptosis, and sub-micromolar concentrations caused chromosomal DNA fragmentation. These findings suggest that, by increasing apoptosis, IND-2 has potential therapeutic efficacy for colorectal cancer."
+        ],
+        "comment": [
+          "Journal: Bioorg. Med. Chem.",
+          "Year: 2015",
+          "Volume: 23",
+          "Issue: 3",
+          "First Page: 602",
+          "Last Page: 611",
+          "DOI: 10.1016/j.bmc.2014.11.043",
+          "",
+          "Target ChEMBL ID: CHEMBL3401",
+          "ChEMBL Target Name: Pregnane X receptor",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct single protein target assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9606
+            },
+            "comment": "Homo sapiens"
+          },
+          {
+            "xref": {
+              "pmid": 25537531
+            },
+            "type": 1
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/1461960"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 6093860
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": 4
+          },
+          {
+            "tid": 2,
+            "name": "Activity Comment",
+            "description": [
+              "Additional comments"
+            ],
+            "type": 4
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Nuclear receptor subfamily 1 group I member 2",
+            "mol_id": 6093860,
+            "molecule_type": 1,
+            "organism": {
+              "genome": 0,
+              "origin": 0,
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9606
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Homo sapiens"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Pregnane X receptor",
+            "comment": [
+              "Protein Accession: O75469"
+            ]
+          }
+        ],
+        "project_category": 7,
+        "assay_group": [
+          "PMID: 25537531"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 136926966,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": 2,
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Activity"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 6
+          }
+        }
+      },
+      {
+        "sid": 312377863,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": 1,
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Activity"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 6
+          }
+        }
+      }
+    ]
+  }
+}

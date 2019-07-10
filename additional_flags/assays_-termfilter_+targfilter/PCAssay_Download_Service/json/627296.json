@@ -1,0 +1,152 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 627296,
+          "version": 2
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "776802"
+            }
+          }
+        },
+        "name": "Inhibition of mTOR in human T47D cells assessed as eIF2alpha hyperphosphorylation on Ser 51 at 1 to 10 uM after 30 mins by Western blotting",
+        "description": [
+          "Title: Mitochondrial respiration inhibitors suppress protein translation and hypoxic signaling via the hyperphosphorylation and inactivation of translation initiation factor eIF2 inverted question mark and elongation factor eEF2.",
+          "",
+          "Abstract: Over 20,000 lipid extracts of plants and marine organisms were evaluated in a human breast tumor T47D cell-based reporter assay for hypoxia-inducible factor-1 (HIF-1) inhibitory activity. Bioassay-guided isolation and dereplication-based structure elucidation of an active extract from the Bael tree (Aegle marmelos) afforded two protolimonoids, skimmiarepin A (1) and skimmiarepin C (2). In T47D cells, 1 and 2 inhibited hypoxia-induced HIF-1 activation with IC50 values of 0.063 and 0.068  inverted question markM, respectively. Compounds 1 and 2 also suppressed hypoxic induction of the HIF-1 target genes GLUT-1 and VEGF. Mechanistic studies revealed that 1 and 2 inhibited HIF-1 activation by blocking the hypoxia-induced accumulation of HIF-1 inverted question mark protein. At the range of concentrations that inhibited HIF-1 activation, 1 and 2 suppressed cellular respiration by selectively inhibiting the mitochondrial electron transport chain at complex I (NADH dehydrogenase). Further investigation indicated that mitochondrial respiration inhibitors such as 1 and rotenone induced the rapid hyperphosphorylation and inhibition of translation initiation factor eIF2 inverted question mark and elongation factor eEF2. The inhibition of protein translation may account for the short-term exposure effects exerted by mitochondrial inhibitors on cellular signaling, while the suppression of cellular ATP production may contribute to the inhibitory effects following extended treatment periods."
+        ],
+        "comment": [
+          "Journal: J. Nat. Prod.",
+          "Year: 2011",
+          "Volume: 74",
+          "Issue: 9",
+          "First Page: 1894",
+          "Last Page: 1901",
+          "DOI: 10.1021/np200370z",
+          "",
+          "Target ChEMBL ID: CHEMBL2842",
+          "ChEMBL Target Name: Serine/threonine-protein kinase mTOR",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct single protein target assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9606
+            },
+            "comment": "Homo sapiens"
+          },
+          {
+            "xref": {
+              "pmid": 21875114
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/776802"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 1169735
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 2,
+            "name": "Activity Comment",
+            "description": [
+              "Additional comments"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Serine/threonine-protein kinase mTOR",
+            "mol_id": 1169735,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9606
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Homo sapiens"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Serine/threonine-protein kinase mTOR",
+            "comment": [
+              "Protein Accession: P42345"
+            ]
+          }
+        ],
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 21875114"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 136924143,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Dose-dependent effect"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 19
+          }
+        }
+      }
+    ]
+  }
+}

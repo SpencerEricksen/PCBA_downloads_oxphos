@@ -1,0 +1,850 @@
+<?xml version="1.0"?>
+<PC-AssaySubmit
+    xmlns="http://www.ncbi.nlm.nih.gov"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:schemaLocation="http://www.ncbi.nlm.nih.gov ftp://ftp.ncbi.nlm.nih.gov/pubchem/specifications/pubchem.xsd"
+>
+  <PC-AssaySubmit_assay>
+    <PC-AssaySubmit_assay_descr>
+      <PC-AssayDescription>
+        <PC-AssayDescription_aid>
+          <PC-ID>
+            <PC-ID_id>1175473</PC-ID_id>
+            <PC-ID_version>2</PC-ID_version>
+          </PC-ID>
+        </PC-AssayDescription_aid>
+        <PC-AssayDescription_aid-source>
+          <PC-Source>
+            <PC-Source_db>
+              <PC-DBTracking>
+                <PC-DBTracking_name>ChEMBL</PC-DBTracking_name>
+                <PC-DBTracking_source-id>
+                  <Object-id>
+                    <Object-id_str>1443781</Object-id_str>
+                  </Object-id>
+                </PC-DBTracking_source-id>
+              </PC-DBTracking>
+            </PC-Source_db>
+          </PC-Source>
+        </PC-AssayDescription_aid-source>
+        <PC-AssayDescription_name>Displacement of colchicine from tubulin (unknown origin) at 5 to 25 uM after 60 mins by competitive binding assay</PC-AssayDescription_name>
+        <PC-AssayDescription_description>
+          <PC-AssayDescription_description_E>Title: Synthesis of 2-anilinopyridine dimers as microtubule targeting  and apoptosis inducing agents.</PC-AssayDescription_description_E>
+          <PC-AssayDescription_description_E></PC-AssayDescription_description_E>
+          <PC-AssayDescription_description_E>Abstract: A series of 2-anilinopyridine dimers have been synthesized and evaluated for their anticancer potential. Most of the compounds have showed significant growth inhibition of the cell lines tested and compound 4d was most effective amongst the series displaying a GI50 of 0.99  inverted question markM specifically against the prostate cancer cell line (DU145). Studies to understand the mechanism of action of 4d indicates that it disrupts microtubule dynamics by inhibiting tubulin polymerization thereby arresting the cell cycle in G2/M phase. Competitive colchicine binding assay suggests that 4d binds into colchicine binding site of the tubulin. Further from some detailed biological studies like mitochondrial membrane potential, caspase-3 assay, DNA fragmentation analysis and Annexin V-FITC assay it is evident that 4d induces apoptosis.Molecular modeling studies provide an insight into the binding modes of 4d with colchicine binding site of tubulin and the data obtained correlates with the antiproliferative activity.</PC-AssayDescription_description_E>
+        </PC-AssayDescription_description>
+        <PC-AssayDescription_comment>
+          <PC-AssayDescription_comment_E>Journal: Bioorg. Med. Chem.</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>Year: 2014</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>Volume: 22</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>Issue: 24</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>First Page: 6755</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>Last Page: 6767</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>DOI: 10.1016/j.bmc.2014.11.001</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E></PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>Target ChEMBL ID: CHEMBL2095182</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>ChEMBL Target Name: Tubulin</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>ChEMBL Target Type: PROTEIN COMPLEX GROUP - Target is a poorly defined protein complex, where subunit composition is unclear (e.g., GABA-A receptor)</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>Relationship Type: D - Direct protein target assigned</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>Confidence: Multiple direct protein targets may be assigned</PC-AssayDescription_comment_E>
+        </PC-AssayDescription_comment>
+        <PC-AssayDescription_xref>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_taxonomy>9606</PC-XRefData_taxonomy>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+            <PC-AnnotatedXRef_comment>Homo sapiens</PC-AnnotatedXRef_comment>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_pmid>25468039</PC-XRefData_pmid>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+            <PC-AnnotatedXRef_type value="pcit">1</PC-AnnotatedXRef_type>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_dburl>http://www.ebi.ac.uk/chembldb/</PC-XRefData_dburl>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_asurl>http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/1443781</PC-XRefData_asurl>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>224471855</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>182705285</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>93141323</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>74762137</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>74761283</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>68776070</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>62903515</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>56757569</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>55977864</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>55977480</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>55977476</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>55977474</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>20455526</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>20455322</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>20455316</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+        </PC-AssayDescription_xref>
+        <PC-AssayDescription_results>
+          <PC-ResultType>
+            <PC-ResultType_tid>1</PC-ResultType_tid>
+            <PC-ResultType_name>Standard Type</PC-ResultType_name>
+            <PC-ResultType_description>
+              <PC-ResultType_description_E>Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)</PC-ResultType_description_E>
+            </PC-ResultType_description>
+            <PC-ResultType_type value="string">4</PC-ResultType_type>
+          </PC-ResultType>
+          <PC-ResultType>
+            <PC-ResultType_tid>2</PC-ResultType_tid>
+            <PC-ResultType_name>Activity Comment</PC-ResultType_name>
+            <PC-ResultType_description>
+              <PC-ResultType_description_E>Additional comments</PC-ResultType_description_E>
+            </PC-ResultType_description>
+            <PC-ResultType_type value="string">4</PC-ResultType_type>
+          </PC-ResultType>
+        </PC-AssayDescription_results>
+        <PC-AssayDescription_revision>1</PC-AssayDescription_revision>
+        <PC-AssayDescription_target>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>Tubulin alpha-3E chain</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>224471855</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9606</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>Tubulin</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: Q6PEY2</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>Tubulin beta-8 chain</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>182705285</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9606</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>Tubulin</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: Q3ZCM7</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>Tubulin beta-4A chain</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>93141323</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9606</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>Tubulin</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: P04350</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>Tubulin beta-2A chain</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>74762137</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9606</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>Tubulin</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: Q13885</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>Tubulin beta-2B chain</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>74761283</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9606</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>Tubulin</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: Q9BVA1</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>Tubulin beta-6 chain</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>68776070</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9606</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>Tubulin</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: Q9BUF5</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>Tubulin beta-1 chain</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>62903515</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9606</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>Tubulin</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: Q9H4B7</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>Tubulin beta chain</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>56757569</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9606</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>Tubulin</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: P07437</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>Tubulin alpha-1A chain</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>55977864</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9606</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>Tubulin</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: Q71U36</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>Tubulin beta-4B chain</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>55977480</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9606</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>Tubulin</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: P68371</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>Tubulin alpha-4A chain</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>55977476</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9606</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>Tubulin</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: P68366</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>Tubulin alpha-1B chain</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>55977474</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9606</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>Tubulin</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: P68363</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>Tubulin beta-3 chain</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>20455526</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9606</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>Tubulin</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: Q13509</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>Tubulin alpha-1C chain</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>20455322</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9606</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>Tubulin</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: Q9BQE3</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>Tubulin alpha-3C/D chain</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>20455316</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9606</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>Tubulin</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: Q13748</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+        </PC-AssayDescription_target>
+        <PC-AssayDescription_project-category value="literature-extracted">7</PC-AssayDescription_project-category>
+        <PC-AssayDescription_assay-group>
+          <PC-AssayDescription_assay-group_E>PMID: 25468039</PC-AssayDescription_assay-group_E>
+        </PC-AssayDescription_assay-group>
+      </PC-AssayDescription>
+    </PC-AssaySubmit_assay_descr>
+  </PC-AssaySubmit_assay>
+  <PC-AssaySubmit_data>
+    <PC-AssayResults>
+      <PC-AssayResults_sid>103186118</PC-AssayResults_sid>
+      <PC-AssayResults_version>1</PC-AssayResults_version>
+      <PC-AssayResults_comment>Potential missing data</PC-AssayResults_comment>
+      <PC-AssayResults_outcome value="active">2</PC-AssayResults_outcome>
+      <PC-AssayResults_data>
+        <PC-AssayData>
+          <PC-AssayData_tid>1</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>Inhibition</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>2</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>Active</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+      </PC-AssayResults_data>
+      <PC-AssayResults_date>
+        <Date>
+          <Date_std>
+            <Date-std>
+              <Date-std_year>2018</Date-std_year>
+              <Date-std_month>10</Date-std_month>
+              <Date-std_day>5</Date-std_day>
+            </Date-std>
+          </Date_std>
+        </Date>
+      </PC-AssayResults_date>
+    </PC-AssayResults>
+    <PC-AssayResults>
+      <PC-AssayResults_sid>312373883</PC-AssayResults_sid>
+      <PC-AssayResults_version>1</PC-AssayResults_version>
+      <PC-AssayResults_comment>Potential missing data</PC-AssayResults_comment>
+      <PC-AssayResults_outcome value="active">2</PC-AssayResults_outcome>
+      <PC-AssayResults_data>
+        <PC-AssayData>
+          <PC-AssayData_tid>1</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>Inhibition</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>2</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>Active</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+      </PC-AssayResults_data>
+      <PC-AssayResults_date>
+        <Date>
+          <Date_std>
+            <Date-std>
+              <Date-std_year>2018</Date-std_year>
+              <Date-std_month>10</Date-std_month>
+              <Date-std_day>5</Date-std_day>
+            </Date-std>
+          </Date_std>
+        </Date>
+      </PC-AssayResults_date>
+    </PC-AssayResults>
+  </PC-AssaySubmit_data>
+</PC-AssaySubmit>

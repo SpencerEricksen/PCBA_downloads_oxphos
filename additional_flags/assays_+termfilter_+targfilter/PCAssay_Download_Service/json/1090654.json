@@ -1,0 +1,443 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 1090654,
+          "version": 2
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "906956"
+            }
+          }
+        },
+        "name": "Inhibition of Ca2+ ATPase activity of coupling factor 1 in chloroplasts of Spinacia oleracea (spinach) leaves at 150 uM",
+        "description": [
+          "Title: Inhibition of photophosphorylation and electron transport chain in thylakoids by lasiodiplodin, a natural product from Botryosphaeria rhodina.",
+          "",
+          "Abstract: Four natural products were isolated from the fungus Botryosphaeria rhodina, and their effects on photosynthesis were tested. Only lasiodiplodin (1) inhibited ATP synthesis and electron flow from water to methylviologen; therefore, it acts as a Hill reaction inhibitor in freshly lysed spinach thylakoids. Photosystem I and II and partial reactions as well as ATPase were measured in the presence of 1. Three new different sites of 1 interaction and inhibition were found: one at CF1, the second in the water-splitting enzyme, and the third at the electron-transfer path between P680 and QA; these targets are different from that of the synthetic herbicides present. Electron transport chain inhibition by 1 was corroborated by fluorescence induction kinetics studies."
+        ],
+        "comment": [
+          "Journal: J Agric Food Chem",
+          "Year: 2007",
+          "Volume: 55",
+          "Issue: 10",
+          "First Page: 4217",
+          "Last Page: 4221",
+          "DOI: 10.1021/jf070082b",
+          "",
+          "Target ChEMBL ID: CHEMBL2366567",
+          "ChEMBL Target Name: Chloroplast coupling factor 1",
+          "ChEMBL Target Type: PROTEIN COMPLEX - Target is a defined protein complex, consisting of multiple subunits",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct protein complex subunits assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 3562
+            },
+            "comment": "Spinacia oleracea"
+          },
+          {
+            "xref": {
+              "pmid": 17432876
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/906956"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 60391825
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 1703723
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 461595
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 114660
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 114643
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 114627
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 114606
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 114584
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 114527
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 2,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 3,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": "float"
+          },
+          {
+            "tid": 4,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "ATP synthase subunit c, chloroplastic",
+            "mol_id": 60391825,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 3562
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Spinacia oleracea"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Chloroplast coupling factor 1",
+            "comment": [
+              "Protein Accession: P69447"
+            ]
+          },
+          {
+            "name": "ATP synthase subunit beta, chloroplastic",
+            "mol_id": 1703723,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 3562
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Spinacia oleracea"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Chloroplast coupling factor 1",
+            "comment": [
+              "Protein Accession: P00825"
+            ]
+          },
+          {
+            "name": "ATP synthase subunit b', chloroplastic",
+            "mol_id": 461595,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 3562
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Spinacia oleracea"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Chloroplast coupling factor 1",
+            "comment": [
+              "Protein Accession: P31853"
+            ]
+          },
+          {
+            "name": "ATP synthase subunit a, chloroplastic",
+            "mol_id": 114660,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 3562
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Spinacia oleracea"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Chloroplast coupling factor 1",
+            "comment": [
+              "Protein Accession: P06451"
+            ]
+          },
+          {
+            "name": "ATP synthase gamma chain, chloroplastic",
+            "mol_id": 114643,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 3562
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Spinacia oleracea"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Chloroplast coupling factor 1",
+            "comment": [
+              "Protein Accession: P05435"
+            ]
+          },
+          {
+            "name": "ATP synthase subunit b, chloroplastic",
+            "mol_id": 114627,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 3562
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Spinacia oleracea"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Chloroplast coupling factor 1",
+            "comment": [
+              "Protein Accession: P06453"
+            ]
+          },
+          {
+            "name": "ATP synthase epsilon chain, chloroplastic",
+            "mol_id": 114606,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 3562
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Spinacia oleracea"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Chloroplast coupling factor 1",
+            "comment": [
+              "Protein Accession: P00833"
+            ]
+          },
+          {
+            "name": "ATP synthase delta chain, chloroplastic",
+            "mol_id": 114584,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 3562
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Spinacia oleracea"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Chloroplast coupling factor 1",
+            "comment": [
+              "Protein Accession: P11402"
+            ]
+          },
+          {
+            "name": "ATP synthase subunit alpha, chloroplastic",
+            "mol_id": 114527,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 3562
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Spinacia oleracea"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Chloroplast coupling factor 1",
+            "comment": [
+              "Protein Accession: P06450"
+            ]
+          }
+        ],
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 17432876"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 103544908,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 84.1
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 24
+          }
+        }
+      }
+    ]
+  }
+}

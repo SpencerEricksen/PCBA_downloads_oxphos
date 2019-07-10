@@ -1,0 +1,449 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 1170952,
+          "version": 2
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "1442576"
+            }
+          }
+        },
+        "name": "Inhibition of JNK1 (unknown origin) up to 10 uM after 1 hr by homogeneous time-resolved fluorescence assay",
+        "description": [
+          "Title: Design and synthesis of highly potent and isoform selective JNK3 inhibitors: SAR studies on aminopyrazole derivatives.",
+          "",
+          "Abstract: The c-jun N-terminal kinase 3 (JNK3) is expressed primarily in the brain. Numerous reports have shown that inhibition of JNK3 is a promising strategy for treatment of neurodegeneration. The optimization of aminopyrazole-based JNK3 inhibitors with improved potency, isoform selectivity, and pharmacological properties by structure-activity relationship (SAR) studies utilizing biochemical and cell-based assays, and structure-based drug design is reported. These inhibitors had high selectivity over JNK1 and p38A inverted question mark, minimal cytotoxicity, potent inhibition of 6-OHDA-induced mitochondrial membrane potential dissipation and ROS generation, and good drug metabolism and pharmacokinetic (DMPK) properties for iv dosing. 26n was profiled against 464 kinases and was found to be highly selective hitting only seven kinases with >80% inhibition at 10 A inverted question markM. Moreover, 26n showed good solubility, good brain penetration, and good DMPK properties. Finally, the crystal structure of 26k in complex with JNK3 was solved at 1.8 A? to explore the binding mode of aminopyrazole based JNK3 inhibitors."
+        ],
+        "comment": [
+          "Journal: J. Med. Chem.",
+          "Year: 2014",
+          "Volume: 57",
+          "Issue: 23",
+          "First Page: 10013",
+          "Last Page: 10030",
+          "DOI: 10.1021/jm501256y",
+          "",
+          "Target ChEMBL ID: CHEMBL2276",
+          "ChEMBL Target Name: c-Jun N-terminal kinase 1",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct single protein target assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9606
+            },
+            "comment": "Homo sapiens"
+          },
+          {
+            "xref": {
+              "pmid": 25393557
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/1442576"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 2507195
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 2,
+            "name": "Activity Comment",
+            "description": [
+              "Additional comments"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Mitogen-activated protein kinase 8",
+            "mol_id": 2507195,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9606
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Homo sapiens"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "c-Jun N-terminal kinase 1",
+            "comment": [
+              "Protein Accession: P45983"
+            ]
+          }
+        ],
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 25393557"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 312368878,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 5
+          }
+        }
+      },
+      {
+        "sid": 312368881,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 5
+          }
+        }
+      },
+      {
+        "sid": 312368882,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 5
+          }
+        }
+      },
+      {
+        "sid": 312368886,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 5
+          }
+        }
+      },
+      {
+        "sid": 312368887,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 5
+          }
+        }
+      },
+      {
+        "sid": 312368888,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 5
+          }
+        }
+      },
+      {
+        "sid": 312368889,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 5
+          }
+        }
+      },
+      {
+        "sid": 312368891,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 5
+          }
+        }
+      },
+      {
+        "sid": 312368897,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 5
+          }
+        }
+      },
+      {
+        "sid": 312368898,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 5
+          }
+        }
+      },
+      {
+        "sid": 312368916,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 5
+          }
+        }
+      },
+      {
+        "sid": 312368917,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 5
+          }
+        }
+      }
+    ]
+  }
+}

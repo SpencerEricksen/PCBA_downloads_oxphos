@@ -1,0 +1,483 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 1102003,
+          "version": 4
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "918166"
+            }
+          }
+        },
+        "name": "Inhibition of Bos taurus (bovine) mitochondrial complex 3 electron transfer activity measured per mg of protein",
+        "description": [
+          "Title: Hybrid ubiquinone: novel inhibitor of mitochondrial complex I.",
+          "",
+          "Abstract: We synthesized novel ubiquinone analogs by hybridizing the natural ubiquinone ring (2,3-dimethoxy-5-methyl-1,4-benzoquinone) and hydrophobic phenoxybenzamide unit, and named them hybrid ubiquinones (HUs). The HUs worked as electron transfer substrates with bovine heart mitochondrial succinate-ubiquinone oxidoreductase (complex II) and ubiquinol-cytochrome c oxidoreductase (complex III), but not with NADH-ubiquinone oxidoreductase (complex I). With complex I, they acted as inhibitors in a noncompetitive manner against exogenous short-chain ubiquinones irrespective of the presence of the natural ubiquinone ring. Elongation of the distance between the ubiquinone ring and the phenoxybenzamide unit did not recover the electron accepting activity. The structure/activity study showed that high structural specificity of the phenoxybenzamide moiety is required to act as a potent inhibitor of complex I. These findings indicate that binding of the HUs to complex I is mainly decided by some specific interaction of the phenoxybenzamide moiety with the enzyme. It is of interest that an analogous bulky and hydrophobic substructure can be commonly found in recently registered synthetic pesticides the action site of which is mitochondrial complex I."
+        ],
+        "comment": [
+          "Journal: Biochim. Biophys. Acta",
+          "Year: 2002",
+          "Volume: 1556",
+          "Issue: 2",
+          "First Page: 106",
+          "Last Page: 112",
+          "DOI: 10.1016/s0005-2728(02)00341-9",
+          "",
+          "Target ChEMBL ID: CHEMBL4498",
+          "ChEMBL Target Name: NADH-ubiquinone oxidoreductase chain 3",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct single protein target assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9913
+            },
+            "comment": "Bos taurus"
+          },
+          {
+            "xref": {
+              "pmid": 12460667
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/918166"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 128703
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 2,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 3,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": "float"
+          },
+          {
+            "tid": 4,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "NADH-ubiquinone oxidoreductase chain 3",
+            "mol_id": 128703,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9913
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Bos taurus"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "NADH-ubiquinone oxidoreductase chain 3",
+            "comment": [
+              "Protein Accession: P03898"
+            ]
+          }
+        ],
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 12460667"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 194136454,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 0.91
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "micromol/min"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194136455,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 0.64
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "micromol/min"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194143344,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 0.5
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "micromol/min"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194150123,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 26
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194157166,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 5.2
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "micromol/min"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194164084,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 1
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "micromol/min"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194164085,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 19
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194177804,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "<"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 5
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194184619,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 1.1
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "micromol/min"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      }
+    ]
+  }
+}

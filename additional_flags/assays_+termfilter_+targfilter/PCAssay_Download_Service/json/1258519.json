@@ -1,0 +1,296 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 1258519,
+          "version": 2
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "1528863"
+            }
+          }
+        },
+        "name": "Inhibition Assay: Beef heart mitochondria were obtained by a large-scale procedure. Inverted submitochondrial particles (SMP) were prepared by the method of Matsuno-Yagi and Hatefi (J. Biol. Chem. 260 (1985), p. 14424), and stored in a buffer containing 0.25 M sucrose and 10 mM Tris-HCl (pH 7.4) at  inverted question mark80 degrees  C. Inhibitory effects of compounds on bovine heart mitochondrial complex (I, III, IV) were evaluated. Maximal dimethyl sulfoxide concentration never exceeded 2% and had no influence on the control enzymatic activity. Beef heart SMP were diluted to 0.5 mg/mL. The enzymatic activities were assayed at 30 degrees  C. and monitored spectrophotometrically with a Beckman Coulter DU-530 (340 nm, c=6.22 mM inverted question mark1 cm inverted question mark1). NADH oxidase activity was determined in a reaction medium (2.5 mL) containing 50 mM Hepes, pH 7.5, containing 5 mM MgCl2. The final mitochondrial protein concentration was 30  inverted question markg.",
+        "description": [
+          "Inhibition Assay: Beef heart mitochondria were obtained by a large-scale procedure. Inverted submitochondrial particles (SMP) were prepared by the method of Matsuno-Yagi and Hatefi (J. Biol. Chem. 260 (1985), p. 14424), and stored in a buffer containing 0.25 M sucrose and 10 mM Tris-HCl (pH 7.4) at  inverted question mark80 degrees  C. Inhibitory effects of compounds on bovine heart mitochondrial complex (I, III, IV) were evaluated. Maximal dimethyl sulfoxide concentration never exceeded 2% and had no influence on the control enzymatic activity. Beef heart SMP were diluted to 0.5 mg/mL. The enzymatic activities were assayed at 30 degrees  C. and monitored spectrophotometrically with a Beckman Coulter DU-530 (340 nm, c=6.22 mM inverted question mark1 cm inverted question mark1). NADH oxidase activity was determined in a reaction medium (2.5 mL) containing 50 mM Hepes, pH 7.5, containing 5 mM MgCl2. The final mitochondrial protein concentration was 30  inverted question markg."
+        ],
+        "comment": [
+          "Compounds with activity <= 50uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+          "",
+          "Target ChEMBL ID: CHEMBL4497",
+          "ChEMBL Target Name: NADH-ubiquinone oxidoreductase chain 1",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct single protein target assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9913
+            },
+            "comment": "Bos taurus"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/1528863"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 128632
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "PubChem Standard Value",
+            "description": [
+              "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+            ],
+            "type": "float",
+            "unit": "um",
+            "ac": true
+          },
+          {
+            "tid": 2,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 3,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 4,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": "float"
+          },
+          {
+            "tid": 5,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 6,
+            "name": "Activity Comment",
+            "description": [
+              "Additional comments"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "NADH-ubiquinone oxidoreductase chain 1",
+            "mol_id": 128632,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9913
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Bos taurus"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "NADH-ubiquinone oxidoreductase chain 1",
+            "comment": [
+              "Protein Accession: P03887"
+            ]
+          }
+        ],
+        "activity_outcome_method": "confirmatory",
+        "project_category": "other",
+        "assay_group": [
+          "DOCID: 94688"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 163321223,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 2.23
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 2230
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "281019"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 9
+          }
+        }
+      },
+      {
+        "sid": 174486667,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.829
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 829
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "281018"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 9
+          }
+        }
+      },
+      {
+        "sid": 318406010,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 10.7
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 10700
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "281020"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 9
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 321547,
+          "version": 9
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "469573"
+            }
+          }
+        },
+        "name": "Activity of VMAT in bovine chromaffin granule ghosts assessed as drug uptake",
+        "description": [
+          "Title: Vesicular monoamine transporter substrate/inhibitor activity of MPTP/MPP+ derivatives: a structure-activity study.",
+          "",
+          "Abstract: The active metabolite of 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP), N-methyl-4-phenylpyridinium (MPP(+)), selectively destroys the dopaminergic neurons and induces the symptoms of Parkinson's disease. Inhibition of mitochondrial complex I and/or the perturbation of dopamine metabolism through cellular and granular accumulation have been proposed as some of the major causes of neurotoxicity. In the present study we have synthesized and characterized a number of MPTP and MPP(+) derivatives that are suitable for the comparative neurotoxicity and complex I inhibition versus dopamine metabolism perturbation studies. Structure-activity studies with bovine chromaffin granule ghosts show that 3'-hydroxy-MPP(+) is one of the best known substrates for the vesicular monoamine transporter (VMAT). A series of compounds that combine the structural features of MPP(+) and a previously characterized VMAT inhibitor, 3-amino-2-phenyl-propene, have been identified as the most effective VMAT inhibitors. These derivatives have been used to define the structural requirements of the VMAT substrate and inhibitor activities."
+        ],
+        "comment": [
+          "Compounds with activity <= 50uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+          "",
+          "Journal: J. Med. Chem.",
+          "Year: 2008",
+          "Volume: 51",
+          "Issue: 4",
+          "First Page: 760",
+          "Last Page: 768",
+          "DOI: 10.1021/jm070875p",
+          "",
+          "Target ChEMBL ID: CHEMBL4271",
+          "ChEMBL Target Name: Synaptic vesicular amine transporter",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct single protein target assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9913
+            },
+            "comment": "Bos taurus"
+          },
+          {
+            "xref": {
+              "pmid": 18220329
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/469573"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 2499124
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "PubChem Standard Value",
+            "description": [
+              "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+            ],
+            "type": "float",
+            "unit": "um",
+            "ac": true
+          },
+          {
+            "tid": 2,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 3,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 4,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": "float"
+          },
+          {
+            "tid": 5,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Synaptic vesicular amine transporter",
+            "mol_id": 2499124,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9913
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Bos taurus"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Synaptic vesicular amine transporter",
+            "comment": [
+              "Protein Accession: Q27963"
+            ]
+          }
+        ],
+        "activity_outcome_method": "confirmatory",
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 18220329"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 103422860,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 1.7
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nmol/mg.min"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 23
+          }
+        }
+      },
+      {
+        "sid": 103578422,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 0.9
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nmol/mg.min"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 23
+          }
+        }
+      },
+      {
+        "sid": 103578502,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 1.6
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nmol/mg.min"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 23
+          }
+        }
+      },
+      {
+        "sid": 103578544,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 1.9
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nmol/mg.min"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 23
+          }
+        }
+      },
+      {
+        "sid": 103578545,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 1.6
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nmol/mg.min"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 23
+          }
+        }
+      },
+      {
+        "sid": 103578586,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 1.4
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nmol/mg.min"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 23
+          }
+        }
+      }
+    ]
+  }
+}

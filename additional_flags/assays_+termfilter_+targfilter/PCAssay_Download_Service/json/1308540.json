@@ -1,0 +1,407 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 1308540,
+          "version": 1
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "1584262"
+            }
+          }
+        },
+        "name": "Inhibition of porcine brain tubulin polymerization measured every 60 secs for 90 mins by DAPI staining-based fluorescence assay",
+        "description": [
+          "Title: Synthesis, Evaluation, and Mechanism Study of Novel Indole-Chalcone Derivatives Exerting Effective Antitumor Activity Through Microtubule Destabilization in Vitro and in Vivo.",
+          "",
+          "Abstract: Twenty-nine novel indole-chalcone derivatives were synthesized and evaluated for antiproliferative activity. Among them, 14k exhibited most potent activity, with IC50 values of 3-9 nM against six cancer cells, which displayed a 3.8-8.7-fold increase in activity when compare with compound 2. Further investigation revealed 14k was a novel tubulin polymerization inhibitor binding to the colchicine site. Its low cytotoxicity toward normal human cells and nearly equally potent activity against drug-resistant cells revealed the possibility for cancer therapy. Cellular mechanism studies elucidated 14k arrests cell cycle at G2/M phase and induces apoptosis along with the decrease of mitochondrial membrane potential. Furthermore, good metabolic stability of 14k was observed in mouse liver microsomes. Importantly, 14k and its phosphate salt 14k-P inhibited tumor growth in xenograft models in vivo without apparent toxicity, which was better than the reference compound CA-4P and 2. In summary, 14k deserves consideration for cancer therapy."
+        ],
+        "comment": [
+          "Compounds with activity <= 50uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+          "",
+          "Journal: J. Med. Chem.",
+          "Year: 2016",
+          "Volume: 59",
+          "Issue: 11",
+          "First Page: 5264",
+          "Last Page: 5283",
+          "DOI: 10.1021/acs.jmedchem.6b00021",
+          "",
+          "Target ChEMBL ID: CHEMBL2111354",
+          "ChEMBL Target Name: Tubulin",
+          "ChEMBL Target Type: PROTEIN FAMILY - Target is a group of closely related proteins",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Multiple direct protein targets may be assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9823
+            },
+            "comment": "Sus scrofa"
+          },
+          {
+            "xref": {
+              "pmid": 27149641
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/1584262"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 135490
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 135435
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "PubChem Standard Value",
+            "description": [
+              "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+            ],
+            "type": "float",
+            "unit": "um",
+            "ac": true
+          },
+          {
+            "tid": 2,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 3,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 4,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": "float"
+          },
+          {
+            "tid": 5,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Tubulin beta chain",
+            "mol_id": 135490,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9823
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Sus scrofa"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Tubulin",
+            "comment": [
+              "Protein Accession: P02554"
+            ]
+          },
+          {
+            "name": "Tubulin alpha-1A chain",
+            "mol_id": 135435,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9823
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Sus scrofa"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Tubulin",
+            "comment": [
+              "Protein Accession: P02550"
+            ]
+          }
+        ],
+        "activity_outcome_method": "confirmatory",
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 27149641"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 336906126,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 3.59
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 3590
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 6
+          }
+        }
+      },
+      {
+        "sid": 336907406,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 5.06
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 5060
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 6
+          }
+        }
+      },
+      {
+        "sid": 336907409,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 3.48
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 3480
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 6
+          }
+        }
+      },
+      {
+        "sid": 336907410,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 2.68
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 2680
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 6
+          }
+        }
+      },
+      {
+        "sid": 336907416,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 4.39
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 4390
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 6
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<PC-AssayDescription
+    xmlns="http://www.ncbi.nlm.nih.gov"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:schemaLocation="http://www.ncbi.nlm.nih.gov ftp://ftp.ncbi.nlm.nih.gov/pubchem/specifications/pubchem.xsd"
+>
+  <PC-AssayDescription_aid>
+    <PC-ID>
+      <PC-ID_id>1235424</PC-ID_id>
+      <PC-ID_version>2</PC-ID_version>
+    </PC-ID>
+  </PC-AssayDescription_aid>
+  <PC-AssayDescription_aid-source>
+    <PC-Source>
+      <PC-Source_db>
+        <PC-DBTracking>
+          <PC-DBTracking_name>ChEMBL</PC-DBTracking_name>
+          <PC-DBTracking_source-id>
+            <Object-id>
+              <Object-id_str>1505047</Object-id_str>
+            </Object-id>
+          </PC-DBTracking_source-id>
+        </PC-DBTracking>
+      </PC-Source_db>
+    </PC-Source>
+  </PC-AssayDescription_aid-source>
+  <PC-AssayDescription_name>Inhibition of mTOR phosphorylation at S2448 in human MIAPaCa2 cells at 5 to 10 uM after 2 hrs by Western blot analysis relative to control</PC-AssayDescription_name>
+  <PC-AssayDescription_description>
+    <PC-AssayDescription_description_E>Title: 4-(N-Phenyl-N&apos;-substituted benzenesulfonyl)-6-(4-hydroxyphenyl)quinolines as inhibitors of mammalian target of rapamycin.</PC-AssayDescription_description_E>
+    <PC-AssayDescription_description_E></PC-AssayDescription_description_E>
+    <PC-AssayDescription_description_E>Abstract: A series of 4-(N-phenyl-N&apos;-substituted benzenesulfonyl)-6-(4-hydroxyphenyl)quinolines was designed, synthesized and evaluated for their biological potential as anticancer agents by screening the molecules against panel of five human cancer cell lines viz. HL-60, MiaPaCa-2, HCT116, PC-3 and HEP-G2. The series has shown good mTOR inhibitory activity at 0.5  inverted question markM concentration. The representative compound 7h was found to be most active with the IC50 of 613 nM against mTOR. In supportive evidence, the western blotting experiment revealed that compound 7h is more potent in inhibiting p-mTOR (S2448) activity in 2-4h at 5 and 10  inverted question markM concentrations and was selective and specific towards mTORC1 versus mTORC2. Towards understanding the mechanistic aspects we studied cell cycle analysis, mitochondrial membrane potential loss in MiaPaca-2 cells for compound 7h. The docking study for this series was performed to understand the binding mode of the compounds and its consequent effect in biological activity, the initial interaction studies were found to be useful in design of molecules, where compound 7h has shown additional H-bond interaction with Lys2171 apart from Val2240 and also a small hydrophobic cleft was observed with Leu2185, Met2345 and Ile2356.</PC-AssayDescription_description_E>
+  </PC-AssayDescription_description>
+  <PC-AssayDescription_comment>
+    <PC-AssayDescription_comment_E>Journal: Bioorg. Med. Chem.</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Year: 2015</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Volume: 23</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Issue: 15</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>First Page: 4237</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Last Page: 4247</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>DOI: 10.1016/j.bmc.2015.06.046</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E></PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Target ChEMBL ID: CHEMBL2842</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>ChEMBL Target Name: Serine/threonine-protein kinase mTOR</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Relationship Type: D - Direct protein target assigned</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Confidence: Direct single protein target assigned</PC-AssayDescription_comment_E>
+  </PC-AssayDescription_comment>
+  <PC-AssayDescription_xref>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_taxonomy>9606</PC-XRefData_taxonomy>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+      <PC-AnnotatedXRef_comment>Homo sapiens</PC-AnnotatedXRef_comment>
+    </PC-AnnotatedXRef>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_pmid>26162498</PC-XRefData_pmid>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+      <PC-AnnotatedXRef_type value="pcit">1</PC-AnnotatedXRef_type>
+    </PC-AnnotatedXRef>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_dburl>http://www.ebi.ac.uk/chembldb/</PC-XRefData_dburl>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+    </PC-AnnotatedXRef>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_asurl>http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/1505047</PC-XRefData_asurl>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+    </PC-AnnotatedXRef>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_protein-gi>1169735</PC-XRefData_protein-gi>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+    </PC-AnnotatedXRef>
+  </PC-AssayDescription_xref>
+  <PC-AssayDescription_results>
+    <PC-ResultType>
+      <PC-ResultType_tid>1</PC-ResultType_tid>
+      <PC-ResultType_name>Standard Type</PC-ResultType_name>
+      <PC-ResultType_description>
+        <PC-ResultType_description_E>Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)</PC-ResultType_description_E>
+      </PC-ResultType_description>
+      <PC-ResultType_type value="string">4</PC-ResultType_type>
+    </PC-ResultType>
+    <PC-ResultType>
+      <PC-ResultType_tid>2</PC-ResultType_tid>
+      <PC-ResultType_name>Standard Relation</PC-ResultType_name>
+      <PC-ResultType_description>
+        <PC-ResultType_description_E>Qualifier (e.g. &gt;, &lt;, =) for &apos;Standard Value&apos;</PC-ResultType_description_E>
+      </PC-ResultType_description>
+      <PC-ResultType_type value="string">4</PC-ResultType_type>
+    </PC-ResultType>
+    <PC-ResultType>
+      <PC-ResultType_tid>3</PC-ResultType_tid>
+      <PC-ResultType_name>Standard Value</PC-ResultType_name>
+      <PC-ResultType_description>
+        <PC-ResultType_description_E>Standardized activity value transformed to common units: e.g. mM concentrations converted to nM</PC-ResultType_description_E>
+      </PC-ResultType_description>
+      <PC-ResultType_type value="float">1</PC-ResultType_type>
+    </PC-ResultType>
+    <PC-ResultType>
+      <PC-ResultType_tid>4</PC-ResultType_tid>
+      <PC-ResultType_name>Standard Units</PC-ResultType_name>
+      <PC-ResultType_description>
+        <PC-ResultType_description_E>Selected units for &apos;Standard Type&apos;: e.g. concentrations are in nM</PC-ResultType_description_E>
+      </PC-ResultType_description>
+      <PC-ResultType_type value="string">4</PC-ResultType_type>
+    </PC-ResultType>
+  </PC-AssayDescription_results>
+  <PC-AssayDescription_revision>1</PC-AssayDescription_revision>
+  <PC-AssayDescription_target>
+    <PC-AssayTargetInfo>
+      <PC-AssayTargetInfo_name>Serine/threonine-protein kinase mTOR</PC-AssayTargetInfo_name>
+      <PC-AssayTargetInfo_mol-id>1169735</PC-AssayTargetInfo_mol-id>
+      <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+      <PC-AssayTargetInfo_organism>
+        <BioSource>
+          <BioSource_org>
+            <Org-ref>
+              <Org-ref_db>
+                <Dbtag>
+                  <Dbtag_db>taxon</Dbtag_db>
+                  <Dbtag_tag>
+                    <Object-id>
+                      <Object-id_id>9606</Object-id_id>
+                    </Object-id>
+                  </Dbtag_tag>
+                </Dbtag>
+              </Org-ref_db>
+              <Org-ref_orgname>
+                <OrgName>
+                  <OrgName_name>
+                    <OrgName_name_binomial>
+                      <BinomialOrgName>
+                        <BinomialOrgName_genus>Homo sapiens</BinomialOrgName_genus>
+                      </BinomialOrgName>
+                    </OrgName_name_binomial>
+                  </OrgName_name>
+                </OrgName>
+              </Org-ref_orgname>
+            </Org-ref>
+          </BioSource_org>
+        </BioSource>
+      </PC-AssayTargetInfo_organism>
+      <PC-AssayTargetInfo_descr>Serine/threonine-protein kinase mTOR</PC-AssayTargetInfo_descr>
+      <PC-AssayTargetInfo_comment>
+        <PC-AssayTargetInfo_comment_E>Protein Accession: P42345</PC-AssayTargetInfo_comment_E>
+      </PC-AssayTargetInfo_comment>
+    </PC-AssayTargetInfo>
+  </PC-AssayDescription_target>
+  <PC-AssayDescription_project-category value="literature-extracted">7</PC-AssayDescription_project-category>
+  <PC-AssayDescription_assay-group>
+    <PC-AssayDescription_assay-group_E>PMID: 26162498</PC-AssayDescription_assay-group_E>
+  </PC-AssayDescription_assay-group>
+</PC-AssayDescription>

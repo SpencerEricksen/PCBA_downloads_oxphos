@@ -1,0 +1,668 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 468143,
+          "version": 4
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "619006"
+            }
+          }
+        },
+        "name": "Inhibition of hypoxia-induced HIF1 activation in human T47D cells at 30 uM by pTK-HRE3-luciferase reporter gene assay",
+        "description": [
+          "Title: Lipophilic 2,5-disubstituted pyrroles from the marine sponge Mycale sp. inhibit mitochondrial respiration and HIF-1 activation.",
+          "",
+          "Abstract: The lipid extract of the marine sponge Mycale sp. inhibited the activation of hypoxia-inducible factor-1 (HIF-1) in a human breast tumor T47D cell-based reporter assay. Bioassay-guided isolation and structure elucidation yielded 18 new lipophilic 2,5-disubstituted pyrroles and eight structurally related known compounds. The active compounds inhibited hypoxia-induced HIF activation with moderate potency (IC50 values <10 microM). Mechanistic studies revealed that the active compounds suppressed mitochondrial respiration by blocking NADH-ubiquinone oxidoreductase (complex I) at concentrations that inhibited HIF-1 activation. Under hypoxic conditions, reactive oxygen species produced by mitochondrial complex III are believed to act as a signal of cellular hypoxia that leads to HIF-1alpha protein induction and activation. By inhibiting electron transport (or delivery) to complex III under hypoxic conditions, lipophilic Mycale pyrroles appear to disrupt mitochondrial ROS-regulated HIF-1 signaling."
+        ],
+        "comment": [
+          "Journal: J. Nat. Prod.",
+          "Year: 2009",
+          "Volume: 72",
+          "Issue: 11",
+          "First Page: 1927",
+          "Last Page: 1936",
+          "DOI: 10.1021/np900444m",
+          "",
+          "Target ChEMBL ID: CHEMBL2221345",
+          "ChEMBL Target Name: Hypoxia inducible factors; HIF-1-alpha, HIF-2-alpha",
+          "ChEMBL Target Type: PROTEIN FAMILY - Target is a group of closely related proteins",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Multiple direct protein targets may be assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9606
+            },
+            "comment": "Homo sapiens"
+          },
+          {
+            "xref": {
+              "pmid": 19845338
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/619006"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 32470617
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 2498017
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 2,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 3,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": "float"
+          },
+          {
+            "tid": 4,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Endothelial PAS domain-containing protein 1",
+            "mol_id": 32470617,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9606
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Homo sapiens"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Hypoxia inducible factors; HIF-1-alpha, HIF-2-alpha",
+            "comment": [
+              "Protein Accession: Q99814"
+            ]
+          },
+          {
+            "name": "Hypoxia-inducible factor 1-alpha",
+            "mol_id": 2498017,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9606
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Homo sapiens"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Hypoxia inducible factors; HIF-1-alpha, HIF-2-alpha",
+            "comment": [
+              "Protein Accession: Q16665"
+            ]
+          }
+        ],
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 19845338"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 103737584,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "<"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 50
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 12
+          }
+        }
+      },
+      {
+        "sid": 103737585,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "<"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 50
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 12
+          }
+        }
+      },
+      {
+        "sid": 103737586,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "<"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 50
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 12
+          }
+        }
+      },
+      {
+        "sid": 103737587,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "<"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 50
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 12
+          }
+        }
+      },
+      {
+        "sid": 103737648,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "<"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 50
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 12
+          }
+        }
+      },
+      {
+        "sid": 103737649,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "<"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 50
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 12
+          }
+        }
+      },
+      {
+        "sid": 103737650,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "<"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 50
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 12
+          }
+        }
+      },
+      {
+        "sid": 103737651,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "<"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 50
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 12
+          }
+        }
+      },
+      {
+        "sid": 103737717,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "<"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 50
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 12
+          }
+        }
+      },
+      {
+        "sid": 103737718,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "<"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 50
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 12
+          }
+        }
+      },
+      {
+        "sid": 103737719,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "<"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 50
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 12
+          }
+        }
+      },
+      {
+        "sid": 103737720,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "<"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 50
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 12
+          }
+        }
+      },
+      {
+        "sid": 103737721,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "<"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 50
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 12
+          }
+        }
+      }
+    ]
+  }
+}

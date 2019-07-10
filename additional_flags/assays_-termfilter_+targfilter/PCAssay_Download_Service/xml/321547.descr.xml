@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<PC-AssayDescription
+    xmlns="http://www.ncbi.nlm.nih.gov"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:schemaLocation="http://www.ncbi.nlm.nih.gov ftp://ftp.ncbi.nlm.nih.gov/pubchem/specifications/pubchem.xsd"
+>
+  <PC-AssayDescription_aid>
+    <PC-ID>
+      <PC-ID_id>321547</PC-ID_id>
+      <PC-ID_version>9</PC-ID_version>
+    </PC-ID>
+  </PC-AssayDescription_aid>
+  <PC-AssayDescription_aid-source>
+    <PC-Source>
+      <PC-Source_db>
+        <PC-DBTracking>
+          <PC-DBTracking_name>ChEMBL</PC-DBTracking_name>
+          <PC-DBTracking_source-id>
+            <Object-id>
+              <Object-id_str>469573</Object-id_str>
+            </Object-id>
+          </PC-DBTracking_source-id>
+        </PC-DBTracking>
+      </PC-Source_db>
+    </PC-Source>
+  </PC-AssayDescription_aid-source>
+  <PC-AssayDescription_name>Activity of VMAT in bovine chromaffin granule ghosts assessed as drug uptake</PC-AssayDescription_name>
+  <PC-AssayDescription_description>
+    <PC-AssayDescription_description_E>Title: Vesicular monoamine transporter substrate/inhibitor activity of MPTP/MPP+ derivatives: a structure-activity study.</PC-AssayDescription_description_E>
+    <PC-AssayDescription_description_E></PC-AssayDescription_description_E>
+    <PC-AssayDescription_description_E>Abstract: The active metabolite of 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP), N-methyl-4-phenylpyridinium (MPP(+)), selectively destroys the dopaminergic neurons and induces the symptoms of Parkinson&apos;s disease. Inhibition of mitochondrial complex I and/or the perturbation of dopamine metabolism through cellular and granular accumulation have been proposed as some of the major causes of neurotoxicity. In the present study we have synthesized and characterized a number of MPTP and MPP(+) derivatives that are suitable for the comparative neurotoxicity and complex I inhibition versus dopamine metabolism perturbation studies. Structure-activity studies with bovine chromaffin granule ghosts show that 3&apos;-hydroxy-MPP(+) is one of the best known substrates for the vesicular monoamine transporter (VMAT). A series of compounds that combine the structural features of MPP(+) and a previously characterized VMAT inhibitor, 3-amino-2-phenyl-propene, have been identified as the most effective VMAT inhibitors. These derivatives have been used to define the structural requirements of the VMAT substrate and inhibitor activities.</PC-AssayDescription_description_E>
+  </PC-AssayDescription_description>
+  <PC-AssayDescription_comment>
+    <PC-AssayDescription_comment_E>Compounds with activity &lt;= 50uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E></PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Journal: J. Med. Chem.</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Year: 2008</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Volume: 51</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Issue: 4</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>First Page: 760</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Last Page: 768</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>DOI: 10.1021/jm070875p</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E></PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Target ChEMBL ID: CHEMBL4271</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>ChEMBL Target Name: Synaptic vesicular amine transporter</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Relationship Type: D - Direct protein target assigned</PC-AssayDescription_comment_E>
+    <PC-AssayDescription_comment_E>Confidence: Direct single protein target assigned</PC-AssayDescription_comment_E>
+  </PC-AssayDescription_comment>
+  <PC-AssayDescription_xref>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_taxonomy>9913</PC-XRefData_taxonomy>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+      <PC-AnnotatedXRef_comment>Bos taurus</PC-AnnotatedXRef_comment>
+    </PC-AnnotatedXRef>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_pmid>18220329</PC-XRefData_pmid>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+      <PC-AnnotatedXRef_type value="pcit">1</PC-AnnotatedXRef_type>
+    </PC-AnnotatedXRef>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_dburl>http://www.ebi.ac.uk/chembldb/</PC-XRefData_dburl>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+    </PC-AnnotatedXRef>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_asurl>http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/469573</PC-XRefData_asurl>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+    </PC-AnnotatedXRef>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_protein-gi>2499124</PC-XRefData_protein-gi>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+    </PC-AnnotatedXRef>
+  </PC-AssayDescription_xref>
+  <PC-AssayDescription_results>
+    <PC-ResultType>
+      <PC-ResultType_tid>1</PC-ResultType_tid>
+      <PC-ResultType_name>PubChem Standard Value</PC-ResultType_name>
+      <PC-ResultType_description>
+        <PC-ResultType_description_E>PubChem standardized value transformed from &apos;Standard Value&apos;. The unit is always micromolar</PC-ResultType_description_E>
+      </PC-ResultType_description>
+      <PC-ResultType_type value="float">1</PC-ResultType_type>
+      <PC-ResultType_unit value="um">5</PC-ResultType_unit>
+      <PC-ResultType_ac value="true"/>
+    </PC-ResultType>
+    <PC-ResultType>
+      <PC-ResultType_tid>2</PC-ResultType_tid>
+      <PC-ResultType_name>Standard Type</PC-ResultType_name>
+      <PC-ResultType_description>
+        <PC-ResultType_description_E>Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)</PC-ResultType_description_E>
+      </PC-ResultType_description>
+      <PC-ResultType_type value="string">4</PC-ResultType_type>
+    </PC-ResultType>
+    <PC-ResultType>
+      <PC-ResultType_tid>3</PC-ResultType_tid>
+      <PC-ResultType_name>Standard Relation</PC-ResultType_name>
+      <PC-ResultType_description>
+        <PC-ResultType_description_E>Qualifier (e.g. &gt;, &lt;, =) for &apos;Standard Value&apos;</PC-ResultType_description_E>
+      </PC-ResultType_description>
+      <PC-ResultType_type value="string">4</PC-ResultType_type>
+    </PC-ResultType>
+    <PC-ResultType>
+      <PC-ResultType_tid>4</PC-ResultType_tid>
+      <PC-ResultType_name>Standard Value</PC-ResultType_name>
+      <PC-ResultType_description>
+        <PC-ResultType_description_E>Standardized activity value transformed to common units: e.g. mM concentrations converted to nM</PC-ResultType_description_E>
+      </PC-ResultType_description>
+      <PC-ResultType_type value="float">1</PC-ResultType_type>
+    </PC-ResultType>
+    <PC-ResultType>
+      <PC-ResultType_tid>5</PC-ResultType_tid>
+      <PC-ResultType_name>Standard Units</PC-ResultType_name>
+      <PC-ResultType_description>
+        <PC-ResultType_description_E>Selected units for &apos;Standard Type&apos;: e.g. concentrations are in nM</PC-ResultType_description_E>
+      </PC-ResultType_description>
+      <PC-ResultType_type value="string">4</PC-ResultType_type>
+    </PC-ResultType>
+  </PC-AssayDescription_results>
+  <PC-AssayDescription_revision>1</PC-AssayDescription_revision>
+  <PC-AssayDescription_target>
+    <PC-AssayTargetInfo>
+      <PC-AssayTargetInfo_name>Synaptic vesicular amine transporter</PC-AssayTargetInfo_name>
+      <PC-AssayTargetInfo_mol-id>2499124</PC-AssayTargetInfo_mol-id>
+      <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+      <PC-AssayTargetInfo_organism>
+        <BioSource>
+          <BioSource_org>
+            <Org-ref>
+              <Org-ref_db>
+                <Dbtag>
+                  <Dbtag_db>taxon</Dbtag_db>
+                  <Dbtag_tag>
+                    <Object-id>
+                      <Object-id_id>9913</Object-id_id>
+                    </Object-id>
+                  </Dbtag_tag>
+                </Dbtag>
+              </Org-ref_db>
+              <Org-ref_orgname>
+                <OrgName>
+                  <OrgName_name>
+                    <OrgName_name_binomial>
+                      <BinomialOrgName>
+                        <BinomialOrgName_genus>Bos taurus</BinomialOrgName_genus>
+                      </BinomialOrgName>
+                    </OrgName_name_binomial>
+                  </OrgName_name>
+                </OrgName>
+              </Org-ref_orgname>
+            </Org-ref>
+          </BioSource_org>
+        </BioSource>
+      </PC-AssayTargetInfo_organism>
+      <PC-AssayTargetInfo_descr>Synaptic vesicular amine transporter</PC-AssayTargetInfo_descr>
+      <PC-AssayTargetInfo_comment>
+        <PC-AssayTargetInfo_comment_E>Protein Accession: Q27963</PC-AssayTargetInfo_comment_E>
+      </PC-AssayTargetInfo_comment>
+    </PC-AssayTargetInfo>
+  </PC-AssayDescription_target>
+  <PC-AssayDescription_activity-outcome-method value="confirmatory">2</PC-AssayDescription_activity-outcome-method>
+  <PC-AssayDescription_project-category value="literature-extracted">7</PC-AssayDescription_project-category>
+  <PC-AssayDescription_assay-group>
+    <PC-AssayDescription_assay-group_E>PMID: 18220329</PC-AssayDescription_assay-group_E>
+  </PC-AssayDescription_assay-group>
+</PC-AssayDescription>

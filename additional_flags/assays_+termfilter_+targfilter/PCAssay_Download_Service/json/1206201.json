@@ -1,0 +1,185 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 1206201,
+          "version": 2
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "1476326"
+            }
+          }
+        },
+        "name": "Inhibition of ERK1/2 phosphorylation in human MDA-MB-231 cells at 5 to 7.5 uM after 24 hrs by Western blot analysis",
+        "description": [
+          "Title: Synthesis of A?-Carboline-Based N-Heterocyclic Carbenes and Their Antiproliferative and Antimetastatic Activities against Human Breast Cancer Cells.",
+          "",
+          "Abstract: A series of novel A?-carboline-based N-heterocyclic carbenes was prepared via Mannich reaction between methyl 1-(dimethoxymethyl)-9H-pyrido[3,4-b]indole-3-carboxylate, formaldehyde, and primary amines. All compounds were evaluated for their antiproliferative activity using human breast cancer and lung cancer cell lines. Three compounds, 3c, 3j, and 3h, were discovered to display IC50 less than 10 A inverted question markM against human breast cancer MDA-MB-231 cells at 24 h of treatment. Pharmacologically these compounds lead to G2/M phase cell cycle arrest and induction of cellular apoptosis by triggering intrinsic apoptotic pathway through depolarization of mitochondrial membrane potential and activation of caspases. At lower concentrations, these compounds also showed antimigratory and antiinvasive effects against highly metastatic human breast cancer MDA-MB-231 cells via aberration of MAP-kinase signaling and by the inhibition of matrix metalloproteinases. However, these analogues lack in vivo effect in mouse model which may be attributed to their strong affinity to HSA that was investigated spectroscopically with compound 3h."
+        ],
+        "comment": [
+          "Journal: J. Med. Chem.",
+          "Year: 2015",
+          "Volume: 58",
+          "Issue: 8",
+          "First Page: 3485",
+          "Last Page: 3499",
+          "DOI: 10.1021/acs.jmedchem.5b00016",
+          "",
+          "Target ChEMBL ID: CHEMBL1907606",
+          "ChEMBL Target Name: Mitogen-activated protein kinase; ERK1/ERK2",
+          "ChEMBL Target Type: PROTEIN FAMILY - Target is a group of closely related proteins",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Multiple direct protein targets may be assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9606
+            },
+            "comment": "Homo sapiens"
+          },
+          {
+            "xref": {
+              "pmid": 25835200
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/1476326"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 232066
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 119554
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 2,
+            "name": "Activity Comment",
+            "description": [
+              "Additional comments"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Mitogen-activated protein kinase 3",
+            "mol_id": 232066,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9606
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Homo sapiens"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Mitogen-activated protein kinase; ERK1/ERK2",
+            "comment": [
+              "Protein Accession: P27361"
+            ]
+          },
+          {
+            "name": "Mitogen-activated protein kinase 1",
+            "mol_id": 119554,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9606
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Homo sapiens"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Mitogen-activated protein kinase; ERK1/ERK2",
+            "comment": [
+              "Protein Accession: P28482"
+            ]
+          }
+        ],
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 25835200"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 312393123,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 6
+          }
+        }
+      }
+    ]
+  }
+}

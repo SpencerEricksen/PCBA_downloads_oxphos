@@ -1,0 +1,236 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 144502,
+          "version": 8
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "141743"
+            }
+          }
+        },
+        "name": "Inhibitory activity against bovine heart mitochondrial NADH ubiquinone oxidoreductase (complex I)",
+        "description": [
+          "Title: Essential structural factors of acetogenins, potent inhibitors of mitochondrial complex I.",
+          "",
+          "Abstract: To elucidate the role of the hydrophobic alkyl tail of acetogenins in the inhibitory action, we synthesized an acetogenin derivative possessing the shortest tail (i.e., methyl group) and examined its inhibitory activity against bovine heart mitochondrial complex I. Our results indicated that the alkyl tail, which is one of the common structural features of natural acetogenins, is not an essential structural factor required for the potent inhibition."
+        ],
+        "comment": [
+          "Compounds with activity <= 50uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+          "",
+          "Journal: Bioorg. Med. Chem. Lett.",
+          "Year: 2002",
+          "Volume: 12",
+          "Issue: 16",
+          "First Page: 2089",
+          "Last Page: 2092",
+          "DOI: 10.1016/s0960-894x(02)00374-8",
+          "",
+          "Target ChEMBL ID: CHEMBL2503",
+          "ChEMBL Target Name: NADH-ubiquinone oxidoreductase subunit B14.7",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: H - Homologous protein target assigned",
+          "Confidence: Homologous single protein target assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "pmid": 12127510
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/141743"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 52000827
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "PubChem Standard Value",
+            "description": [
+              "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+            ],
+            "type": "float",
+            "unit": "um",
+            "ac": true
+          },
+          {
+            "tid": 2,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 3,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 4,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": "float"
+          },
+          {
+            "tid": 5,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 11",
+            "mol_id": 52000827,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9913
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Bos taurus"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "NADH-ubiquinone oxidoreductase subunit B14.7",
+            "comment": [
+              "Protein Accession: Q8HXG6"
+            ]
+          }
+        ],
+        "activity_outcome_method": "confirmatory",
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 12127510"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 103258141,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.0031
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 3.1
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 30
+          }
+        }
+      },
+      {
+        "sid": 103258681,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.0009
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 0.9
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 30
+          }
+        }
+      }
+    ]
+  }
+}

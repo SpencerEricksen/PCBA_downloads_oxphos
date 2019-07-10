@@ -1,0 +1,464 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 268357,
+          "version": 7
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "376968"
+            }
+          }
+        },
+        "name": "Inhibition of Septoria nodorum succinate dehydrogenase by FMET2 assay",
+        "description": [
+          "Title: Potent inhibitors of the Qi site of the mitochondrial respiration complex III.",
+          "",
+          "Abstract: A series of azole-fused salicylamides were prepared as analogues of antimycin and assayed for activity at complex III of the mitochondrial respiratory chain. The activity of these compounds approached that of antimycin in inhibitory potency and some showed growth reduction of Septoria nodorum in vitro. Compound 8a was shown to bind at the Qi site of complex III by red-shift titration of the bc1 complex."
+        ],
+        "comment": [
+          "Compounds with activity <= 50uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+          "",
+          "Journal: J. Med. Chem.",
+          "Year: 2006",
+          "Volume: 49",
+          "Issue: 15",
+          "First Page: 4762",
+          "Last Page: 4766",
+          "DOI: 10.1021/jm060408s",
+          "",
+          "Target ChEMBL ID: CHEMBL613815",
+          "ChEMBL Target Name: Mitochondrial complex II; succinate dehydrogenase",
+          "ChEMBL Target Type: PROTEIN COMPLEX - Target is a defined protein complex, consisting of multiple subunits",
+          "Relationship Type: H - Homologous protein target assigned",
+          "Confidence: Homologous protein complex subunits assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 13684
+            },
+            "comment": "Phaeosphaeria nodorum"
+          },
+          {
+            "xref": {
+              "pmid": 16854082
+            },
+            "type": 1
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/376968"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 3334166
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "PubChem Standard Value",
+            "description": [
+              "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+            ],
+            "type": 1,
+            "unit": 5,
+            "ac": true
+          },
+          {
+            "tid": 2,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": 4
+          },
+          {
+            "tid": 3,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": 4
+          },
+          {
+            "tid": 4,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": 1
+          },
+          {
+            "tid": 5,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": 4
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial",
+            "mol_id": 3334166,
+            "molecule_type": 1,
+            "organism": {
+              "genome": 0,
+              "origin": 0,
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 1047171
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Septoria tritici"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Mitochondrial complex II; succinate dehydrogenase",
+            "comment": [
+              "Protein Accession: O42772"
+            ]
+          }
+        ],
+        "activity_outcome_method": 2,
+        "project_category": 7,
+        "assay_group": [
+          "PMID: 16854082"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 103493966,
+        "version": 1,
+        "outcome": 4,
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 30
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 30000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103493967,
+        "version": 1,
+        "outcome": 4,
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 30
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 30000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103494002,
+        "version": 1,
+        "outcome": 4,
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 30
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 30000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103494003,
+        "version": 1,
+        "outcome": 4,
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 30
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 30000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103494052,
+        "version": 1,
+        "outcome": 2,
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 1.815
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 1815
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103494053,
+        "version": 1,
+        "outcome": 4,
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 30
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 30000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103494075,
+        "version": 1,
+        "outcome": 4,
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 30
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 30000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      }
+    ]
+  }
+}

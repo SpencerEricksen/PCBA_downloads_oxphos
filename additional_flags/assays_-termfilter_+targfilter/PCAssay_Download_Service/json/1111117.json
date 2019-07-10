@@ -1,0 +1,1741 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 1111117,
+          "version": 5
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "927697"
+            }
+          }
+        },
+        "name": "Inhibition of photosynthetic electron transport protein complex in Spinacia oleracea (spinach) leaf thylakoid membranes measured at 30 seconds intervals for 10 min",
+        "description": [
+          "Title: QSAR modeling of photosynthesis-inhibiting nostoclide derivatives.",
+          "",
+          "Abstract: BACKGROUND: A statistical model, built using the CODESSA software package, was developed to describe the relationship between the structure of nostoclide derivatives and their ability to interfere with the electron transport chain in the Hill reaction. RESULTS: A QSAR treatment was carried out on a series of compounds designed using the naturally occurring toxin nostoclides to correlate molecular descriptors with their in vitro biological activity (the ability to interfere with light-driven reduction of ferricyanide by isolated spinach chloroplast thylakoid membranes). The treatment using the CODESSA software package resulted in a three-parameter model with n = 19, R(2) = 0.83, F = 23.8 and R(2) (cv) = 0.72. In the proposed model, the Image of Onsager Kirkwood solvation energy, which gives a measure of the polarity of a given compound, is the most important descriptor. The model was internally validated. CONCLUSIONS: The results obtained in this study indicate that polarity, as expressed by the dipole moment, is the most relevant molecular property determining efficiency of photosynthetic inhibitory activity."
+        ],
+        "comment": [
+          "Compounds with activity <= 50uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+          "",
+          "Journal: Pest Manag Sci",
+          "Year: 2010",
+          "Volume: 66",
+          "Issue: 2",
+          "First Page: 196",
+          "Last Page: 202",
+          "DOI: 10.1002/ps.1855",
+          "",
+          "Target ChEMBL ID: CHEMBL2366461",
+          "ChEMBL Target Name: Cytochrome b6-f complex subunit 4",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct single protein target assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 3562
+            },
+            "comment": "Spinacia oleracea"
+          },
+          {
+            "xref": {
+              "pmid": 19798697
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/927697"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 129864
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "PubChem Standard Value",
+            "description": [
+              "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+            ],
+            "type": "float",
+            "unit": "um",
+            "ac": true
+          },
+          {
+            "tid": 2,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 3,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 4,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": "float"
+          },
+          {
+            "tid": 5,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 6,
+            "name": "Data Validity Comment",
+            "description": [
+              "Comment reflecting whether the values for this activity measurement are likely to be correct"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Cytochrome b6-f complex subunit 4",
+            "mol_id": 129864,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 3562
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Spinacia oleracea"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Cytochrome b6-f complex subunit 4",
+            "comment": [
+              "Protein Accession: P00166"
+            ]
+          }
+        ],
+        "activity_outcome_method": "confirmatory",
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 19798697"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 194134451,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 170
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 170000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "Outside typical range"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194134452,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 9.1
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 9100
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194141255,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 19.7
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 19700
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194141270,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 200
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 200000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "Outside typical range"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194141271,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 13.3
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 13300
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194141272,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 200
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 200000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "Outside typical range"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194141273,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 200
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 200000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "Outside typical range"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194141274,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 200
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 200000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "Outside typical range"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194148096,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 25.8
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 25800
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194148097,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 8.3
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 8300
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194155018,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 19.4
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 19400
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194155035,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 19.1
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 19100
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194155036,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 200
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 200000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "Outside typical range"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194157620,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 200
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 200000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "Outside typical range"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194161943,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 200
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 200000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "Outside typical range"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194161963,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 1.7
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 1700
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194161964,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 200
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 200000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "Outside typical range"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194161965,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 23.1
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 23100
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194161966,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 73.8
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 73800
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194161967,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 21.9
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 21900
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194161968,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 23.5
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 23500
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194161969,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 200
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 200000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "Outside typical range"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194168913,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 53.7
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 53700
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194168914,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 75.1
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 75100
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194168915,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 11.8
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 11800
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194175696,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 200
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 200000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "Outside typical range"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194175704,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 200
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 200000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "Outside typical range"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194175705,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 44.7
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 44700
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194175706,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 20.5
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 20500
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194175707,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 10.1
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 10100
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194175708,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 200
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 200000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "Outside typical range"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194182526,
+        "version": 2,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 12.7
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 12700
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194182548,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 10
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 10000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194182549,
+        "version": 2,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 200
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": ">"
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 200000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          },
+          {
+            "tid": 6,
+            "value": {
+              "sval": "Outside typical range"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      }
+    ]
+  }
+}

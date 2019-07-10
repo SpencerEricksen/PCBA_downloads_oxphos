@@ -1,0 +1,759 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 267889,
+          "version": 8
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "373476"
+            }
+          }
+        },
+        "name": "Inhibition of bovine mitochondrial NADH-ubiquinone oxidoreductase by NADH oxidase assay",
+        "description": [
+          "Title: Function of the alkyl side chains of Deltalac-acetogenins in the inhibitory effect on mitochondrial complex I (NADH-ubiquinone oxidoreductase).",
+          "",
+          "Abstract: We synthesized a series of Deltalac-acetogenins in which the two alkyl side chains were systematically modified, and examined their inhibitory effect on bovine heart mitochondrial complex I (NADH-ubiquinone oxidoreductase). The results revealed that the physicochemical properties of the side chains, such as the balance of hydrophobicity and the width (or bulkiness) of the chains, are important structural factors for a potent inhibitory effect of amphiphilic Deltalac-acetogenins. This is probably because such properties decide the precise location of the hydrophilic bis-THF ring moiety in the enzyme embedded in the inner mitochondrial membrane."
+        ],
+        "comment": [
+          "Compounds with activity <= 50uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+          "",
+          "Journal: Bioorg. Med. Chem. Lett.",
+          "Year: 2006",
+          "Volume: 16",
+          "Issue: 13",
+          "First Page: 3555",
+          "Last Page: 3558",
+          "DOI: 10.1016/j.bmcl.2006.03.082",
+          "",
+          "Target ChEMBL ID: CHEMBL614865",
+          "ChEMBL Target Name: Mitochondrial complex I; NADH oxidoreductase",
+          "ChEMBL Target Type: PROTEIN COMPLEX - Target is a defined protein complex, consisting of multiple subunits",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct protein complex subunits assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9913
+            },
+            "comment": "Bos taurus"
+          },
+          {
+            "xref": {
+              "pmid": 16621539
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/373476"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 92090583
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 548387
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "PubChem Standard Value",
+            "description": [
+              "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+            ],
+            "type": "float",
+            "unit": "um",
+            "ac": true
+          },
+          {
+            "tid": 2,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 3,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 4,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": "float"
+          },
+          {
+            "tid": 5,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Acyl carrier protein, mitochondrial",
+            "mol_id": 92090583,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9913
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Bos taurus"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Mitochondrial complex I; NADH oxidoreductase",
+            "comment": [
+              "Protein Accession: P52505"
+            ]
+          },
+          {
+            "name": "NADH dehydrogenase [ubiquinone] flavoprotein 1, mitochondrial",
+            "mol_id": 548387,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9913
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Bos taurus"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Mitochondrial complex I; NADH oxidoreductase",
+            "comment": [
+              "Protein Accession: P25708"
+            ]
+          }
+        ],
+        "activity_outcome_method": "confirmatory",
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 16621539"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 103279486,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 4.5
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 4500
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103492204,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.0032
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 3.2
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103492205,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.0075
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 7.5
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103492238,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.034
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 34
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103492239,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.41
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 410
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103492266,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.027
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 27
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103492267,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 1.5
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 1500
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103492435,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.045
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 45
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103492436,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.0017
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 1.7
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103492459,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.009
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 9
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103492460,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.28
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 280
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103492497,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.87
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 870
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      },
+      {
+        "sid": 103492681,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.045
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 45
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 20
+          }
+        }
+      }
+    ]
+  }
+}

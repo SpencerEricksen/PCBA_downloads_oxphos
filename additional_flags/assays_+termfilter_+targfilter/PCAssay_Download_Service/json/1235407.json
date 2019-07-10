@@ -1,0 +1,236 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 1235407,
+          "version": 2
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "1505030"
+            }
+          }
+        },
+        "name": "Inhibition of mTOR (unknown origin) assessed as p70S6K phosphorylation after 30 mins by ELISA",
+        "description": [
+          "Title: 4-(N-Phenyl-N'-substituted benzenesulfonyl)-6-(4-hydroxyphenyl)quinolines as inhibitors of mammalian target of rapamycin.",
+          "",
+          "Abstract: A series of 4-(N-phenyl-N'-substituted benzenesulfonyl)-6-(4-hydroxyphenyl)quinolines was designed, synthesized and evaluated for their biological potential as anticancer agents by screening the molecules against panel of five human cancer cell lines viz. HL-60, MiaPaCa-2, HCT116, PC-3 and HEP-G2. The series has shown good mTOR inhibitory activity at 0.5  inverted question markM concentration. The representative compound 7h was found to be most active with the IC50 of 613 nM against mTOR. In supportive evidence, the western blotting experiment revealed that compound 7h is more potent in inhibiting p-mTOR (S2448) activity in 2-4h at 5 and 10  inverted question markM concentrations and was selective and specific towards mTORC1 versus mTORC2. Towards understanding the mechanistic aspects we studied cell cycle analysis, mitochondrial membrane potential loss in MiaPaca-2 cells for compound 7h. The docking study for this series was performed to understand the binding mode of the compounds and its consequent effect in biological activity, the initial interaction studies were found to be useful in design of molecules, where compound 7h has shown additional H-bond interaction with Lys2171 apart from Val2240 and also a small hydrophobic cleft was observed with Leu2185, Met2345 and Ile2356."
+        ],
+        "comment": [
+          "Compounds with activity <= 50uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+          "",
+          "Journal: Bioorg. Med. Chem.",
+          "Year: 2015",
+          "Volume: 23",
+          "Issue: 15",
+          "First Page: 4237",
+          "Last Page: 4247",
+          "DOI: 10.1016/j.bmc.2015.06.046",
+          "",
+          "Target ChEMBL ID: CHEMBL2842",
+          "ChEMBL Target Name: Serine/threonine-protein kinase mTOR",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct single protein target assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9606
+            },
+            "comment": "Homo sapiens"
+          },
+          {
+            "xref": {
+              "pmid": 26162498
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/1505030"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 1169735
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "PubChem Standard Value",
+            "description": [
+              "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+            ],
+            "type": "float",
+            "unit": "um",
+            "ac": true
+          },
+          {
+            "tid": 2,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 3,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 4,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": "float"
+          },
+          {
+            "tid": 5,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Serine/threonine-protein kinase mTOR",
+            "mol_id": 1169735,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9606
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Homo sapiens"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Serine/threonine-protein kinase mTOR",
+            "comment": [
+              "Protein Accession: P42345"
+            ]
+          }
+        ],
+        "activity_outcome_method": "confirmatory",
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 26162498"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 103174804,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 100
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 8
+          }
+        }
+      },
+      {
+        "sid": 318378470,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.613
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 613
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 8
+          }
+        }
+      }
+    ]
+  }
+}

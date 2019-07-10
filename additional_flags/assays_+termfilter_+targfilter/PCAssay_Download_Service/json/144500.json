@@ -1,0 +1,212 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 144500,
+          "version": 4
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "141741"
+            }
+          }
+        },
+        "name": "Maximum inhibition (2 uM) halve the control NADH oxidase activity in bovine heart submitochondrial particles (SMP)",
+        "description": [
+          "Title: Essential structural features of acetogenins: role of hydroxy groups adjacent to the bis-THF rings.",
+          "",
+          "Abstract: The presence of two hydroxy groups adjacent to the THF ring(s) is a common structural feature of natural acetogenins. To elucidate the role of each hydroxy group in the inhibitory action of acetogenins, we synthesized three acetogenin analogues which lack either or both of the hydroxy groups, and investigated their inhibitory activities with bovine heart mitochondrial complex I. Our results indicate that the presence of either of the two hydroxy groups sufficiently sustains a potent inhibitory effect."
+        ],
+        "comment": [
+          "Journal: Bioorg. Med. Chem. Lett.",
+          "Year: 2004",
+          "Volume: 14",
+          "Issue: 3",
+          "First Page: 779",
+          "Last Page: 782",
+          "DOI: 10.1016/j.bmcl.2003.11.021",
+          "",
+          "Target ChEMBL ID: CHEMBL614865",
+          "ChEMBL Target Name: Mitochondrial complex I; NADH oxidoreductase",
+          "ChEMBL Target Type: PROTEIN COMPLEX - Target is a defined protein complex, consisting of multiple subunits",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct protein complex subunits assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9913
+            },
+            "comment": "Bos taurus"
+          },
+          {
+            "xref": {
+              "pmid": 14741288
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/141741"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 92090583
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 548387
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 2,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 3,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": "float"
+          },
+          {
+            "tid": 4,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Acyl carrier protein, mitochondrial",
+            "mol_id": 92090583,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9913
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Bos taurus"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Mitochondrial complex I; NADH oxidoreductase",
+            "comment": [
+              "Protein Accession: P52505"
+            ]
+          },
+          {
+            "name": "NADH dehydrogenase [ubiquinone] flavoprotein 1, mitochondrial",
+            "mol_id": 548387,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9913
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Bos taurus"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Mitochondrial complex I; NADH oxidoreductase",
+            "comment": [
+              "Protein Accession: P25708"
+            ]
+          }
+        ],
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 14741288"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 103419301,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 85
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 1
+          }
+        }
+      }
+    ]
+  }
+}

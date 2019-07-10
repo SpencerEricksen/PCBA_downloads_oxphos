@@ -1,0 +1,244 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 1303282,
+          "version": 1
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "1580135"
+            }
+          }
+        },
+        "name": "Inhibition of bovine brain tubulin polymerization assessed as rate of tubulin polymerization at 1 mM mesured at 20 s intervals for 60 mins by spectrophotometric analysis (Rvb = 3.647 mOD/min)",
+        "description": [
+          "Title: Isouronium and N-hydroxyguanidinium derivatives as Cell growth inhibitors: A comparative study.",
+          "",
+          "Abstract: Based on the results obtained from a computational study on the suitability of the isouronium and N-hydroxyguanidinium cations as hydrogen bond donors/acceptors, the DNA binding of a series of isouronium derivatives was assessed by DNA thermal denaturation experiments and compared to related N-hydroxyguanidines. Due to the poor DNA binding observed, the nature of the diaromatic linker was explored by preparing the corresponding amide-linked bis-isouronium derivative and measuring its DNA affinity. Next, the inhibitory effects of the isouronium derivatives on cell viability were evaluated in two different cancer cell lines providing IC50 values in the range of 36.9-57.4  inverted question markM (HL-60, leukemia), and 17.3-33.9  inverted question markM (Kelly, neuroblastoma). These values are comparable to those previously found for the N-hydroxyguanidine series. Compounds with the -S- linker (3, 6, and 10) proved to be considerably active in the HL-60 cells and even more active in the Kelly cell line. No correlation was found between DNA minor groove binding and cell growth inhibition; hence, activity may depend on different modes of action. Further studies into the apoptotic potential of these compounds indicated that, besides inhibiting cell viability and proliferation, derivatives 9 and 10, are significant apoptosis-inducers in both cell lines. Results obtained with HL-60 cells suggest that G2/M arrest and subsequent apoptosis induced by compound 10 are associated with microtubular depolymerisation, loss of mitochondrial membrane potential and activation of the caspase cascade. Moreover, the effects of compound 10 on cell viability and apoptosis in two non-cancereous cell lines (NIH3T3 and MCF-10A) indicate none or minimal toxicity."
+        ],
+        "comment": [
+          "Journal: Eur. J. Med. Chem.",
+          "Year: 2016",
+          "Volume: 117",
+          "First Page: 269",
+          "Last Page: 282",
+          "DOI: 10.1016/j.ejmech.2016.03.047",
+          "",
+          "Target ChEMBL ID: CHEMBL2094134",
+          "ChEMBL Target Name: Tubulin",
+          "ChEMBL Target Type: PROTEIN FAMILY - Target is a group of closely related proteins",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Multiple direct protein targets may be assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9913
+            },
+            "comment": "Bos taurus"
+          },
+          {
+            "xref": {
+              "pmid": 27108161
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/1580135"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 118573906
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 75053735
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 75053726
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 2,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 3,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": "float"
+          },
+          {
+            "tid": 4,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Tubulin beta-2B chain",
+            "mol_id": 118573906,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9913
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Bos taurus"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Tubulin",
+            "comment": [
+              "Protein Accession: Q6B856"
+            ]
+          },
+          {
+            "name": "Similar to alpha-tubulin isoform 1",
+            "mol_id": 75053735,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9913
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Bos taurus"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Tubulin",
+            "comment": [
+              "Protein Accession: Q862L2"
+            ]
+          },
+          {
+            "name": "Similar to alpha-tubulin isoform 1",
+            "mol_id": 75053726,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9913
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Bos taurus"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Tubulin",
+            "comment": [
+              "Protein Accession: Q862F3"
+            ]
+          }
+        ],
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 27108161"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 103587525,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Vmax"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 2.626
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "mOD/minute"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 6
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 1103506,
+          "version": 3
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "919596"
+            }
+          }
+        },
+        "name": "Inhibition of Bos taurus (beef) heart NAD1",
+        "description": [
+          "Title: Novel inhibitors of the mitochondrial respiratory chain: oximes and pyrrolines isolated from Penicillium brevicompactum and synthetic analogues.",
+          "",
+          "Abstract: The capacity of inhibition of the mammalian mitochondrial respiratory chain of brevioxime 5a, a natural insecticide compound isolated from Penicillium brevicompactum culture broth, and another 15 analogue compounds, other oximes 5b and 5c; two diastereomeric pyrrolidines 1c' and 1c' '; five pyrrolines 3c', 3c' ' (diastereomers between them), 3a, 3b, and 6; two oxazines 4c' and 4c' ' (also diastereomers between them); and four pyrrol derivatives 7-10, are analyzed in this paper. Compounds 3b, 3c', 3c' ', 4c', 4c' ', 5b, 5c, 6, and 10 were found to be inhibitors of the integrated electron transfer chain (NADH oxidase activity) in beef heart submitochondrial particles (SMP), establishing that all of them except compound 3b and 6 only affected to complex I of the mitochondrial respiratory chain. The most potent product was 5b, with an IC50 of 0.27 microM, similar to the IC50 values of other known complex I inhibitors. The diastereomeric pairs 1c'/1c' ', 3c'/3c' ', 4c'/4c' ', and 5c have not been previously described. Chemical characterization, on the basis of spectral data, is also shown."
+        ],
+        "comment": [
+          "Compounds with activity <= 50uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+          "",
+          "Journal: J Agric Food Chem",
+          "Year: 2005",
+          "Volume: 53",
+          "Issue: 21",
+          "First Page: 8296",
+          "Last Page: 8301",
+          "DOI: 10.1021/jf058075f",
+          "",
+          "Target ChEMBL ID: CHEMBL4497",
+          "ChEMBL Target Name: NADH-ubiquinone oxidoreductase chain 1",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct single protein target assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9913
+            },
+            "comment": "Bos taurus"
+          },
+          {
+            "xref": {
+              "pmid": 16218678
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/919596"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 128632
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "PubChem Standard Value",
+            "description": [
+              "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+            ],
+            "type": "float",
+            "unit": "um",
+            "ac": true
+          },
+          {
+            "tid": 2,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 3,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 4,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": "float"
+          },
+          {
+            "tid": 5,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "NADH-ubiquinone oxidoreductase chain 1",
+            "mol_id": 128632,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9913
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Bos taurus"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "NADH-ubiquinone oxidoreductase chain 1",
+            "comment": [
+              "Protein Accession: P03887"
+            ]
+          }
+        ],
+        "activity_outcome_method": "confirmatory",
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 16218678"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 103166269,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 0.0044
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 4.4
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      }
+    ]
+  }
+}

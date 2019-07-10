@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<PC-AssayDescription
+    xmlns="http://www.ncbi.nlm.nih.gov"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:schemaLocation="http://www.ncbi.nlm.nih.gov ftp://ftp.ncbi.nlm.nih.gov/pubchem/specifications/pubchem.xsd"
+>
+  <PC-AssayDescription_aid>
+    <PC-ID>
+      <PC-ID_id>540299</PC-ID_id>
+      <PC-ID_version>1</PC-ID_version>
+    </PC-ID>
+  </PC-AssayDescription_aid>
+  <PC-AssayDescription_aid-source>
+    <PC-Source>
+      <PC-Source_db>
+        <PC-DBTracking>
+          <PC-DBTracking_name>ICCB-Longwood/NSRB Screening Facility, Harvard Medical School</PC-DBTracking_name>
+          <PC-DBTracking_source-id>
+            <Object-id>
+              <Object-id_str>HMS708</Object-id_str>
+            </Object-id>
+          </PC-DBTracking_source-id>
+        </PC-DBTracking>
+      </PC-Source_db>
+    </PC-Source>
+  </PC-AssayDescription_aid-source>
+  <PC-AssayDescription_name>A screen for compounds that inhibit the MenB enzyme of Mycobacterium tuberculosis</PC-AssayDescription_name>
+  <PC-AssayDescription_description>
+    <PC-AssayDescription_description_E>Menaquinone is an essential component of the electron transport chain in many pathogens, and consequently enzymes in the menaquinone biosynthesis pathway are potential drug targets for the development of novel antibacterial agents. To identify leads that target MenB, the 1,4-dihydroxy-2-naphthoyl-CoA synthase from Mycobacterium tuberculosis, a high-throughput screen was performed. Several 1,4-benzoxazines were identified in this screen and subsequent SAR studies resulted in the discovery of compounds with excellent antibacterial activity against M. tuberculosis H37Rv with MIC values as low as 0.6 micrograms/ml. The 1,4-benzoxazine scaffold is thus a promising foundation for the development of antitubercular agents.</PC-AssayDescription_description_E>
+    <PC-AssayDescription_description_E></PC-AssayDescription_description_E>
+    <PC-AssayDescription_description_E>This screen was conducted by the lab of Peter Tonge (Stony Brook University) at the ICCB-Longwood Screening Facility, Harvard Medical School.</PC-AssayDescription_description_E>
+  </PC-AssayDescription_description>
+  <PC-AssayDescription_protocol>
+    <PC-AssayDescription_protocol_E>BL21(DE3)pLysS cells transformed with the relevant expression plasmids were grown in 800 ml LB media containing 0.03 mg/ml ampicillin at 37 C. Once the OD600 value reached 0.8-1.2, protein expression was induced by addition of 0.15 g isopropyl beta-D-1-thiogalactopyranoside. After incubating for a further 12 h at 25 C, cells were harvested by centrifugation at 5000 rpm for 15 min at 4 C, and proteins were purified using His-Tag column chromatography. Cells were first resuspended in 30 ml of His-bind buffer (20 mM Tris:HCl, 5 mM imidazole, 500 mM NaCl, pH 7.90), lysed by 4-5 passages through a French Press cell, and cell debris removed by centrifuging at 8600 rpm for 2h at 4 C. The supernatant was loaded onto a His-Tag resin column (1x5 cm) which was subsequently washed with 30 ml His-bind buffer, and then with 50 ml His-wash buffer (20 mM Tris:HCl, 60 mM imidazole, 500 mM NaCl, pH 7.90). Proteins were then eluted using His-elute buffer (20 mM Tris:HCl, 500 mM imidazole, 500 mM NaCl, pH 7.90). Fractions containing MenB or MenE were collected and imidazole was removed by chromatography on G-25 (1x50 cm) using 20 mM Na2HPO4, 100 mM NaCl pH 7.0 buffer as  eluent. The concentrations of MenB and MenE were determined by measuring the absorption at 280 nm and by using extinction coefficients of 41,370 M-1cm-1 and 104,770 M-1cm-1, respectively.</PC-AssayDescription_protocol_E>
+    <PC-AssayDescription_protocol_E></PC-AssayDescription_protocol_E>
+    <PC-AssayDescription_protocol_E>A reagent mixture was prepared to result in a working concentration of 250 microM each of O-succinylbenzoate (OSB), ATP and CoA, and 150 nM of MenB in reaction buffer (20 mM NaH2PO4, 1 mM MgCl2, 150 mM NaCl, pH 7.0). Using a Matrix WellMate, 25 microL of the reagent mixture were added to each well of 384-well microplates (Corning 3702).  100 nL of experimental compounds were then added by pin transfer from compound stock solutions of 5 mg/ml in 100% DMSO.  15 microL of MenE were then added to each well to start the reaction (working concentration of 3 microM MenE).  As a positive control, a Y287F mutant of MenB was used instead of wild-type MenB in all wells in column 24.  Wells in column 23 received no compound and served as negative controls.</PC-AssayDescription_protocol_E>
+    <PC-AssayDescription_protocol_E></PC-AssayDescription_protocol_E>
+    <PC-AssayDescription_protocol_E>Assay plates were incubated at 25 C for 60 min, and formation of DHNA-CoA was monitored by measuring the absorbance at 405 nm using a Perkin Elmer EnVision plate reader.</PC-AssayDescription_protocol_E>
+  </PC-AssayDescription_protocol>
+  <PC-AssayDescription_comment>
+    <PC-AssayDescription_comment_E>For each replicate plate, average negative (N) and positive (P) control absorbances were calculated.  Absorbance cut-off values for 30% inhibition were calculated using the following formula: Navg - (Navg - Pavg) X 0.3.  Wells were considered active if the replicate average absorbance &lt; the 30% cut-off value. To determine activity scores for each well, % inhibition was calculated by subtracting well absorbance from the plate average negative control absorbance, dividing by the difference between plate average negative and positive control absorbance, and multiplying by 100.  Activity scores were calculated using replicate average % inhibition.  Average % inhibition &lt;= 0 was scored as 0 for activity; average % inhibition &gt;= 100 was scored as 100 for activity. Average % inhibition between 0 and 100 was used to generate activity scores for intermediate values.</PC-AssayDescription_comment_E>
+  </PC-AssayDescription_comment>
+  <PC-AssayDescription_xref>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_pmid>20850304</PC-XRefData_pmid>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+      <PC-AnnotatedXRef_comment>Li X, Liu N, Zhang H, Knudson SE, Slayden RA, Tonge PJ (2010). Synthesis and SAR studies of 1,4-benzoxazine MenB inhibitors: novel antibacterial agents against Mycobacterium tuberculosis. Bioorganic &amp; medicinal chemistry letters 20:6306-9.</PC-AnnotatedXRef_comment>
+      <PC-AnnotatedXRef_type value="pcit">1</PC-AnnotatedXRef_type>
+    </PC-AnnotatedXRef>
+    <PC-AnnotatedXRef>
+      <PC-AnnotatedXRef_xref>
+        <PC-XRefData>
+          <PC-XRefData_pmid>12909628</PC-XRefData_pmid>
+        </PC-XRefData>
+      </PC-AnnotatedXRef_xref>
+      <PC-AnnotatedXRef_comment>Truglio JJ, Theis K, Feng Y, Gajda R, Machutta C, Tonge PJ, Kisker CJ (2003).  Crystal structure of Mycobacterium tuberculosis MenB, a key enzyme in vitamin K2 biosynthesis. Biol Chem. 278(43):42352-60. Epub 2003 Aug 8.</PC-AnnotatedXRef_comment>
+    </PC-AnnotatedXRef>
+  </PC-AssayDescription_xref>
+  <PC-AssayDescription_results>
+    <PC-ResultType>
+      <PC-ResultType_tid>1</PC-ResultType_tid>
+      <PC-ResultType_name>Absorbance_A</PC-ResultType_name>
+      <PC-ResultType_description>
+        <PC-ResultType_description_E>Optical density at 405 nm for replicate A</PC-ResultType_description_E>
+      </PC-ResultType_description>
+      <PC-ResultType_type value="float">1</PC-ResultType_type>
+      <PC-ResultType_unit value="none">254</PC-ResultType_unit>
+    </PC-ResultType>
+    <PC-ResultType>
+      <PC-ResultType_tid>2</PC-ResultType_tid>
+      <PC-ResultType_name>Absorbance_B</PC-ResultType_name>
+      <PC-ResultType_description>
+        <PC-ResultType_description_E>Optical density at 405 nm for replicate B</PC-ResultType_description_E>
+      </PC-ResultType_description>
+      <PC-ResultType_type value="float">1</PC-ResultType_type>
+      <PC-ResultType_unit value="none">254</PC-ResultType_unit>
+    </PC-ResultType>
+    <PC-ResultType>
+      <PC-ResultType_tid>3</PC-ResultType_tid>
+      <PC-ResultType_name>%Inhibition_A</PC-ResultType_name>
+      <PC-ResultType_description>
+        <PC-ResultType_description_E>Replicate A normalized % inhibition, relative to plate average positive and negative control absorbance</PC-ResultType_description_E>
+      </PC-ResultType_description>
+      <PC-ResultType_type value="float">1</PC-ResultType_type>
+      <PC-ResultType_unit value="percent">15</PC-ResultType_unit>
+    </PC-ResultType>
+    <PC-ResultType>
+      <PC-ResultType_tid>4</PC-ResultType_tid>
+      <PC-ResultType_name>%Inhibition_B</PC-ResultType_name>
+      <PC-ResultType_description>
+        <PC-ResultType_description_E>Replicate B normalized % inhibition, relative to plate average positive and negative control absorbance</PC-ResultType_description_E>
+      </PC-ResultType_description>
+      <PC-ResultType_type value="float">1</PC-ResultType_type>
+      <PC-ResultType_unit value="percent">15</PC-ResultType_unit>
+    </PC-ResultType>
+  </PC-AssayDescription_results>
+  <PC-AssayDescription_revision>2</PC-AssayDescription_revision>
+  <PC-AssayDescription_target>
+    <PC-AssayTargetInfo>
+      <PC-AssayTargetInfo_name>naphthoate synthase [Mycobacterium tuberculosis H37Rv]</PC-AssayTargetInfo_name>
+      <PC-AssayTargetInfo_mol-id>15607688</PC-AssayTargetInfo_mol-id>
+      <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+      <PC-AssayTargetInfo_organism>
+        <BioSource>
+          <BioSource_org>
+            <Org-ref>
+              <Org-ref_taxname>Mycobacterium tuberculosis H37Rv</Org-ref_taxname>
+              <Org-ref_db>
+                <Dbtag>
+                  <Dbtag_db>taxon</Dbtag_db>
+                  <Dbtag_tag>
+                    <Object-id>
+                      <Object-id_id>83332</Object-id_id>
+                    </Object-id>
+                  </Dbtag_tag>
+                </Dbtag>
+              </Org-ref_db>
+            </Org-ref>
+          </BioSource_org>
+        </BioSource>
+      </PC-AssayTargetInfo_organism>
+    </PC-AssayTargetInfo>
+  </PC-AssayDescription_target>
+  <PC-AssayDescription_activity-outcome-method value="other">0</PC-AssayDescription_activity-outcome-method>
+  <PC-AssayDescription_project-category value="other">255</PC-AssayDescription_project-category>
+  <PC-AssayDescription_categorized-comment>
+    <PC-CategorizedComment>
+      <PC-CategorizedComment_title>Project Category</PC-CategorizedComment_title>
+      <PC-CategorizedComment_comment>
+        <PC-CategorizedComment_comment_E>NSRB</PC-CategorizedComment_comment_E>
+      </PC-CategorizedComment_comment>
+    </PC-CategorizedComment>
+  </PC-AssayDescription_categorized-comment>
+</PC-AssayDescription>

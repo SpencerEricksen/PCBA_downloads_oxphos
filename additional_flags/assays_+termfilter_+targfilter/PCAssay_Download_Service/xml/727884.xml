@@ -1,0 +1,475 @@
+<?xml version="1.0"?>
+<PC-AssaySubmit
+    xmlns="http://www.ncbi.nlm.nih.gov"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:schemaLocation="http://www.ncbi.nlm.nih.gov ftp://ftp.ncbi.nlm.nih.gov/pubchem/specifications/pubchem.xsd"
+>
+  <PC-AssaySubmit_assay>
+    <PC-AssaySubmit_assay_descr>
+      <PC-AssayDescription>
+        <PC-AssayDescription_aid>
+          <PC-ID>
+            <PC-ID_id>727884</PC-ID_id>
+            <PC-ID_version>3</PC-ID_version>
+          </PC-ID>
+        </PC-AssayDescription_aid>
+        <PC-AssayDescription_aid-source>
+          <PC-Source>
+            <PC-Source_db>
+              <PC-DBTracking>
+                <PC-DBTracking_name>ChEMBL</PC-DBTracking_name>
+                <PC-DBTracking_source-id>
+                  <Object-id>
+                    <Object-id_str>940450</Object-id_str>
+                  </Object-id>
+                </PC-DBTracking_source-id>
+              </PC-DBTracking>
+            </PC-Source_db>
+          </PC-Source>
+        </PC-AssayDescription_aid-source>
+        <PC-AssayDescription_name>Inhibition of bovine heart mitochondrial complex 1</PC-AssayDescription_name>
+        <PC-AssayDescription_description>
+          <PC-AssayDescription_description_E>Title: Critical role of a methyl group on the  inverted question mark-lactone ring of annonaceous acetogenins in the potent inhibition of mitochondrial complex I.</PC-AssayDescription_description_E>
+          <PC-AssayDescription_description_E></PC-AssayDescription_description_E>
+          <PC-AssayDescription_description_E>Abstract: C34-epi and C34-epi-C35-trifluoro analogues of solamin, a mono-THF annonaceous acetogenin, were synthesized. Their inhibitory activity, along with previously synthesized analogues (C35-fluoro, C35-difluoro, and C35-trifluorosolamins), against bovine mitochondrial NADH-ubiquinone oxidoreductase (complex I) was determined. The present study revealed that the methyl group on the  inverted question mark-lactone moiety is critical to the potent inhibition of complex I by natural acetogenins.</PC-AssayDescription_description_E>
+        </PC-AssayDescription_description>
+        <PC-AssayDescription_comment>
+          <PC-AssayDescription_comment_E>Compounds with activity &lt;= 50uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E></PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>Journal: Bioorg. Med. Chem. Lett.</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>Year: 2013</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>Volume: 23</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>Issue: 5</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>First Page: 1217</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>Last Page: 1219</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>DOI: 10.1016/j.bmcl.2013.01.018</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E></PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>Target ChEMBL ID: CHEMBL4497</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>ChEMBL Target Name: NADH-ubiquinone oxidoreductase chain 1</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>Relationship Type: D - Direct protein target assigned</PC-AssayDescription_comment_E>
+          <PC-AssayDescription_comment_E>Confidence: Direct single protein target assigned</PC-AssayDescription_comment_E>
+        </PC-AssayDescription_comment>
+        <PC-AssayDescription_xref>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_taxonomy>9913</PC-XRefData_taxonomy>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+            <PC-AnnotatedXRef_comment>Bos taurus</PC-AnnotatedXRef_comment>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_pmid>23375227</PC-XRefData_pmid>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+            <PC-AnnotatedXRef_type value="pcit">1</PC-AnnotatedXRef_type>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_dburl>http://www.ebi.ac.uk/chembldb/</PC-XRefData_dburl>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_asurl>http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/940450</PC-XRefData_asurl>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+          <PC-AnnotatedXRef>
+            <PC-AnnotatedXRef_xref>
+              <PC-XRefData>
+                <PC-XRefData_protein-gi>128632</PC-XRefData_protein-gi>
+              </PC-XRefData>
+            </PC-AnnotatedXRef_xref>
+          </PC-AnnotatedXRef>
+        </PC-AssayDescription_xref>
+        <PC-AssayDescription_results>
+          <PC-ResultType>
+            <PC-ResultType_tid>1</PC-ResultType_tid>
+            <PC-ResultType_name>PubChem Standard Value</PC-ResultType_name>
+            <PC-ResultType_description>
+              <PC-ResultType_description_E>PubChem standardized value transformed from &apos;Standard Value&apos;. The unit is always micromolar</PC-ResultType_description_E>
+            </PC-ResultType_description>
+            <PC-ResultType_type value="float">1</PC-ResultType_type>
+            <PC-ResultType_unit value="um">5</PC-ResultType_unit>
+            <PC-ResultType_ac value="true"/>
+          </PC-ResultType>
+          <PC-ResultType>
+            <PC-ResultType_tid>2</PC-ResultType_tid>
+            <PC-ResultType_name>Standard Type</PC-ResultType_name>
+            <PC-ResultType_description>
+              <PC-ResultType_description_E>Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)</PC-ResultType_description_E>
+            </PC-ResultType_description>
+            <PC-ResultType_type value="string">4</PC-ResultType_type>
+          </PC-ResultType>
+          <PC-ResultType>
+            <PC-ResultType_tid>3</PC-ResultType_tid>
+            <PC-ResultType_name>Standard Relation</PC-ResultType_name>
+            <PC-ResultType_description>
+              <PC-ResultType_description_E>Qualifier (e.g. &gt;, &lt;, =) for &apos;Standard Value&apos;</PC-ResultType_description_E>
+            </PC-ResultType_description>
+            <PC-ResultType_type value="string">4</PC-ResultType_type>
+          </PC-ResultType>
+          <PC-ResultType>
+            <PC-ResultType_tid>4</PC-ResultType_tid>
+            <PC-ResultType_name>Standard Value</PC-ResultType_name>
+            <PC-ResultType_description>
+              <PC-ResultType_description_E>Standardized activity value transformed to common units: e.g. mM concentrations converted to nM</PC-ResultType_description_E>
+            </PC-ResultType_description>
+            <PC-ResultType_type value="float">1</PC-ResultType_type>
+          </PC-ResultType>
+          <PC-ResultType>
+            <PC-ResultType_tid>5</PC-ResultType_tid>
+            <PC-ResultType_name>Standard Units</PC-ResultType_name>
+            <PC-ResultType_description>
+              <PC-ResultType_description_E>Selected units for &apos;Standard Type&apos;: e.g. concentrations are in nM</PC-ResultType_description_E>
+            </PC-ResultType_description>
+            <PC-ResultType_type value="string">4</PC-ResultType_type>
+          </PC-ResultType>
+        </PC-AssayDescription_results>
+        <PC-AssayDescription_revision>1</PC-AssayDescription_revision>
+        <PC-AssayDescription_target>
+          <PC-AssayTargetInfo>
+            <PC-AssayTargetInfo_name>NADH-ubiquinone oxidoreductase chain 1</PC-AssayTargetInfo_name>
+            <PC-AssayTargetInfo_mol-id>128632</PC-AssayTargetInfo_mol-id>
+            <PC-AssayTargetInfo_molecule-type value="protein">1</PC-AssayTargetInfo_molecule-type>
+            <PC-AssayTargetInfo_organism>
+              <BioSource>
+                <BioSource_org>
+                  <Org-ref>
+                    <Org-ref_db>
+                      <Dbtag>
+                        <Dbtag_db>taxon</Dbtag_db>
+                        <Dbtag_tag>
+                          <Object-id>
+                            <Object-id_id>9913</Object-id_id>
+                          </Object-id>
+                        </Dbtag_tag>
+                      </Dbtag>
+                    </Org-ref_db>
+                    <Org-ref_orgname>
+                      <OrgName>
+                        <OrgName_name>
+                          <OrgName_name_binomial>
+                            <BinomialOrgName>
+                              <BinomialOrgName_genus>Bos taurus</BinomialOrgName_genus>
+                            </BinomialOrgName>
+                          </OrgName_name_binomial>
+                        </OrgName_name>
+                      </OrgName>
+                    </Org-ref_orgname>
+                  </Org-ref>
+                </BioSource_org>
+              </BioSource>
+            </PC-AssayTargetInfo_organism>
+            <PC-AssayTargetInfo_descr>NADH-ubiquinone oxidoreductase chain 1</PC-AssayTargetInfo_descr>
+            <PC-AssayTargetInfo_comment>
+              <PC-AssayTargetInfo_comment_E>Protein Accession: P03887</PC-AssayTargetInfo_comment_E>
+            </PC-AssayTargetInfo_comment>
+          </PC-AssayTargetInfo>
+        </PC-AssayDescription_target>
+        <PC-AssayDescription_activity-outcome-method value="confirmatory">2</PC-AssayDescription_activity-outcome-method>
+        <PC-AssayDescription_project-category value="literature-extracted">7</PC-AssayDescription_project-category>
+        <PC-AssayDescription_assay-group>
+          <PC-AssayDescription_assay-group_E>PMID: 23375227</PC-AssayDescription_assay-group_E>
+        </PC-AssayDescription_assay-group>
+      </PC-AssayDescription>
+    </PC-AssaySubmit_assay_descr>
+  </PC-AssaySubmit_assay>
+  <PC-AssaySubmit_data>
+    <PC-AssayResults>
+      <PC-AssayResults_sid>134442339</PC-AssayResults_sid>
+      <PC-AssayResults_version>1</PC-AssayResults_version>
+      <PC-AssayResults_outcome value="active">2</PC-AssayResults_outcome>
+      <PC-AssayResults_data>
+        <PC-AssayData>
+          <PC-AssayData_tid>1</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_fval>0.031</PC-AssayData_value_fval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>2</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>IC50</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>3</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>=</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>4</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_fval>31</PC-AssayData_value_fval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>5</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>nM</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+      </PC-AssayResults_data>
+      <PC-AssayResults_date>
+        <Date>
+          <Date_std>
+            <Date-std>
+              <Date-std_year>2018</Date-std_year>
+              <Date-std_month>9</Date-std_month>
+              <Date-std_day>25</Date-std_day>
+            </Date-std>
+          </Date_std>
+        </Date>
+      </PC-AssayResults_date>
+    </PC-AssayResults>
+    <PC-AssayResults>
+      <PC-AssayResults_sid>134442340</PC-AssayResults_sid>
+      <PC-AssayResults_version>1</PC-AssayResults_version>
+      <PC-AssayResults_outcome value="active">2</PC-AssayResults_outcome>
+      <PC-AssayResults_data>
+        <PC-AssayData>
+          <PC-AssayData_tid>1</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_fval>0.31</PC-AssayData_value_fval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>2</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>IC50</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>3</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>=</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>4</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_fval>310</PC-AssayData_value_fval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>5</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>nM</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+      </PC-AssayResults_data>
+      <PC-AssayResults_date>
+        <Date>
+          <Date_std>
+            <Date-std>
+              <Date-std_year>2018</Date-std_year>
+              <Date-std_month>9</Date-std_month>
+              <Date-std_day>25</Date-std_day>
+            </Date-std>
+          </Date_std>
+        </Date>
+      </PC-AssayResults_date>
+    </PC-AssayResults>
+    <PC-AssayResults>
+      <PC-AssayResults_sid>134457837</PC-AssayResults_sid>
+      <PC-AssayResults_version>1</PC-AssayResults_version>
+      <PC-AssayResults_outcome value="active">2</PC-AssayResults_outcome>
+      <PC-AssayResults_data>
+        <PC-AssayData>
+          <PC-AssayData_tid>1</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_fval>0.0029</PC-AssayData_value_fval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>2</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>IC50</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>3</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>=</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>4</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_fval>2.9</PC-AssayData_value_fval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>5</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>nM</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+      </PC-AssayResults_data>
+      <PC-AssayResults_date>
+        <Date>
+          <Date_std>
+            <Date-std>
+              <Date-std_year>2018</Date-std_year>
+              <Date-std_month>9</Date-std_month>
+              <Date-std_day>25</Date-std_day>
+            </Date-std>
+          </Date_std>
+        </Date>
+      </PC-AssayResults_date>
+    </PC-AssayResults>
+    <PC-AssayResults>
+      <PC-AssayResults_sid>164139899</PC-AssayResults_sid>
+      <PC-AssayResults_version>1</PC-AssayResults_version>
+      <PC-AssayResults_outcome value="active">2</PC-AssayResults_outcome>
+      <PC-AssayResults_data>
+        <PC-AssayData>
+          <PC-AssayData_tid>1</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_fval>0.57</PC-AssayData_value_fval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>2</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>IC50</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>3</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>=</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>4</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_fval>570</PC-AssayData_value_fval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>5</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>nM</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+      </PC-AssayResults_data>
+      <PC-AssayResults_date>
+        <Date>
+          <Date_std>
+            <Date-std>
+              <Date-std_year>2018</Date-std_year>
+              <Date-std_month>9</Date-std_month>
+              <Date-std_day>25</Date-std_day>
+            </Date-std>
+          </Date_std>
+        </Date>
+      </PC-AssayResults_date>
+    </PC-AssayResults>
+    <PC-AssayResults>
+      <PC-AssayResults_sid>164142690</PC-AssayResults_sid>
+      <PC-AssayResults_version>1</PC-AssayResults_version>
+      <PC-AssayResults_outcome value="active">2</PC-AssayResults_outcome>
+      <PC-AssayResults_data>
+        <PC-AssayData>
+          <PC-AssayData_tid>1</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_fval>0.27</PC-AssayData_value_fval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>2</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>IC50</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>3</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>=</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>4</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_fval>270</PC-AssayData_value_fval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>5</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>nM</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+      </PC-AssayResults_data>
+      <PC-AssayResults_date>
+        <Date>
+          <Date_std>
+            <Date-std>
+              <Date-std_year>2018</Date-std_year>
+              <Date-std_month>9</Date-std_month>
+              <Date-std_day>25</Date-std_day>
+            </Date-std>
+          </Date_std>
+        </Date>
+      </PC-AssayResults_date>
+    </PC-AssayResults>
+    <PC-AssayResults>
+      <PC-AssayResults_sid>194182360</PC-AssayResults_sid>
+      <PC-AssayResults_version>1</PC-AssayResults_version>
+      <PC-AssayResults_outcome value="active">2</PC-AssayResults_outcome>
+      <PC-AssayResults_data>
+        <PC-AssayData>
+          <PC-AssayData_tid>1</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_fval>0.0021</PC-AssayData_value_fval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>2</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>IC50</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>3</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>=</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>4</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_fval>2.1</PC-AssayData_value_fval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+        <PC-AssayData>
+          <PC-AssayData_tid>5</PC-AssayData_tid>
+          <PC-AssayData_value>
+            <PC-AssayData_value_sval>nM</PC-AssayData_value_sval>
+          </PC-AssayData_value>
+        </PC-AssayData>
+      </PC-AssayResults_data>
+      <PC-AssayResults_date>
+        <Date>
+          <Date_std>
+            <Date-std>
+              <Date-std_year>2018</Date-std_year>
+              <Date-std_month>9</Date-std_month>
+              <Date-std_day>25</Date-std_day>
+            </Date-std>
+          </Date_std>
+        </Date>
+      </PC-AssayResults_date>
+    </PC-AssayResults>
+  </PC-AssaySubmit_data>
+</PC-AssaySubmit>

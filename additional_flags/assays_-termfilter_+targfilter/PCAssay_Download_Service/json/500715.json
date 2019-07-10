@@ -1,0 +1,179 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 500715,
+          "version": 3
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "650755"
+            }
+          }
+        },
+        "name": "Effect on succinate:ubiquinone oxidoreductase activity of respiratory chain in Saccharomyces cerevisiae W303-1A mitochondria at 100 mM",
+        "description": [
+          "Title: Synthesis enables identification of the cellular target of leucascandrolide A and neopeltolide.",
+          "",
+          "Abstract: Leucascandrolide A and neopeltolide are structurally homologous marine natural products that elicit potent antiproliferative profiles in mammalian cells and yeast. The scarcity of naturally available material has been a significant barrier to their biochemical and pharmacological evaluation. We developed practical synthetic access to this class of natural products that enabled the determination of their mechanism of action. We demonstrated effective cellular growth inhibition in yeast, which was substantially enhanced by substituting glucose with galactose or glycerol. These results, along with genetic analysis of determinants of drug sensitivity, suggested that leucascandrolide A and neopeltolide may inhibit mitochondrial ATP synthesis. Evaluation of the activity of the four mitochondrial electron transport chain complexes in yeast and mammalian cells revealed cytochrome bc(1) complex as the principal cellular target. This result provided the molecular basis for the potent antiproliferative activity of this class of marine macrolides, thus identifying them as new biochemical tools for investigation of eukaryotic energy metabolism."
+        ],
+        "comment": [
+          "Journal: Nat. Chem. Biol.",
+          "Year: 2008",
+          "Volume: 4",
+          "Issue: 7",
+          "First Page: 418",
+          "Last Page: 424",
+          "DOI: 10.1038/nchembio.94",
+          "",
+          "Target ChEMBL ID: CHEMBL3308955",
+          "ChEMBL Target Name: Succinate dehydrogenase",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: U - Default value - Target has yet to be curated",
+          "Confidence: Default value - Target unknown or has yet to be assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 4932
+            },
+            "comment": "Saccharomyces cerevisiae"
+          },
+          {
+            "xref": {
+              "pmid": 18516048
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/650755"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 585976
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 2,
+            "name": "Activity Comment",
+            "description": [
+              "Additional comments"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Succinate dehydrogenase [ubiquinone] cytochrome b small subunit, mitochondrial",
+            "mol_id": 585976,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 559292
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Saccharomyces cerevisiae"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Succinate dehydrogenase",
+            "comment": [
+              "Protein Accession: P37298"
+            ]
+          }
+        ],
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 18516048"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 103509864,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Activity"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 14
+          }
+        }
+      },
+      {
+        "sid": 104243081,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Activity"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 14
+          }
+        }
+      }
+    ]
+  }
+}

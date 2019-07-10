@@ -1,0 +1,476 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 1111116,
+          "version": 2
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "927696"
+            }
+          }
+        },
+        "name": "Inhibition of photosynthetic electron transport protein complex in Spinacia oleracea (spinach) leaf thylakoid membranes up to 100 uM measured at 30 seconds intervals for 10 min",
+        "description": [
+          "Title: QSAR modeling of photosynthesis-inhibiting nostoclide derivatives.",
+          "",
+          "Abstract: BACKGROUND: A statistical model, built using the CODESSA software package, was developed to describe the relationship between the structure of nostoclide derivatives and their ability to interfere with the electron transport chain in the Hill reaction. RESULTS: A QSAR treatment was carried out on a series of compounds designed using the naturally occurring toxin nostoclides to correlate molecular descriptors with their in vitro biological activity (the ability to interfere with light-driven reduction of ferricyanide by isolated spinach chloroplast thylakoid membranes). The treatment using the CODESSA software package resulted in a three-parameter model with n = 19, R(2) = 0.83, F = 23.8 and R(2) (cv) = 0.72. In the proposed model, the Image of Onsager Kirkwood solvation energy, which gives a measure of the polarity of a given compound, is the most important descriptor. The model was internally validated. CONCLUSIONS: The results obtained in this study indicate that polarity, as expressed by the dipole moment, is the most relevant molecular property determining efficiency of photosynthetic inhibitory activity."
+        ],
+        "comment": [
+          "Journal: Pest Manag Sci",
+          "Year: 2010",
+          "Volume: 66",
+          "Issue: 2",
+          "First Page: 196",
+          "Last Page: 202",
+          "DOI: 10.1002/ps.1855",
+          "",
+          "Target ChEMBL ID: CHEMBL2366461",
+          "ChEMBL Target Name: Cytochrome b6-f complex subunit 4",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct single protein target assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 3562
+            },
+            "comment": "Spinacia oleracea"
+          },
+          {
+            "xref": {
+              "pmid": 19798697
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/927696"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 129864
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 2,
+            "name": "Activity Comment",
+            "description": [
+              "Additional comments"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Cytochrome b6-f complex subunit 4",
+            "mol_id": 129864,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 3562
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Spinacia oleracea"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Cytochrome b6-f complex subunit 4",
+            "comment": [
+              "Protein Accession: P00166"
+            ]
+          }
+        ],
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 19798697"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 194141270,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194141272,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194141273,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194141274,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194155036,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194157620,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194161943,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194161964,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194161969,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194175696,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194175704,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194175708,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      },
+      {
+        "sid": 194182549,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "inactive",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Not Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 25
+          }
+        }
+      }
+    ]
+  }
+}

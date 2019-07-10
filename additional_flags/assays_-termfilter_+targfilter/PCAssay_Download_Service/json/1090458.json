@@ -1,0 +1,196 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 1090458,
+          "version": 3
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "906325"
+            }
+          }
+        },
+        "name": "Inhibition of Spinacia oleracea (spinach) photosystem II assessed as electron flow from H20 to PDOX after 1 hr by polarographically",
+        "description": [
+          "Title: Inhibition of chloroplast electron transport reactions by trifluralin and diallate.",
+          "",
+          "Abstract: The herbicides trifluralin (alpha,alpha,alpha-trifluoro-2,6-dinitro-N, N-dipropyl-p-toluidine) and diallate (S-[2,3-dichloroallyl] diisopropylthiocarbamate) inhibit electron transport, ATP synthesis, and cytochrome f reduction by isolated spinach (Spinacia oleracea L.) chloroplasts. Both compounds inhibit noncyclic electron transport from H(2)O to ferricyanide more than 90% in coupled chloroplasts at concentrations less than 50 mum. Neither herbicide inhibits electron transport in assays utilizing only photosystem I activity, and the photosystem II reaction elicited by addition of oxidized p-phenylenediamine or 2,5-dimethylquinone is only partially inhibited by herbicide concentrations which block electron flow from H(2)O to ferricyanide. Inhibition of ATP synthesis parallels inhibition of electron flow in all noncyclic assay systems, and cyclic ATP synthesis catalyzed by either diaminodurene or phenazine metho-sulfate is susceptible to inhibition by both herbicides. These results indicate that trifluralin and diallate both inhibit electron flow in isolated chloroplasts at a point in the electron transport chain between the two photosystems."
+        ],
+        "comment": [
+          "Journal: Plant Physiol",
+          "Year: 1977",
+          "Volume: 60",
+          "Issue: 6",
+          "First Page: 840",
+          "Last Page: 844",
+          "DOI: 10.1104/pp.60.6.840",
+          "",
+          "Target ChEMBL ID: CHEMBL2366481",
+          "ChEMBL Target Name: Photosystem Q(B) protein",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct single protein target assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 3562
+            },
+            "comment": "Spinacia oleracea"
+          },
+          {
+            "xref": {
+              "pmid": 16660197
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/906325"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 61230125
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "PubChem Standard Value",
+            "description": [
+              "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+            ],
+            "type": "float",
+            "unit": "um",
+            "ac": true
+          },
+          {
+            "tid": 2,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 3,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 4,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": "float"
+          },
+          {
+            "tid": 5,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Photosystem II protein D1",
+            "mol_id": 61230125,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 3562
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Spinacia oleracea"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Photosystem Q(B) protein",
+            "comment": [
+              "Protein Accession: P69560"
+            ]
+          }
+        ],
+        "activity_outcome_method": "confirmatory",
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 16660197"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 194169913,
+        "version": 1,
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 75
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 75000
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 24
+          }
+        }
+      }
+    ]
+  }
+}

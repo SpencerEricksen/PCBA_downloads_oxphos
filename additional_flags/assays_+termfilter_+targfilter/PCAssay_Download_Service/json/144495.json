@@ -1,0 +1,275 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 144495,
+          "version": 11
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "141736"
+            }
+          }
+        },
+        "name": "Compound was tested for NADH oxidase activity in bovine heart submitochondrial particles",
+        "description": [
+          "Title: Enantiospecific semisynthesis of (+)-almuheptolide-A, a novel natural heptolide inhibitor of the mammalian mitochondrial respiratory chain.",
+          "",
+          "Abstract: The development of novel styryl lactone derivatives as bioactive compounds and the semisynthesis of both 4,5-dialkoxylated eight-membered-ring lactones with a heptolide skeleton (almuheptolide-A (1) type) and 7-alkoxylated delta-lactones with a saturated furanopyrone skeleton (etharvensin (8) type) have been successfully achieved from the chiral unsaturated alpha-pyrone altholactone (7). This new method is a direct and one-step enantiospecific alkoxylation of altholactone (7) in concentrated acid medium, followed by formation of the eight-membered-ring zeta-lactone. The reaction mechanism operating in the synthesis of the heptolide skeleton is postulated to be a direct Michael-type addition. Concerted opening of both the alpha-pyrone and tetrahydrofuran rings and subsequent intramolecular rearrangement with the ring closure lead to almuheptolide-A (1). This compound (1) and its diacetated derivative (1a) showed potent and selective inhibitory activity toward mammalian mitochondrial respiratory chain complex I. This mechanism of action, reported here for the first time, provides a possible explanation for the cytotoxic and antitumor activities previously described for related natural compounds."
+        ],
+        "comment": [
+          "Compounds with activity <= 50uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+          "",
+          "Journal: J. Med. Chem.",
+          "Year: 1998",
+          "Volume: 41",
+          "Issue: 26",
+          "First Page: 5158",
+          "Last Page: 5166",
+          "DOI: 10.1021/jm9706574",
+          "",
+          "Target ChEMBL ID: CHEMBL614865",
+          "ChEMBL Target Name: Mitochondrial complex I; NADH oxidoreductase",
+          "ChEMBL Target Type: PROTEIN COMPLEX - Target is a defined protein complex, consisting of multiple subunits",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct protein complex subunits assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9913
+            },
+            "comment": "Bos taurus"
+          },
+          {
+            "xref": {
+              "pmid": 9857086
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/141736"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 92090583
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 548387
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "PubChem Standard Value",
+            "description": [
+              "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+            ],
+            "type": "float",
+            "unit": "um",
+            "ac": true
+          },
+          {
+            "tid": 2,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 3,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 4,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": "float"
+          },
+          {
+            "tid": 5,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Acyl carrier protein, mitochondrial",
+            "mol_id": 92090583,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9913
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Bos taurus"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Mitochondrial complex I; NADH oxidoreductase",
+            "comment": [
+              "Protein Accession: P52505"
+            ]
+          },
+          {
+            "name": "NADH dehydrogenase [ubiquinone] flavoprotein 1, mitochondrial",
+            "mol_id": 548387,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9913
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Bos taurus"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Mitochondrial complex I; NADH oxidoreductase",
+            "comment": [
+              "Protein Accession: P25708"
+            ]
+          }
+        ],
+        "activity_outcome_method": "confirmatory",
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 9857086"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 103393541,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 4.4
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 4400
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 16
+          }
+        }
+      },
+      {
+        "sid": 103394127,
+        "version": 1,
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "fval": 3.9
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "IC50"
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "fval": 3900
+            }
+          },
+          {
+            "tid": 5,
+            "value": {
+              "sval": "nM"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 10,
+            "day": 16
+          }
+        }
+      }
+    ]
+  }
+}

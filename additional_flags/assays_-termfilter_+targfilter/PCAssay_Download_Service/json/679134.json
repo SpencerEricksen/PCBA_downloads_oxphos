@@ -1,0 +1,227 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 679134,
+          "version": 2
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "836273"
+            }
+          }
+        },
+        "name": "TP_TRANSPORTER: drug resistance in KB-TAX50 cells",
+        "description": [
+          "Title: BPR0L075, a novel synthetic indole compound with antimitotic activity in human cancer cells, exerts effective antitumoral activity in vivo.",
+          "",
+          "Abstract: BPR0L075 is a novel synthetic compound discovered through research to identify new microtubule inhibitors. BPR0L075 inhibits tubulin polymerization through binding to the colchicine-binding site of tubulin. Cytotoxic activity of BPR0L075 in a variety of human tumor cell lines has been ascertained, with IC(50) values in single-digit nanomolar ranges. As determined by flow cytometry, human cervical carcinoma KB cells are arrested in G(2)-M phases in a time-dependent manner before cell death occurs. Terminal deoxynucleotidyl transferase-mediated nick end labeling assay indicates that cell death proceeds through an apoptotic pathway. Additional studies indicate that the effect of BPR0L075 on cell cycle arrest is associated with an increase in cyclin B1 levels and a mobility shift of Cdc2 and Cdc25C. The changes in Cdc2 and Cdc25C coincide with the appearance of phosphoepitopes recognized by a marker of mitosis, MPM-2. Furthermore, phosphorylated forms of Bcl-2, perturbed mitochondrial membrane potential, and activation of the caspase-3 cascade may be involved in BPR0L075-induced apoptosis. Notably, several KB-derived multidrug-resistant cell lines overexpressing P-gp170/MDR and MRP are resistant to vincristine, paclitaxel, and colchicine but not to BPR0L075. Moreover, BPR0L075 shows potent activity against the growth of xenograft tumors of the gastric carcinoma MKN-45, human cervical carcinoma KB, and KB-derived P-gp170/MDR-overexpressing KB-VIN10 cells at i.v. doses of 50 mg/kg in nude mice. These findings indicate BPR0L075 is a promising anticancer compound with antimitotic activity that has potential for management of various malignancies, particularly for patients with drug resistance."
+        ],
+        "comment": [
+          "Journal: Cancer Res.",
+          "Year: 2004",
+          "Volume: 64",
+          "Issue: 1",
+          "First Page: 4621",
+          "Last Page: 4628",
+          "DOI: 10.1158/0008-5472.can-03-3474",
+          "",
+          "Target ChEMBL ID: CHEMBL4302",
+          "ChEMBL Target Name: P-glycoprotein 1",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct single protein target assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "pmid": 15231674
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/836273"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 238054374
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 2,
+            "name": "Activity Comment",
+            "description": [
+              "Additional comments"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Multidrug resistance protein 1",
+            "mol_id": 238054374,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9606
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Homo sapiens"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "P-glycoprotein 1",
+            "comment": [
+              "Protein Accession: P08183"
+            ]
+          }
+        ],
+        "project_category": "other",
+        "assay_group": [
+          "PMID: 15231674"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 103177124,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Activity"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "substrate [+]"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 22
+          }
+        }
+      },
+      {
+        "sid": 103454533,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Activity"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "is not a substrate [-]"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 22
+          }
+        }
+      },
+      {
+        "sid": 124974065,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Activity"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "substrate [+]"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 22
+          }
+        }
+      },
+      {
+        "sid": 160677133,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "unspecified",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Activity"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "substrate [+]"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 22
+          }
+        }
+      }
+    ]
+  }
+}

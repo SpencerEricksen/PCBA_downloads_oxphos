@@ -1,0 +1,180 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 1335882,
+          "version": 1
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "1633125"
+            }
+          }
+        },
+        "name": "Inhibition of LSD1 (unknown origin) at 10 uM relative to control",
+        "description": [
+          "Title: Design, synthesis and biological evaluation of [1,2,3]triazolo[4,5-d]pyrimidine derivatives possessing a hydrazone moiety as antiproliferative agents.",
+          "",
+          "Abstract: A series of [1,2,3]triazolo[4,5-d]pyrimidine derivatives bearing a hydrazone moiety were designed, synthesized and evaluated for their antiproliferative activity against several cancer cell lines of different origins by MTT assay. Most of the synthesized compounds demonstrated moderate to good activity against the cancer cell lines selected. Especially, compound 43 showed the most potent antiproliferative activity as well as good selectivity between cancer and normal cells (IC50 values of 0.85  inverted question markM against MGC-803 and 56.17  inverted question markM against GES-1). In addition, compound 43 evidently inhibited the colony formation of MGC-803 cells at 0.8  inverted question markM. Further mechanism studies revealed that compound 43 could induce apoptosis of MGC-803 cells probably through the mitochondrial pathway accompanied with decrease of the mitochondrial membrane potential (MMP), activations of caspase-9/3, up-regulation of the expression of Bax, Bak and PUMA, as well as down-regulation of that of Bcl-2 and Mcl-1."
+        ],
+        "comment": [
+          "Journal: Eur J Med Chem",
+          "Year: 2016",
+          "Volume: 124",
+          "First Page: 967",
+          "Last Page: 980",
+          "DOI: 10.1016/j.ejmech.2016.10.022",
+          "",
+          "Target ChEMBL ID: CHEMBL6136",
+          "ChEMBL Target Name: Lysine-specific histone demethylase 1",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: D - Direct protein target assigned",
+          "Confidence: Direct single protein target assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "taxonomy": 9606
+            },
+            "comment": "Homo sapiens"
+          },
+          {
+            "xref": {
+              "pmid": 27771599
+            },
+            "type": 1
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/1633125"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 51315808
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": 4
+          },
+          {
+            "tid": 2,
+            "name": "Standard Relation",
+            "description": [
+              "Qualifier (e.g. >, <, =) for 'Standard Value'"
+            ],
+            "type": 4
+          },
+          {
+            "tid": 3,
+            "name": "Standard Value",
+            "description": [
+              "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+            ],
+            "type": 1
+          },
+          {
+            "tid": 4,
+            "name": "Standard Units",
+            "description": [
+              "Selected units for 'Standard Type': e.g. concentrations are in nM"
+            ],
+            "type": 4
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Lysine-specific histone demethylase 1A",
+            "mol_id": 51315808,
+            "molecule_type": 1,
+            "organism": {
+              "genome": 0,
+              "origin": 0,
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9606
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Homo sapiens"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Lysine-specific histone demethylase 1",
+            "comment": [
+              "Protein Accession: O60341"
+            ]
+          }
+        ],
+        "project_category": 7,
+        "assay_group": [
+          "PMID: 27771599"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 374265782,
+        "version": 1,
+        "outcome": 4,
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Inhibition"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "="
+            }
+          },
+          {
+            "tid": 3,
+            "value": {
+              "fval": 26.77
+            }
+          },
+          {
+            "tid": 4,
+            "value": {
+              "sval": "%"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 7
+          }
+        }
+      }
+    ]
+  }
+}

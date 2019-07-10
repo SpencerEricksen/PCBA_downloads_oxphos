@@ -1,0 +1,146 @@
+{
+  "PC_AssaySubmit": {
+    "assay": {
+      "descr": {
+        "aid": {
+          "id": 568637,
+          "version": 3
+        },
+        "aid_source": {
+          "db": {
+            "name": "ChEMBL",
+            "source_id": {
+              "str": "717177"
+            }
+          }
+        },
+        "name": "Binding affinity to UQCRB expressed in T7 phage at 100 uM after 1 hr by competitive binding assay",
+        "description": [
+          "Title: Identification of a novel small molecule targeting UQCRB of mitochondrial complex III and its anti-angiogenic activity.",
+          "",
+          "Abstract: Our recent study has shown that ubiquinol-cytochrome c reductase binding protein (UQCRB), the 13.4-kDa subunit of mitochondrial complex III, plays a crucial role in hypoxia-induced angiogenesis via mitochondrial reactive oxygen species (ROS)-mediated signaling. Here we report a new synthetic small molecule targeting the mitochondrial oxygen sensor UQCRB that was identified by pharmacophore-based virtual screening and in vitro and in vivo competition binding analyses. 6-((1-Hydroxynaphthalen-4-ylamino)dioxysulfone)-2H-naphtho[1,8-bc]thiophen-2-one (HDNT) binds to the hydrophobic pocket of UQCRB and potently inhibits in vitro angiogenesis of human umbilical vein endothelial cells without cytotoxicity. Furthermore, the binding of HDNT to UQCRB suppressed mitochondrial ROS-mediated hypoxic signal transduction. These results demonstrated that HDNT is a novel synthetic small molecule targeting UQCRB and exhibits anti-angiogenic activity by modulating the oxygen-sensing function of UQCRB."
+        ],
+        "comment": [
+          "Journal: Bioorg. Med. Chem. Lett.",
+          "Year: 2011",
+          "Volume: 21",
+          "Issue: 3",
+          "First Page: 1052",
+          "Last Page: 1056",
+          "DOI: 10.1016/j.bmcl.2010.12.002",
+          "",
+          "Target ChEMBL ID: CHEMBL1671612",
+          "ChEMBL Target Name: Cytochrome b-c1 complex subunit 7",
+          "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+          "Relationship Type: H - Homologous protein target assigned",
+          "Confidence: Homologous single protein target assigned"
+        ],
+        "xref": [
+          {
+            "xref": {
+              "pmid": 21215626
+            },
+            "type": "pcit"
+          },
+          {
+            "xref": {
+              "dburl": "http://www.ebi.ac.uk/chembldb/"
+            }
+          },
+          {
+            "xref": {
+              "asurl": "http://www.ebi.ac.uk/chembldb/index.php/assay/inspect/717177"
+            }
+          },
+          {
+            "xref": {
+              "protein_gi": 136717
+            }
+          }
+        ],
+        "results": [
+          {
+            "tid": 1,
+            "name": "Standard Type",
+            "description": [
+              "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+            ],
+            "type": "string"
+          },
+          {
+            "tid": 2,
+            "name": "Activity Comment",
+            "description": [
+              "Additional comments"
+            ],
+            "type": "string"
+          }
+        ],
+        "revision": 1,
+        "target": [
+          {
+            "name": "Cytochrome b-c1 complex subunit 7",
+            "mol_id": 136717,
+            "molecule_type": "protein",
+            "organism": {
+              "org": {
+                "db": [
+                  {
+                    "db": "taxon",
+                    "tag": {
+                      "id": 9606
+                    }
+                  }
+                ],
+                "orgname": {
+                  "name": {
+                    "binomial": {
+                      "genus": "Homo sapiens"
+                    }
+                  }
+                }
+              }
+            },
+            "descr": "Cytochrome b-c1 complex subunit 7",
+            "comment": [
+              "Protein Accession: P14927"
+            ]
+          }
+        ],
+        "project_category": "literature-extracted",
+        "assay_group": [
+          "PMID: 21215626"
+        ]
+      }
+    },
+    "data": [
+      {
+        "sid": 124958479,
+        "version": 1,
+        "comment": "Potential missing data",
+        "outcome": "active",
+        "data": [
+          {
+            "tid": 1,
+            "value": {
+              "sval": "Activity"
+            }
+          },
+          {
+            "tid": 2,
+            "value": {
+              "sval": "Active"
+            }
+          }
+        ],
+        "date": {
+          "std": {
+            "year": 2018,
+            "month": 9,
+            "day": 17
+          }
+        }
+      }
+    ]
+  }
+}
