@@ -1,0 +1,4 @@
+let's cluster molecules and plot them into 3-PCA space
+
+possible strategy: oolor mols by cluster ID, dump medoids by CID?, highlight active cpds by borders
+
