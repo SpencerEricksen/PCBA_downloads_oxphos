@@ -1,6 +1,0 @@
-2019-07-01-2226
-
-https://www.ncbi.nlm.nih.gov/pcassay
-
-("electron transport chain"[Assay Description] OR "mitochondrial complex"[Assay Description] OR "mitochondrial respiratory chain"[Assay Description] OR "mitochondrial membrane potential"[Assay Description]) AND ( 1:10000000[TargetCount] )
-
