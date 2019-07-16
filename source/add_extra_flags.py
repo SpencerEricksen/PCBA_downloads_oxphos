@@ -2,7 +2,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('all_oxphos_aids_cids_fps.csv')
+df = pd.read_csv('../all_oxphos_aids_cids_fps.csv')
 
 df = df.drop( columns=['Unnamed: 0'] )
 
@@ -11,7 +11,7 @@ df = df.drop( columns=['Unnamed: 0'] )
 
 df['biochemical_target'] = False
 
-with open( 'additional_flags/assays_-termfilter_+targfilter/assay_list_221.txt', 'r' ) as fh:
+with open( '../../additional_flags/assays_-termfilter_+targfilter/assay_list_221.txt', 'r' ) as fh:
     data = fh.readlines()
 
 biochem_aid_list = [ int(x.strip()) for x in data ]
@@ -25,7 +25,7 @@ for i in biochem_aid_list:
 
 df['pass_term_filter'] == False
 
-with open( 'additional_flags/assays_+termfilter_-targfilter/assay_list_4346.txt', 'r' ) as fh:
+with open( '../../additional_flags/assays_+termfilter_-targfilter/assay_list_4346.txt', 'r' ) as fh:
     data = fh.readlines()
 
 termfilter_aid_list = [ int(x.strip()) for x in data ]
@@ -35,6 +35,6 @@ for i in termfilter_aid_list:
 
 
 # dump to new CSV
-df.to_csv('all_oxphos_aids_cids_fps_terms_bctarg.csv')
+df.to_csv('../all_oxphos_aids_cids_fps_terms_bctarg.csv')
 
 
