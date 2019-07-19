@@ -1,0 +1,30 @@
+# get 
+import pandas as pd
+import numpy as np
+df = pd.read_csv('ultimate_oxphos_pcassay_dataset_actives.csv', sep="|" )
+df2 = df[['smiles', 'PUBCHEM_CID']]
+df2.drop_duplicates('PUBCHEM_CID', keep='first').to_csv('actives_oxphos.csv', header=False, index=False, sep=" ")
+
+# couldn't run npscorer with my python2.7 environment. so, build python3.6 environment for running npscorer.py script:
+conda create -n py36_chem python=3.6
+conda activate py36_chem
+conda install numpy
+conda install pandas
+conda install matplotlib
+conda install scikit-learn
+conda install rdkit
+conda install seaborn
+
+# same environment 
+conda env export > conda_py36_chem.yml
+
+# now run script and score each active molecule with regard to natural product likeness
+/home/ssericksen/anaconda2/envs/py36_chem/bin/python npscorer.py actives_oxphos.csv > actives_oxphos_npscores.txt
+
+
+
+# do same with all cpds
+df = pd.read_csv('ultimate_oxphos_pcassay_dataset.csv', sep="|" )
+df2 = df[['smiles','PUBCHEM_CID']]
+df2.drop_duplicates('PUBCHEM_CID', keep='first').to_csv('all_oxphos.csv', header=False, index=False, sep=" ")
+
