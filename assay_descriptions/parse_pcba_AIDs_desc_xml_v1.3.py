@@ -53,7 +53,7 @@ def get_descriptions( aid ):
 d = get_descriptions(aid)
 
 # going with the '|' delimiter to avoid issues with commas in the abstracts
-print('AID|pmid|DOI|Year|ChEMBL Target Name|ChEMBL Target Type|Target ChEMBL ID|Confidence|Relationship Type|Title|name|Abstract')
+print('AID|pmid|DOI|Year|ChEMBL_Target_Name|ChEMBL_Target_Type|Target_ChEMBL_ID|Confidence|Relationship_Type|Title|name|Abstract')
 
 keys_list = ['id','pmid','DOI','Year','ChEMBL Target Name','ChEMBL Target Type','Target ChEMBL ID','Confidence','Relationship Type','Title','name','Abstract']
 
