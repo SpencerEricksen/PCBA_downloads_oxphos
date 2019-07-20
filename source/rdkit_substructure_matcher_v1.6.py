@@ -80,5 +80,6 @@ df.to_csv( 'aid_'+aid+'.csv', index_label='PUBCHEM_CID' )
 
 # dump to spreadsheet (with images):
 #df = df.reset_index()
+#df.fillna(value='', inplace=True)
 #PandasTools.SaveXlsxFromFrame( df, 'aid_'+aid+'.xlsx', molCol='rdkit_mol', size=(200,200) )
 
