@@ -21,7 +21,7 @@ the following query returns 4645 assays--performed on May 22, 2019 at 13:51
 
 # Scripts and Procedure for downloading cpd data for various assay IDs (AIDs) from PubChem
 
-make simple assay list:
+download pcassay_result.txt from query and use to make a simple assay list:
 
 ```
 grep AID: pcassay_result.txt | awk '{print $2}' > assay_list.list
