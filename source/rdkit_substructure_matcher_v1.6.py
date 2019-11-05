@@ -47,15 +47,21 @@ df['rdkit_mol'] = df['rdkit_mol'].apply( lambda x: _saltRemover.StripMol(x) if x
 # this bombs on missing mols: 
 #PandasTools.RemoveSaltsFromFrame( df, molCol='rdkit_mol')
 
-
 # need an alternative FRAGMENT REMOVER since some 
 # non-standard counterions are not RDKit's default
 # salt fragment list: $RDBASE/Data/Salts.txt
-mols = list(Chem.GetMolFrags( mol, asMols=True ))
-if (mols):
-    mols.sort(reverse=True, key=lambda m: m.GetNumAtoms() )
-    mol = mols[0]
+def alt_frag_remover( m ):
+    # split m into mol fragments, keep fragment with highest num atoms
+    mols = list(Chem.GetMolFrags( m, asMols=True ))
+    if (mols):
+        mols.sort(reverse=True, key=lambda x: x.GetNumAtoms() )
+        mol = mols[0]
+    else:
+        mol = None
+    return mol
 
+# apply secondary salt remover
+df['rdkit_mol'] = df['rdkit_mol'].apply( lambda x: alt_frag_remover(x) if x is not None else None )
 
 
 # replace smiles with clean smiles
