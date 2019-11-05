@@ -16,7 +16,7 @@ aid = str( sys.argv[1] )
 frag = Chem.MolFromSmarts('C(=O)C=C')
 
 # get smiles
-df_smi = pd.read_csv( './fetch_CGIs/pcba-aid'+aid+'_0.smi', index_col=0, header=None, sep='\t', names=['smiles'] )
+df_smi = pd.read_csv( './fetch_CGIs/smiles/pcba-aid'+aid+'_0.smi', index_col=0, header=None, sep='\t', names=['smiles'] )
 df_smi.index.name = 'PUBCHEM_CID'
 df_smi = df_smi.reset_index().drop_duplicates(subset='PUBCHEM_CID', keep='first').set_index('PUBCHEM_CID')
 # probably easier:
