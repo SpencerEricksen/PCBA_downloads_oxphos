@@ -21,6 +21,11 @@ the following query returns 4645 assays--performed on May 22, 2019 at 13:51
 
 # Scripts and Procedure for downloading cpd data for various assay IDs (AIDs) from PubChem
 
+get access to scripts in ./source
+```
+export PATH="${PWD}/source:"$PATH
+```
+
 download pcassay_result.txt from query and use to make a simple assay list:
 
 ```
@@ -31,21 +36,15 @@ download AID data tables for each AID (output files go to 'AIDs' folder
 
 ```
 mkdir AIDs
-python get_bioassay_data_v1.4.py assay_list.list > get_bioassay_oxphos_all_assays.log 2>&1 &
+python get_bioassay_data_v1.4.py assay_list.list > get_bioassay_data.log 2>&1 &
 ```
 
-prepare CID CSVs (including columns PUBCHEM_ACTIVITY_OUTCOMES and PUBCHEM_ACTIVITY_SCORE)
+prepare CID CSVs (including columns PUBCHEM_ACTIVITY_OUTCOMES and PUBCHEM_ACTIVITY_SCORE), move these to CID_lists folder
 
 ```
-for aid in AIDs/pcba-aid*.csv; do ./dump_assay_cid_activity_csv.py ${aid}; done
+for aid in AIDs/pcba-aid*.csv; do python ./source/dump_assay_cid_activity_csv_v1.1.py ${aid}; done
 ```
 
-prepare simple CID lists for each assay in AIDs folder, move these to CID_lists folder
-
-```
-for a in AIDs/pcba-aid*.csv; do ./dump_cid_list_v1.1.py  ${a}; done
-```
- 
 prepare .xml query files for PUG REST. These are built from CID lists for each AID. These will be used to fetch smiles for all CIDs tested in each assay.
 
 ```
