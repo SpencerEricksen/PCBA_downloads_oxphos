@@ -1,4 +1,3 @@
-#!/home/ssericksen/anaconda2/bin/python2.7
 
 import pandas as pd
 import numpy as np
@@ -17,7 +16,7 @@ cid_list = df['PUBCHEM_CID'].dropna().astype(int).to_list()
 
 with open( "pcba-aid"+aid_number+".cid", 'w' ) as fh:
     for cid in cid_list:
-        print >> fh, cid
+        fh.write(str(cid)+"\n")
 
 '''
 # if we want to keep ACTIVITY_OUTCOME and ACTIVITY_SCORE:
