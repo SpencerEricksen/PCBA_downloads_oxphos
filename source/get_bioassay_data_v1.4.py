@@ -35,6 +35,7 @@ aid_data_input_file = sys.argv[1]
 with open(aid_data_input_file, 'r') as fh:
     data = fh.readlines()
 for line in data:
+    print('*'*30)
     aid = line.split()[0]
     listkey, mol_total = get_reqid( aid )
     csv_data_file = './pcba-aid'+str(aid)+'.csv'
