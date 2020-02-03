@@ -30,7 +30,8 @@ grep AID: pcassay_result.txt | awk '{print $2}' > assay_list.list
 download AID data tables for each AID (output files go to 'AIDs' folder
 
 ```
-nohup ./get_bioassay_data_v1.3.py assay_list.list > get_bioassay_oxphos_all_assays.log 2>&1 &
+mkdir AIDs
+python get_bioassay_data_v1.4.py assay_list.list > get_bioassay_oxphos_all_assays.log 2>&1 &
 ```
 
 prepare CID CSVs (including columns PUBCHEM_ACTIVITY_OUTCOMES and PUBCHEM_ACTIVITY_SCORE)
