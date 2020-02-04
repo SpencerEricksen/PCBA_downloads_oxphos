@@ -27,7 +27,7 @@ def dump_cgi_xml( outfile, cid_list, AID, AID_chunk ):
 
     for cid in cid_list:
         if cid != '0':
-            outfile.write("                    <PCT-ID-List_uids_E>"+str(cid)+"</PCT-ID-List_uids_E>\n"
+            outfile.write("                    <PCT-ID-List_uids_E>"+str(cid)+"</PCT-ID-List_uids_E>\n")
 
     outfile.write(
     "                  </PCT-ID-List_uids>\n"
