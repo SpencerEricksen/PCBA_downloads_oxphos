@@ -1,14 +1,18 @@
 
-# OXPHOS Inhibitor Project Data: examination of propensity of unsaturated carbonyl containing molecules to inhibit OXPHOS 
+# Pipeline for compiling PubChem BioAssay data for all compounds with deposited testing outcomes against a given target system.
 
-use advanced query to find PubChem BioAssays (AIDs) with potentially relevant data
+Here, we applied this pipeline against our target phenotype/mechanism of interest the OXPHOS pathway. Here we obtained all compund assay data from assays associated with OXPHOS inhibition--a mechanism involving as least several different targets or biochemical sites.  
+
+The pipeline begings with a search based on key word terms in the 'Assay Description' to identify assays potentially related to our target with potentially relevant data. Here is the site for structuring and submitting your query:
 https://www.ncbi.nlm.nih.gov/pcassay/advanced
 
-the following query returns 4645 assays--performed on May 22, 2019 at 13:51
+The following query returns 4645 assays--performed on May 22, 2019 at 13:51
 
 >("electron transport chain"[Assay Description] OR "mitochondrial complex"[Assay Description] OR "mitochondrial respiratory chain"[Assay Description] OR "mitochondrial membrane potential"[Assay Description])
 
-
+This query returns 4645 AIDs in a list that can be downloaed ('pcassay_result.txt').
+    
+###############
 
     2019-06-28
     total substance records: 361124
@@ -18,6 +22,7 @@ the following query returns 4645 assays--performed on May 22, 2019 at 13:51
     unique gen murcko:	47200
 
 ###############
+
 # Preparing python environment
 The following procedure was executed on Ubuntu 18.04.4 LTS using shell commands/scripts and python scripts. The python scripts were developed and tested in a conda environment running python 3.6.7 (conda version 4.7.11).
 
@@ -59,7 +64,7 @@ Use .xml query files to fetch via [Power User Gateway (PUG) SOAP](https://pubche
 for f in pc_fetch_aid1[1234]*; do ./wrapper_fetch_v1.2.sh $f; done
 ```
 
-Merge downloaded smiles and downloaded assay outcomes into individal files for each AID add substructure 'match' result and smiles for Bemis-Murcko scaffolds and generic Murcko scaffolds (all carbon).
+Merge downloaded smiles and downloaded assay outcomes into individal files for each AID, canonicalize, de-salt smiles, also extact SMILES strings for the Bemis-Murcko scaffolds and generic Murcko scaffolds (all carbon).
 
 ```
 for a in `cat assay_list.list`; do echo ${a}; ./rdkit_substructure_matcher_v1.6.py ${a}; done
