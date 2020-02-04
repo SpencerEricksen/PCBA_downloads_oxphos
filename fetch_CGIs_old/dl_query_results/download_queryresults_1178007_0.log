@@ -1,0 +1,28 @@
+--2019-06-20 18:27:44--  ftp://ftp-private.ncbi.nlm.nih.gov/pubchem/.fetch/2/2001561674733350098.txt.gz
+           => ‘2001561674733350098.txt.gz’
+Resolving ftp-private.ncbi.nlm.nih.gov (ftp-private.ncbi.nlm.nih.gov)... 130.14.29.30
+Connecting to ftp-private.ncbi.nlm.nih.gov (ftp-private.ncbi.nlm.nih.gov)|130.14.29.30|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pubchem/.fetch/2 ... done.
+==> SIZE 2001561674733350098.txt.gz ... 328
+==> PASV ... done.    ==> RETR 2001561674733350098.txt.gz ... done.
+Length: 328 (unauthoritative)
+
+     0K                                                       100%  228K=0.001s
+
+2019-06-20 18:27:45 (228 KB/s) - ‘2001561674733350098.txt.gz’ saved [328]
+
+--2019-06-20 18:27:45--  http://query/
+Resolving query (query)... failed: Name or service not known.
+wget: unable to resolve host address ‘query’
+--2019-06-20 18:27:45--  ftp://xml/
+           => ‘.listing’
+Resolving xml (xml)... failed: Name or service not known.
+wget: unable to resolve host address ‘xml’
+--2019-06-20 18:27:45--  http://pc_fetch_aid1178007_activities_0.cgi/
+Resolving pc_fetch_aid1178007_activities_0.cgi (pc_fetch_aid1178007_activities_0.cgi)... failed: Name or service not known.
+wget: unable to resolve host address ‘pc_fetch_aid1178007_activities_0.cgi’
+FINISHED --2019-06-20 18:27:45--
+Total wall clock time: 0.9s
+Downloaded: 1 files, 328 in 0.001s (228 KB/s)

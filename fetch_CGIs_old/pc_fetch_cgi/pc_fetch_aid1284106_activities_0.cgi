@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!DOCTYPE PCT-Data PUBLIC "-//NCBI//NCBI PCTools/EN" "http://pubchem.ncbi.nlm.nih.gov/pug/pug.dtd">
+<PCT-Data>
+  <PCT-Data_input>
+    <PCT-InputData>
+      <PCT-InputData_download>
+        <PCT-Download>
+          <PCT-Download_uids>
+            <PCT-QueryUids>
+              <PCT-QueryUids_ids>
+                <PCT-ID-List>
+                  <PCT-ID-List_db>pccompound</PCT-ID-List_db>
+                  <PCT-ID-List_uids>
+                    <PCT-ID-List_uids_E>24360</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>6889</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>236566</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>11840</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>87203</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>7054</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>38333</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212283</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>136249361</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212597</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73213397</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73213453</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73213456</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212285</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212372</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212453</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>136224198</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212286</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212528</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212598</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73213454</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212376</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212527</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73213398</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73213457</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73213458</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212281</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212449</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212451</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>3082129</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73213455</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212373</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212377</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212450</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212454</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212596</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212282</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212284</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212371</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212375</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212448</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212452</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212524</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212595</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73213399</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73213400</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73213452</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212287</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212374</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212525</PCT-ID-List_uids_E>
+                    <PCT-ID-List_uids_E>73212526</PCT-ID-List_uids_E>
+                  </PCT-ID-List_uids>
+                </PCT-ID-List>
+              </PCT-QueryUids_ids>
+            </PCT-QueryUids>
+          </PCT-Download_uids>
+          <PCT-Download_format value="smiles"/>
+          <PCT-Download_compression value="gzip"/>
+          <PCT-Download_use-3d value="false"/>
+        </PCT-Download>
+      </PCT-InputData_download>
+    </PCT-InputData>
+  </PCT-Data_input>
+</PCT-Data>
