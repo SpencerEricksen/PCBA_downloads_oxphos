@@ -18,8 +18,10 @@ the following query returns 4645 assays--performed on May 22, 2019 at 13:51
     unique gen murcko:	47200
 
 ###############
+# Preparing python environment
+The following procedure was executed on Ubuntu 18.04.4 LTS using shell commands/scripts and python scripts. The python scripts were developed and tested in a conda environment running python 3.6.7 (conda version 4.7.11).
 
-# Scripts and Procedure for downloading cpd data for various assay IDs (AIDs) from PubChem
+# Procedure for downloading cpd data for selected set of assays (AIDs) in PubChem
 
 get access to scripts in ./source
 ```
@@ -36,7 +38,7 @@ download AID data tables for each AID (output files go to 'AIDs' folder
 
 ```
 mkdir AIDs
-python get_bioassay_data_v1.4.py assay_list.list > get_bioassay_data.log 2>&1 &
+python ./source/get_bioassay_data_v1.4.py assay_list.list > get_bioassay_data.log 2>&1 &
 ```
 
 prepare CID CSVs (including columns PUBCHEM_ACTIVITY_OUTCOMES and PUBCHEM_ACTIVITY_SCORE), move these to CID_lists folder
@@ -48,16 +50,16 @@ for aid in AIDs/pcba-aid*.csv; do python ./source/dump_assay_cid_activity_csv_v1
 prepare .xml query files for PUG REST. These are built from CID lists for each AID. These will be used to fetch smiles for all CIDs tested in each assay.
 
 ```
-for c in CID_lists/pcba-aid*_activities.csv; do ./0A_write_cgi_v1.4.py $c; echo $c; done
+for c in CID_lists/pcba-aid*_activities.csv; do python ./source/0A_write_cgi_v1.4.py $c; echo $c; done
 ``` 
 
-Use .xml query files to fetch via PUG REST the smiles for all tested cpds from each AID
+Use .xml query files to fetch via [Power User Gateway (PUG) SOAP](https://pubchemdocs.ncbi.nlm.nih.gov/power-user-gateway$_3-1) the smiles for all tested cpds from each AID. I run the following wrapper in the ./fetch_CGIs directory. The individual requests have time delays to respect PubChem bandwidth so it may take some time for large number of assays.
 
 ```
 for f in pc_fetch_aid1[1234]*; do ./wrapper_fetch_v1.2.sh $f; done
 ```
 
-merge downloaded smiles and downloaded assay outcomes into individal files for each AID add substructure 'match' result and smiles for Bemis-Murcko scaffolds and generic Murcko scaffolds (all carbon).
+Merge downloaded smiles and downloaded assay outcomes into individal files for each AID add substructure 'match' result and smiles for Bemis-Murcko scaffolds and generic Murcko scaffolds (all carbon).
 
 ```
 for a in `cat assay_list.list`; do echo ${a}; ./rdkit_substructure_matcher_v1.6.py ${a}; done
