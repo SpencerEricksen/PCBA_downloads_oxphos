@@ -48,7 +48,7 @@ for aid in AIDs/pcba-aid*.csv; do python ./source/dump_assay_cid_activity_csv_v1
 prepare .xml query files for PUG REST. These are built from CID lists for each AID. These will be used to fetch smiles for all CIDs tested in each assay.
 
 ```
-for c in CID_lists/pcba-aid*_activities.csv; do ./0A_write_cgi_v1.3.py $c; echo $c; done
+for c in CID_lists/pcba-aid*_activities.csv; do ./0A_write_cgi_v1.4.py $c; echo $c; done
 ``` 
 
 Use .xml query files to fetch via PUG REST the smiles for all tested cpds from each AID
