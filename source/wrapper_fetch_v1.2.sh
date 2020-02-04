@@ -36,6 +36,7 @@ if [ -z ${reqid} ]; then
 ### otherwise, poll the query to check progress, wait 40sec, then attempt download
 else
     echo "reqid:${reqid} isn't ready, waiting 40 seconds then will query the poll..."
+    # note, you will need a template poll.cgi file available for next line
     cat poll.cgi | sed "s/REQID_NUM/${reqid}/g" > poll_${reqid}_${aid}_${aid_chunk}.cgi
     xml=poll_${reqid}_${aid}_${aid_chunk}.cgi
     sleep 40 
