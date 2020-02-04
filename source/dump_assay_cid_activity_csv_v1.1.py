@@ -14,5 +14,5 @@ df3 = df2[['PUBCHEM_CID', 'PUBCHEM_ACTIVITY_OUTCOME', 'PUBCHEM_ACTIVITY_SCORE' ]
 df3 = df3.astype( {'PUBCHEM_CID':'int64','PUBCHEM_ACTIVITY_SCORE':'float64'} )
 df4 = df3.sort_values( by='PUBCHEM_ACTIVITY_SCORE', ascending=False ).drop_duplicates( subset='PUBCHEM_CID', keep='first')
 df4.set_index( 'PUBCHEM_CID', inplace=True)
-df4.to_csv('pcba-aid'+aid_number+'_activities.csv', index_label='PUBCHEM_CID')
+df4.to_csv('./CID_lists/pcba-aid'+aid_number+'_activities.csv', index_label='PUBCHEM_CID')
 
