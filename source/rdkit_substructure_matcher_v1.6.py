@@ -1,4 +1,3 @@
-#!/home/ssericksen/anaconda2/bin/python2.7
 
 import pandas as pd
 import numpy as np
@@ -13,12 +12,12 @@ aid = str( sys.argv[1] )
 #frag = Chem.MolFromSmarts('C(=O)')
 #frag = Chem.MolFromSmarts('C(=O)C')
 #frag = Chem.MolFromSmarts('C(=O)C=[C,N]')
-frag = Chem.MolFromSmarts('C(=O)C=C')
+#frag = Chem.MolFromSmarts('C(=O)C=C')
 
 # get smiles
 df_smi = pd.read_csv( './fetch_CGIs/smiles/pcba-aid'+aid+'_0.smi', index_col=0, header=None, sep='\t', names=['smiles'] )
 df_smi.index.name = 'PUBCHEM_CID'
-df_smi = df_smi.reset_index().drop_duplicates(subset='PUBCHEM_CID', keep='first').set_index('PUBCHEM_CID')
+#df_smi = df_smi.reset_index().drop_duplicates(subset='PUBCHEM_CID', keep='first').set_index('PUBCHEM_CID')
 # probably easier:
 #df_smi = df_smi.groupby(level=0).first()
 df_smi.index = df_smi.index.map(str)
@@ -26,7 +25,7 @@ df_smi.index = df_smi.index.map(str)
 # get activities
 df_act = pd.read_csv('./CID_lists/pcba-aid'+aid+'_activities.csv')
 df_act.set_index('PUBCHEM_CID', inplace=True)
-df_act = df_act.reset_index().drop_duplicates(subset='PUBCHEM_CID', keep='first').set_index('PUBCHEM_CID')
+#df_act = df_act.reset_index().drop_duplicates(subset='PUBCHEM_CID', keep='first').set_index('PUBCHEM_CID')
 #df_act = df_act.groupby(level=0).first()
 df_act.index = df_act.index.map(str)
 
@@ -69,7 +68,7 @@ df['smiles'] = df['rdkit_mol'].apply( lambda x: Chem.MolToSmiles(x) if x is not 
 
 # boolean for detection of substructure
 #df['match'] = df[ df['rdkit_mol'] >= frag ]
-df['match'] = df['rdkit_mol'].apply( lambda x: x.HasSubstructMatch(frag) if x is not None else None )
+#df['match'] = df['rdkit_mol'].apply( lambda x: x.HasSubstructMatch(frag) if x is not None else None )
 
 # add Murcko and generic Murcko scaffolds
 def get_murcko(x):
