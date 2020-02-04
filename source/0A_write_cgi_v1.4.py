@@ -60,12 +60,12 @@ for cid in cids:
     if count < 249999:
         count += 1    
     else:
-        out_xml_file = open('pc_fetch_'+AID+'_'+str(chunk)+'.cgi', 'w')
+        out_xml_file = open('./fetch_CGIs/pc_fetch_'+AID+'_'+str(chunk)+'.cgi', 'w')
         dump_cgi_xml( out_xml_file, tmp_cid_list, AID, chunk )
         count = 0
         chunk += 1
         tmp_cid_list = []
 
-out_xml_file = open('pc_fetch_'+AID+'_'+str(chunk)+'.cgi', 'w')
+out_xml_file = open('./fetch_CGIs/pc_fetch_'+AID+'_'+str(chunk)+'.cgi', 'w')
 dump_cgi_xml( out_xml_file, tmp_cid_list, AID, chunk )
 
