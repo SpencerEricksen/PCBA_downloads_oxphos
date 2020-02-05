@@ -64,13 +64,14 @@ Use .xml query files to fetch via [Power User Gateway (PUG) SOAP](https://pubche
 for f in pc_fetch_aid1[1234]*; do ./wrapper_fetch_v1.2.sh $f; done
 ```
 
-Merge downloaded smiles and downloaded assay outcomes into individal files for each AID, canonicalize, de-salt smiles, also extact SMILES strings for the Bemis-Murcko scaffolds and generic Murcko scaffolds (all carbon).
+Merge downloaded smiles and downloaded assay outcomes into individal files for each AID, canonicalize, de-salt smiles, also extact SMILES strings for the Bemis-Murcko scaffolds and generic Murcko scaffolds (all carbon). Must create 'merged' directory to store the merged assay/cpd dataframes.
 
 ```
-for a in `cat assay_list.list`; do echo ${a}; ./rdkit_substructure_matcher_v1.6.py ${a}; done
+mkdir merged
+for a in `cat assay_list.list`; do echo $a; python ./source/rdkit_substructure_matcher_v1.6.py $a; done
 ```
 
-merge all of these merged assay outcomes/smiles tables:
+concatenate all of these merged assay outcomes/smiles tables:
 
 ```
 cat aid_*.csv > all_oxphos_aids_cids.csv
