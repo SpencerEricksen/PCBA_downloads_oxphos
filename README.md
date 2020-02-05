@@ -1,16 +1,17 @@
 
 # Pipeline for compiling PubChem BioAssay data for all compounds with deposited testing outcomes against a given target system.
 
-Here, we applied this pipeline against our target phenotype/mechanism of interest the OXPHOS pathway. Here we obtained all compund assay data from assays associated with OXPHOS inhibition--a mechanism involving as least several different targets or biochemical sites.  
+Here, we applied this pipeline to acquire compound testing data from PubChem from assays related to the OXPHOS pathway. This includes a wide variety of assays involving different biochemical targets, whole cells, etc.  
 
 The pipeline begings with a search based on key word terms in the 'Assay Description' to identify assays potentially related to our target with potentially relevant data. Here is the site for structuring and submitting your query:
 https://www.ncbi.nlm.nih.gov/pcassay/advanced
 
-The following query returns 4645 assays--performed on May 22, 2019 at 13:51
+
+The following query was performed on May 22, 2019 at 13:51
 
 >("electron transport chain"[Assay Description] OR "mitochondrial complex"[Assay Description] OR "mitochondrial respiratory chain"[Assay Description] OR "mitochondrial membrane potential"[Assay Description])
 
-This query returns 4645 AIDs in a list that can be downloaed ('pcassay_result.txt').
+A list of 4645 AIDs is returned that can be downloaed ('pcassay_result.txt'). Four assays were ultimately removed from this set as they did not involve or report compounds (CIDs). This reduces the assay set to 4641 AIDs.
     
 ###############
 
@@ -26,7 +27,7 @@ This query returns 4645 AIDs in a list that can be downloaed ('pcassay_result.tx
 # Preparing python environment
 The following procedure was executed on Ubuntu 18.04.4 LTS using shell commands/scripts and python scripts. The python scripts were developed and tested in a conda environment running python 3.6.7 (conda version 4.7.11).
 
-# Procedure for downloading cpd data for selected set of assays (AIDs) in PubChem
+# Procedure for downloading cpd data for a set of assays (AIDs) in PubChem
 
 get access to scripts in ./source
 ```
@@ -84,6 +85,34 @@ Add chemical fingerprint strings for all molecules in all_oxphos_aids_cids.csv (
 python ./source/rdkit_add_fingerprints_v1.1.py  all_oxphos_aids_cids.csv  all_oxphos_aids_cids_fps.csv
 ```
 
+Add PAINS flags, npscores, and rdkit molecular descriptors
+```
+...
+```
+
+Download assay description data for PubChem
+Merge relevant assay description fields into dataframe
+```
+...
+```
+
+
+Filter/flag cpd records based on matches with assay description terms
+```
+...
+```
+
+
+Cluster full molecule set based on fingerprints, store clusterIDs
+
+
+
+
+
+
+
+
+
 #########
 NOTES:
 > was missing smiles for AID 1465 (by far the largest data set with >200k cpds). I ran the pc_fetch wrapper from command line in steps and waited for request to finish. used a sleep of 40 seconds before starting download and perhaps that isn't long enough. Probably better to grep some flag out of the poll query to test condition for wget to rpoceed with download. I poll this query and waited until it was finished before downloading.
@@ -94,7 +123,7 @@ NOTES:
 -    651810 --> siRNA (18,119 SIDs)
 -    651811 --> siRNA (64,752 SIDs)
 
-> but these are not small molecules so we'll skip these
+> but these are not small molecules (no CIDs) so we'll skip these
 
 
 ##########################################
