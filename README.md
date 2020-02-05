@@ -81,7 +81,7 @@ sed -i '2,${/PUBCHEM_CID/d;}' all_oxphos_aids_cids.csv
 process all_oxphos_aids_cids.csv to add fingerprints (RDKit Morgan fingerprints of radius=3 and 2048 bits)
 
 ```
-./rdkit_add_fingerprints.py
+python ./source/rdkit_add_fingerprints_v1.1.py  all_oxphos_aids_cids.csv  all_oxphos_aids_cids_fps.csv
 ```
 
 #########
