@@ -44,5 +44,5 @@ df['morgan_bitstring'] = df['morgan_r3'].apply( lambda fp: make_bitstring( fp ) 
 # now dump to CSV only relevant columns (remove 'rdkit_mol' and 'morgan_r3')
 df.drop( columns=['rdkit_mol','morgan_r3'], inplace=True )
 #df.to_csv('all_oxphos_aids_cids_fps.csv')
-df.to_csv( outcsv )
+df.to_csv( outcsv, index=False )
 
