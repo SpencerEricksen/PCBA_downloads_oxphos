@@ -58,27 +58,27 @@ prepare .xml query files for PUG REST. These are built from CID lists for each A
 for c in CID_lists/pcba-aid*_activities.csv; do python ./source/0A_write_cgi_v1.4.py $c; echo $c; done
 ``` 
 
-Use .xml query files to fetch via [Power User Gateway (PUG) SOAP](https://pubchemdocs.ncbi.nlm.nih.gov/power-user-gateway$_3-1) the smiles for all tested cpds from each AID. I run the following wrapper in the ./fetch_CGIs directory. The individual requests have time delays to respect PubChem bandwidth so it may take some time for large number of assays.
+Use .xml query files to fetch via [Power User Gateway (PUG) SOAP](https://pubchemdocs.ncbi.nlm.nih.gov/power-user-gateway$_3-1) the smiles for all tested cpds from each AID. I run the following wrapper in the ./fetch_CGIs directory. The individual requests have time delays to respect PubChem bandwidth so it may take some time for large number of assays. Note a few assays failed because they did not contain any CIDs (RNA samples in some cases). However, for about ~300of the assays, the CID SMILES fetch failed for other reasons. These I obtained by running a second wrapper_fetch loop on just the subset of ~300 missing assay SMILES downloads.
 
 ```
 for f in pc_fetch_aid1[1234]*; do ./wrapper_fetch_v1.2.sh $f; done
 ```
 
-Merge downloaded smiles and downloaded assay outcomes into individal files for each AID, canonicalize, de-salt smiles, also extact SMILES strings for the Bemis-Murcko scaffolds and generic Murcko scaffolds (all carbon). Must create 'merged' directory to store the merged assay/cpd dataframes.
+Merge downloaded smiles and downloaded assay outcomes into individal files for each AID, canonicalize, de-salt smiles, also extact SMILES strings for the Bemis-Murcko scaffolds and generic Murcko scaffolds (all carbon). Must create 'merged' directory to store the individual merged assay/cpd dataframes (CSVs).
 
 ```
 mkdir merged
-for a in `cat assay_list.list`; do echo $a; python ./source/rdkit_substructure_matcher_v1.6.py $a; done
+for a in `cat assay_list.list`; do echo $a; python ./source/rdkit_merge_assaydata_cids_cln_smiles.py $a; done
 ```
 
-concatenate all of these merged assay outcomes/smiles tables:
+Concatenate all of these merged assay outcomes/smiles tables, remove all but top header line.
 
 ```
 cat aid_*.csv > all_oxphos_aids_cids.csv
 sed -i '2,${/PUBCHEM_CID/d;}' all_oxphos_aids_cids.csv
 ```
 
-process all_oxphos_aids_cids.csv to add fingerprints (RDKit Morgan fingerprints of radius=3 and 2048 bits)
+Add chemical fingerprint strings for all molecules in all_oxphos_aids_cids.csv (RDKit Morgan fingerprints of radius=3 and 2048 bits).
 
 ```
 python ./source/rdkit_add_fingerprints_v1.1.py  all_oxphos_aids_cids.csv  all_oxphos_aids_cids_fps.csv
