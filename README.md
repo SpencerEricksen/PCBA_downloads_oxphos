@@ -65,7 +65,7 @@ Use .xml query files to fetch via [Power User Gateway (PUG) SOAP](https://pubche
 for f in pc_fetch_aid1[1234]*; do ./wrapper_fetch_v1.2.sh $f; done
 ```
 
-Merge downloaded smiles and downloaded assay outcomes into individal files for each AID, canonicalize, de-salt smiles, also extact SMILES strings for the Bemis-Murcko scaffolds and generic Murcko scaffolds (all carbon). Must create 'merged' directory to store the individual merged assay/cpd dataframes (CSVs).
+Merge downloaded smiles and downloaded assay outcomes (activities) into individal files for each AID, canonicalize, de-salt smiles, also extact SMILES strings for the Bemis-Murcko scaffolds and generic Murcko scaffolds (all carbon). Must create 'merged' directory to store the individual merged assay/cpd dataframes (CSVs).
 
 ```
 mkdir merged
@@ -79,6 +79,34 @@ cat aid_*.csv > all_oxphos_aids_cids.csv
 sed -i '2,${/PUBCHEM_CID/d;}' all_oxphos_aids_cids.csv
 ```
 
+
+# Obtain assay descriptions/metadata 
+
+Download assay description data from PubChem. Extract relevant fields from assay data files (.xml). Merge the relevant assay description fields into dataframe, with rows for each AID.
+```
+mkdir assay_descriptions
+./source/curl_xml_download_wrapper.sh assay_list.list
+```
+Had to determine what is the full set of assay attributes in these xml files. 
+```
+for f in `cat assay_list.list`; do python ./source/parse_pcba_AIDs_desc_xml_v1.4.py $f; done |  awk -F":" '{print $1}' | sort | uniq > unique_attributes.list
+```
+Looking over the list of unique attributes and the individual xml files, I found a small subset of desired attributes and edited parse script to just dump those.
+```
+for f in `cat assay_list.list`; do python ./source/parse_pcba_AIDs_desc_xml_v1.4.py $f; done > all_assays_desc.csv
+```
+Then I removed all but the top header line.
+```
+sed -i '2,${/^AID/d;}' all_assays_desc.csv
+```
+NOTE: i used '|' as delimiter to avoid issues with commas appearing in abstracts (false delimiters). I think this was the
+issue. By using alternative delimiter we should be able to read correctly into spreadsheet
+
+
+# merge assay description data with compound records
+
+
+
 Add chemical fingerprint strings for all molecules in all_oxphos_aids_cids.csv (RDKit Morgan fingerprints of radius=3 and 2048 bits).
 
 ```
@@ -88,14 +116,6 @@ python ./source/rdkit_add_fingerprints_v1.1.py  all_oxphos_aids_cids.csv  all_ox
 Add PAINS flags, npscores, and rdkit molecular descriptors
 ```
 ...
-```
-
-Download assay description data from PubChem. Extract relevant fields from assay data files (.xml). Merge the relevant assay description fields into dataframe, with rows for each AID.
-```
-mkdir assay_descriptions
-./source/curl_xml_download_wrapper.sh assay_list.list
-for f in `cat assay_list.list`; do python ./source/parse_pcba_AIDs_desc_xml_v1.4.py $f; done > all_assays_desc.csv
-sed -i '2,${/^AID/d;}' all_assays_desc.csv
 ```
 
 
