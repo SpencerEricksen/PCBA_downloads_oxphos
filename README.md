@@ -90,10 +90,12 @@ Add PAINS flags, npscores, and rdkit molecular descriptors
 ...
 ```
 
-Download assay description data for PubChem
-Merge relevant assay description fields into dataframe
+Download assay description data from PubChem. Extract relevant fields from assay data files (.xml). Merge the relevant assay description fields into dataframe, with rows for each AID.
 ```
-...
+mkdir assay_descriptions
+./source/curl_xml_download_wrapper.sh assay_list.list
+for f in `cat assay_list.list`; do python ./source/parse_pcba_AIDs_desc_xml_v1.4.py $f; done > all_assays_desc.csv
+sed -i '2,${/^AID/d;}' all_assays_desc.csv
 ```
 
 
