@@ -103,8 +103,14 @@ NOTE: i used '|' as delimiter to avoid issues with commas appearing in abstracts
 issue. By using alternative delimiter we should be able to read correctly into spreadsheet
 
 
-# merge assay description data with compound records
+# merge assay description data with compound records. Assay info includes target info (cells, protein target, CHEMBL targetID), assay info, DOIs/PMIDs for associated papers, abstracts, etc.
+python ./source/merge_assaydesc_v1.1.py
 
+
+Filter/flag cpd records based on matches with assay description terms
+```
+...
+```
 
 
 Add chemical fingerprint strings for all molecules in all_oxphos_aids_cids.csv (RDKit Morgan fingerprints of radius=3 and 2048 bits).
@@ -114,12 +120,6 @@ python ./source/rdkit_add_fingerprints_v1.1.py  all_oxphos_aids_cids.csv  all_ox
 ```
 
 Add PAINS flags, npscores, and rdkit molecular descriptors
-```
-...
-```
-
-
-Filter/flag cpd records based on matches with assay description terms
 ```
 ...
 ```
