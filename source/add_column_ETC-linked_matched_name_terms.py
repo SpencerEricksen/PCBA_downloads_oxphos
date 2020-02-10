@@ -1,4 +1,3 @@
-#!/home/ssericksen/anaconda2/envs/py36_chem/bin/python3.6
 
 import pandas as pd
 import numpy as np
@@ -89,7 +88,7 @@ term_list = ['mitochondrial',
 print('adding assay names containing good query terms...')
 name_list = []
 for i in term_list:
-    temp = df0[ df1['name'].str.contains( i )]['name'].unique().tolist()
+    temp = df0[ df0['name'].str.contains( i )]['name'].unique().tolist()
     print("{:<40}{:<50}".format( 'term: '+i, 'unique name matches: '+str(len(temp)) ) )
     name_list.extend( temp )
 print('')
