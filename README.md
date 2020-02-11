@@ -113,6 +113,11 @@ Flag cpd records based on matches with assay description terms. Will remove thes
 python ./source/add_column_ETC-linked_matched_name_terms.py
 ```
 
+Flag cpd records based on matches to expert-confirmed relevant PMIDs (PubMed IDs to papers linked to AIDs)
+```
+python ./source/add_column_ETC-linked_PMID.py
+```
+
 
 Add chemical fingerprint strings for all molecules in all_oxphos_aids_cids.csv (RDKit Morgan fingerprints of radius=3 and 2048 bits).
 ```
