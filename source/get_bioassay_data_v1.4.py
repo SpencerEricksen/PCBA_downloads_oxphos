@@ -38,7 +38,7 @@ for line in data:
     print('*'*30)
     aid = line.split()[0]
     listkey, mol_total = get_reqid( aid )
-    csv_data_file = './pcba-aid'+str(aid)+'.csv'
+    csv_data_file = './AIDs/pcba-aid'+str(aid)+'.csv'
     print('AID:{} listkey:{} mol_total:{} csv_file:{}'.format( aid, listkey, mol_total, csv_data_file ))
     datafile = open( csv_data_file, 'w' )
     get_aids_data(aid, listkey, datafile, mol_total)
