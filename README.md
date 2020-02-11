@@ -118,19 +118,33 @@ Flag cpd records based on matches to expert-confirmed relevant PMIDs (PubMed IDs
 python ./source/add_column_ETC-linked_PMID.py
 ```
 
+# Add molecule features
 
-Add chemical fingerprint strings for all molecules in all_oxphos_aids_cids.csv (RDKit Morgan fingerprints of radius=3 and 2048 bits).
+Features include:
+- chemical fingerprint bitstrings (RDKit Morgan fingerprints of radius=3 length=2048), 
+- rdkit descriptors, 
+- PAINS 
+
+The functions I have for these feature generators require building mol object from smiles. To reduce number of cpds to process, could deduplicate to get set of smiles/cids first. This set can then be re-integrated into original input CSV with key on cids.
 ```
-python ./source/rdkit_add_fingerprints_v1.1.py  all_oxphos_aids_cids.csv  all_oxphos_aids_cids_fps.csv
+python ./source/rdkit_add_chemical_features.py   xxx.csv   yyy.csv
 ```
 
-Add PAINS flags, npscores, and rdkit molecular descriptors
+Add natural product likeness score as an additional feature
 ```
 ...
 ```
 
+Isolate only the actives ('PUBCHEM_ACTIVITY_OUTCOME'==TRUE) and de-duplicate CIDs by priority on "ETC_linked_PMID"==TRUE and "PUBCHEM_ACTIVITY_SCORE". Then filter based on MolWt (\>200), MolLopP (\<5.8), TPSA (\<150), HeavyAtomCount (\>20), NOCount (>0), and RingCount (>0)
+
+```
+python ./source/final_filter.py
+```
+
 
 Cluster full molecule set based on fingerprints, store clusterIDs
+```
+```
 
 
 
