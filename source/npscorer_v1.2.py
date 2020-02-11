@@ -93,9 +93,8 @@ if __name__ == '__main__':
 
   df = pd.read_csv( incsv, sep='|', low_memory=False )
   df['rdkit_mol']  = df['smiles'].apply( lambda x: get_mol_from_smiles(x) if x is not None else None )
-
   df['npscore'] = df['rdkit_mol'].apply( lambda m: scoreMol(m, fscore) if m is not None else None )
-
+  df.drop( columns=['rdkit_mol'], inplace=True )
   df.to_csv( outcsv, sep="|", index=False )
 
 
