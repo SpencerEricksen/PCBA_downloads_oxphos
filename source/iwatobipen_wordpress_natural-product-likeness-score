@@ -1,0 +1,35 @@
+# get smiles from 2 data sets and merge into one smiles file
+from rdkit import Chem
+from rdkit.Chem import Draw
+from rdkit.Chem.Draw import IPythonConsole
+from rdkit.Chem import rdBase
+div5 = [ m for m in Chem.SDMolSupplier('Div5_2DStructures_Oct2014.sdf') if m != None ]
+nat = [ m for m in Chem.SDMolSupplier( 'NAtProd4.sdf' ) if m != None ]
+f = open(  'dataset.txt', 'w' )
+for m in div5:
+    name = m.GetProp( 'NSC' )
+    smi = Chem.MolToSmiles( m )
+    f.write(  smi + ' ' + name + ' DIV\n' )
+for m in nat:
+    name = m.GetProp( 'NSC' )
+    smi = Chem.MolToSmiles( m )
+    f.write(  smi + ' ' + name + ' NAT\n' )
+f.close()
+
+
+# get npscore for each smiles in dataset
+python npscorer.py dataset.txt > res.txt
+
+
+# graph npscore distributions of each compound set
+import seaborn as sns
+import pandas as pd
+df1 = pd.read_table( 'dataset.txt', sep=' ', names=['smi','nsc','cat'] )
+df2 = pd.read_table( 'res.txt', sep='\t', names=['smi','nsc','np'] )
+df=df1.join(df2.np)
+sns.distplot( df[df.cat == 'DIV'].np)
+sns.distplot( df[df.cat == 'NAT'].np)
+
+                                                                                                     
+
+
