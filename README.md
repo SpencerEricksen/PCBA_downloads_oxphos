@@ -127,18 +127,18 @@ Features include:
 
 The functions I have for these feature generators require building mol object from smiles. To reduce number of cpds to process, could deduplicate to get set of smiles/cids first. This set can then be re-integrated into original input CSV with key on cids.
 ```
-python ./source/rdkit_add_chemical_features.py   xxx.csv   yyy.csv
+python ./source/rdkit_add_chemical_features.py   active_oxphos_aids_cids_assaydesc_ETC_pmids.csv   active_oxphos_aids_cids_assaydesc_ETC_pmids_feats.csv
 ```
 
 Add natural product likeness score as an additional feature
 ```
-...
+python ./source/npscorer_v1.2.py active_oxphos_aids_cids_assaydesc_ETC_pmids_feats.csv active_oxphos_aids_cids_assaydesc_ETC_pmids_feats_nps.csv
 ```
 
 Isolate only the actives ('PUBCHEM_ACTIVITY_OUTCOME'==TRUE) and de-duplicate CIDs by priority on "ETC_linked_PMID"==TRUE and "PUBCHEM_ACTIVITY_SCORE". Then filter based on MolWt (\>200), MolLopP (\<5.8), TPSA (\<150), HeavyAtomCount (\>20), NOCount (>0), and RingCount (>0)
 
 ```
-python ./source/final_filter.py
+python ./source/final_filter.py 
 ```
 
 
