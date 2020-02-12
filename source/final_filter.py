@@ -1,6 +1,8 @@
+import sys
 import pandas as pd
 import numpy as np
 from ast import literal_eval
+
 
 def convert_str_to_list( input_str ):
     '''pandas stores descriptor list as a literal string, use
@@ -12,7 +14,18 @@ def convert_str_to_list( input_str ):
         pass
     return l
 
-df1 = pd.read_csv('all_oxphos_aids_cids_assaydesc_ETC_pmids_feats.csv', sep="|", low_memory=False )
+
+try:
+    incsv = sys.argv[1]
+    outcsv = sys.argv[2]
+except:
+    print('')
+    print('usage: python ./source/final_filter.py   incsv.csv  outcsv.csv')
+    print('')
+    exit()
+
+
+df1 = pd.read_csv( incsv, sep="|", low_memory=False )
 
 df1['descriptors'] = df1['descriptors'].apply( convert_str_to_list )
 df2 = df1.loc[ ( df1['PUBCHEM_ACTIVITY_OUTCOME'] == 'Active') &
@@ -44,5 +57,5 @@ df2 = df1.loc[ ( df1['PUBCHEM_ACTIVITY_OUTCOME'] == 'Active') &
 df3 = df2.sort_values( by=['ETC_linked_PMID','PUBCHEM_ACTIVITY_SCORE'], ascending=False ).drop_duplicates( subset='PUBCHEM_CID', keep='first')
 
 # write CSV for set of active CIDs
-df3.to_csv('active_oxphos_aids_cids_assaydesc_ETC_pmids_feats.csv', sep="|", index=False)
+df3.to_csv( outcsv, sep="|", index=False )
 
