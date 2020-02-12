@@ -35,7 +35,7 @@ def make_bitstring(fp):
 # function for adding PAINS flags
 def pains_flags_from_mol( mol ):
     try:
-        mol = Chem.MolFromSmiles( smi )
+        #mol = Chem.MolFromSmiles( smi )
         for k,v in dic.items():
             subs = Chem.MolFromSmarts( k )
             if subs != None:
