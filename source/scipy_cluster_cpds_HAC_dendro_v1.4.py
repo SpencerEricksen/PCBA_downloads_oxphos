@@ -146,5 +146,5 @@ dendrogram(
 plt.ylim((0.775,0.985))
 #plt.ylim(bottom=0.8)
 #plot_dendrogram(model, labels=model.labels_)   ### note: could also label with medoid PUBCHEM_CID (rep_mols_pccids) as determined below
-plt.savefig( 'dendro_HAC_'+str(dist_thresh)+'_ETC.png', dpi=600, figsize=(30,8) )
+plt.savefig( './cluster_actives/dendro_HAC_'+str(dist_thresh)+'_ETC.png', dpi=600, figsize=(30,8) )
 

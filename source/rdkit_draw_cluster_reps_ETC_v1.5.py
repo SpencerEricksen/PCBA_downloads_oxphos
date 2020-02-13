@@ -70,5 +70,5 @@ for clst_id in clst_id_list:
 
 #img = Draw.MolsToGridImage( ms, molsPerRow=7, subImgSize=(600,600), legends=ms_titles )
 img = DrawMolsZoomed( ms, molsPerRow=20, subImgSize=(500,500), legends=ms_titles )
-img.save( "cluster_reps_"+str(thresh)+".png")
+img.save( "./cluster_actives/cluster_reps_"+str(thresh)+".png")
 

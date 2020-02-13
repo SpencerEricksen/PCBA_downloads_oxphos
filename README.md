@@ -144,6 +144,7 @@ python ./source/final_filter.py all_oxphos_aids_cids_assaydesc_ETC_pmids_feats_n
 
 Cluster full molecule set based on fingerprints, store clusterIDs
 ```
+mkdir cluster_actives
 python ./source/scipy_cluster_cpds_HAC_dendro_v1.4.py 0.775 actives_oxphos_aids_cids_assaydesc_ETC_pmids_feats_nps_filt.csv actives_oxphos_aids_cids_assaydesc_ETC_pmids_feats_nps_filt_clusters_0.775.csv
 ```
 
