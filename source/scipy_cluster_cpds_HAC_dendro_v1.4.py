@@ -1,4 +1,3 @@
-#!/home/ssericksen/anaconda2/envs/py36_chem/bin/python3.6
 
 import sys
 import time as time
@@ -33,22 +32,17 @@ except:
 df1 = pd.read_csv( incsv, sep="|" )
 
 # get active cpds that are associated with ETC-linked PMIDs  # gets down to 894 records
-#df1 = df0.loc[ (df0['ETC_linked_AID'] == True) & (df0['PUBCHEM_ACTIVITY_OUTCOME'] == 'Active' ) ]
 df2 = df1[ ['PUBCHEM_CID', 'morgan_bitstring'] ]
-df2.dropna( inplace=True )  
-# just keep one occurrence of each cpd--df3 is down to 316 unique compounds
-df3 = df2.drop_duplicates( subset=['PUBCHEM_CID'], keep='first' )
 
 # get molid list
-molid_list = list(df3['PUBCHEM_CID'])
+molid_list = list(df2['PUBCHEM_CID'])
 
 # split fp bitstrings into vectors (lists)
-df3['fp_lst'] = df3['morgan_bitstring'].apply( lambda x: list(x) )
+df2['fp_lst'] = df2['morgan_bitstring'].apply( lambda x: list(x) )
 
 # generate array of fingerprints
-X = list(df3['fp_lst'])
+X = list(df2['fp_lst'])
 X_arr = np.array( X, dtype=int)
-# np.shape(X_arr) = (316, 2048)
 
 st = time.time()
 # compute Jaccard condensed dist matrix with scipy function pdist
@@ -63,7 +57,6 @@ Z = linkage( cond_dist_mat, method='average', optimal_ordering=True)
 elapsed_time = time.time() - st
 print( "distance matrix, linkage matrix -- Elapsed time: %.2fs" % elapsed_time )
 
-from scipy.cluster.hierarchy import fcluster
 #knowing dist_thresh
 clusters = fcluster(Z, dist_thresh, criterion='distance')
 #clusters = fcluster(Z, k, criterion='maxclust')
@@ -74,9 +67,6 @@ labels = np.unique(clusters).tolist()
 # get cluster rep (most central structure)
 # get clusterIDs for each instance:
 n_mols = np.shape(X_arr)[0]
-
-# how many clusters?
-#num_clusters = len(labels)
 
 # get the relative distances among members within each clusters to find medoid (rep)
 dist_dict = {}
@@ -93,7 +83,6 @@ for cid in labels:
             dist_dict[cid] = [ (mol, dist_sum) ]
         else:
             dist_dict[cid].append( (mol, dist_sum) )
-        #print(" cid, frame, dist_sum")
     dist_dict[cid] = sorted( dist_dict[cid], key=lambda x:x[1] )
 
 # find representative cpd for each cid
@@ -105,17 +94,16 @@ for cid in dist_dict:
 
 # indicate in original dataframe which PUBCHEM_CIDs are cluster medoids
 rep_mols_pccids = [ molid_list[i] for i in rep_mols ]
-df3['medoid'] = 0
-df3.loc[ df3['PUBCHEM_CID'].isin( rep_mols_pccids ), 'medoid' ] = 1
+df2['medoid'] = 0
+df2.loc[ df2['PUBCHEM_CID'].isin( rep_mols_pccids ), 'medoid' ] = 1
 
 # put cluster IDs into new dataframe, merge new dataframe with input dataframe and dump
 print("dumping new dataframe with cluster ids")
-d = { 'PUBCHEM_CID': list(molid_list), 'cluster_id':list(clusters), 'medoid':df3['medoid'].tolist() } 
-df4 = pd.DataFrame.from_dict( d )
-df5 = df4.merge( df1, how='right', on='PUBCHEM_CID')
-#df5.drop( columns=['Unnamed: 0'], inplace=True )
+d = { 'PUBCHEM_CID': list(molid_list), 'cluster_id':list(clusters), 'medoid':df2['medoid'].tolist() } 
+df3 = pd.DataFrame.from_dict( d )
+df4 = df3.merge( df1, how='right', on='PUBCHEM_CID')
 
-df5.to_csv( outcsv, sep="|", index=False )
+df4.to_csv( outcsv, sep="|", index=False )
 print("done writing new dataframe")
 print("")
 
@@ -130,7 +118,7 @@ temp = { R["leaves"][i]: labels[i] for i in range( len(R["leaves"] ) ) }
 def llf(xx):
     leaf = xx
     c = temp[xx]    # get cluster number for given leaf
-    pccid = df3.loc[ (clusters == c) & (df3['medoid'] == 1), 'PUBCHEM_CID' ].iloc[0]
+    pccid = df2.loc[ (clusters == c) & (df2['medoid'] == 1), 'PUBCHEM_CID' ].iloc[0]
     pop = len( clusters[ clusters == c ] )
     return "{} {} ({})".format( str(c), str(pccid), str(pop) )
 
