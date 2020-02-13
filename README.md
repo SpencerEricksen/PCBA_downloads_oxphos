@@ -138,7 +138,7 @@ python ./source/npscorer_v1.2.py all_oxphos_aids_cids_assaydesc_ETC_pmids_feats.
 Isolate only the actives ('PUBCHEM_ACTIVITY_OUTCOME'==TRUE) and de-duplicate CIDs by priority on "ETC_linked_PMID"==TRUE and "PUBCHEM_ACTIVITY_SCORE". Then filter based on MolWt (\>200), MolLopP (\<5.8), TPSA (\<150), HeavyAtomCount (\>20), NOCount (>0), and RingCount (>0)
 
 ```
-python ./source/final_filter.py 
+python ./source/final_filter.py all_oxphos_aids_cids_assaydesc_ETC_pmids_feats_nps.csv actives_oxphos_aids_cids_assaydesc_ETC_pmids_feats_nps_filt.csv
 ```
 
 
