@@ -1,4 +1,3 @@
-#!/home/ssericksen/anaconda2/envs/py36_chem/bin/python
 
 import sys
 import pandas as pd
