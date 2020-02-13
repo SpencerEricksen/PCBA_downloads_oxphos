@@ -153,6 +153,10 @@ Draw grid of the cluster representatives (medoids).
 python ./source/rdkit_draw_cluster_reps_ETC_v1.5.py 0.775 actives_oxphos_aids_cids_assaydesc_ETC_pmids_feats_nps_filt_clusters_0.775.csv
 ```
 
+Draw grids for individual clusters.
+```
+python ./source/rdkit_draw_clusters_v1.1.py actives_oxphos_aids_cids_assaydesc_ETC_pmids_feats_nps_filt_clusters_0.775.csv
+```
 
 
 
