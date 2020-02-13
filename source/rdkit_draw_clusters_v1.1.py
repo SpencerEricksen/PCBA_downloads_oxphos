@@ -1,4 +1,3 @@
-#!/home/ssericksen/anaconda2/envs/py36_chem/bin/python
 
 import sys
 import pandas as pd
@@ -6,12 +5,6 @@ import numpy as np
 from rdkit import Chem
 from rdkit.Chem import Draw
 from rdkit.Chem import PandasTools
-
-#from PIL import Image
-#from rdkit.Chem import AllChem
-#import gzip
-#import matplotlib.pyplot as plt
-#import matplotlib.image as mpimg
 
 try:
     inputdata = sys.argv[1]
@@ -52,7 +45,7 @@ for cid in df3['cluster_id'].unique():
     try:
         img = Draw.MolsToGridImage( ms, molsPerRow=5, subImgSize=(400,400), legends=[ str(x) for x in m_names ]  )
         #img.save( "cluster_index"+str(cid).zfill(3)+"_pop"+str(cluster_pop).zfill(3)+".png")
-        img.save( "cluster_pop"+str(cluster_pop).zfill(3)+"_index"+str(cid).zfill(3)+".png")
+        img.save( "./cluster_actives/cluster_pop"+str(cluster_pop).zfill(3)+"_index"+str(cid).zfill(3)+".png")
     except:
         m_smiles = df3.loc[ df3['cluster_id'] == cid, 'smiles' ].to_list()
         m_names =  df3.loc[ df3['cluster_id'] == cid, 'PUBCHEM_CID' ].to_list()
